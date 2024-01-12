@@ -1,9 +1,9 @@
 # Proyecto1Marcas
 
-### Participantes:>
-- Jamal Rabah
-- Marcos Acedo
-- Mario Galan
-- Israel Soriano
-- Andres Rodriguez
-- Roberto Ortiz
+### Participantes y Funciones:>
+- Jamal Rabah --> Estructurador
+- Marcos Acedo --> Estilos
+- Mario Galan --> Estilos
+- Israel Soriano --> Jefe de equipo
+- Andres Rodriguez --> Revision de la estructura
+- Roberto Ortiz --> HTML
