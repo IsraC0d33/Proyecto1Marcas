@@ -2,8 +2,8 @@
 
 ### Participantes y Funciones:>
 - Jamal Rabah --> Estructurador
-- Marcos Acedo --> Estilos
-- Mario Galan --> Estilos
+- Marcos Acedo --> CSS
+- Mario Galan --> CSS
 - Israel Soriano --> Jefe de equipo
 - Andres Rodriguez --> Revision de la estructura
 - Roberto Ortiz --> HTML
