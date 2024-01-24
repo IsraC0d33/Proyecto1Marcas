@@ -1,1 +1,52 @@
 /* Inicio - Recomendaria antes que se aplicara un 0 tanto en margin como en padding a la pagina - */
+
+
+/* Editado por : Jamal Rabah */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+
+
+.nav-min {
+    background: #124231;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.nav-min a {
+    text-decoration: none;
+    color: #B3C2BC;
+    padding: 0.625rem;
+    font-family: Poppins;
+}
+
+.nav-min a:hover {
+    color: #fff;
+}
+
+.list-min {
+    display: flex;
+    list-style: none;
+    height: 2.5rem;
+    width: 97%;
+    justify-content: right;
+    align-items: center;
+    font-size: small;
+}
+
+.list-min li {
+    color: #f2f2f2;
+}
+
+.nav-main {
+    background: #FFFFFF;
+    width: 100%;
+    height: 6.25rem;
+    box-shadow: 0.031rem 0.031rem 0.5rem #8d8f8f;
+}
