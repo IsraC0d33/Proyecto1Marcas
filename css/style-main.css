@@ -54,13 +54,19 @@
     background: #FFFFFF;
     width: 100%;
     height: 6.25rem;
-    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     box-shadow: 0.031rem 0.031rem 0.5rem #8d8f8f;
 }
 
+.nav-main a {
+    text-decoration: none;
+}
+
 .logo {
-    position: absolute;
-    margin: 0.938rem 2.25rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
     width: 15.625rem;
     height: 6.25rem;
     background-image: url(../logo/SVG/logo.svg);
@@ -71,9 +77,6 @@
 .list-max {
     display: flex;
     list-style: none;
-    height: 6.25rem;
-    align-items: center;
-    justify-content: center;
 }
 
 .list-max a {
@@ -81,11 +84,47 @@
     font-size: 1rem;
     font-family: Poppins-Medium;
     color: #686F7B;
+    padding: 0 0.900rem;
 }
-
 
 .list-max li {
     text-align: center;
-    padding: 1.875rem;
-    width: 7%;
+}
+
+
+/* < !-- Editado por : Jamal Rabah --> */
+.contacto {
+    width: 10%;
+    border: 0.125rem solid #124231;
+    border-radius: 0.313rem;
+    text-align: center;
+    font-size: 1.050rem;
+    padding: 0.625rem;
+    font-family: Poppins-Medium;
+    color: #186447;
+    font-weight: bold;
+}
+
+.contacto:hover {
+    background: #186447;
+    color: #fff;
+}
+
+.Aplica {
+    width: 5%;
+    margin-right: 8rem;
+    background: #186447;
+    border: 0.125rem solid #124231;
+    border-radius: 0.313rem;
+    text-align: center;
+    font-size: 1.050rem;
+    padding: 0.625rem;
+    font-family: Poppins-Medium;
+    color: #fff;
+    font-weight: bold;
+}
+
+.Aplica:hover {
+    background: #124231;
+    color: #fff;
 }
