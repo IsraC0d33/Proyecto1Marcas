@@ -128,3 +128,38 @@
     background: #124231;
     color: #fff;
 }
+/* Editado por Andres y Marcos */
+
+.change-language{
+display: flex;
+flex-direction: column;
+width: 1.75rem;
+position: absolute;
+margin-left: 4rem;
+
+}
+
+.esp{
+    background-color: #124231;
+    color: #fff;
+    border: 0.1em solid white;
+}
+
+.eng{
+ display: none;   
+ 
+}
+.por{
+    display: none;
+}
+.ita{
+    display: none;   
+   }
+.det{
+    display: none;
+   }
+
+.esp:hover ~button{
+    display: block;
+    
+}
