@@ -1,6 +1,6 @@
 ---
-Nombre: Informe de error
-Acerca de: Crear un informe que nos ayude a mejorar
+name: Informe de error
+about: Crear un informe que nos ayude a mejorar
 Titulo: ''
 Etiquetas: ''
 Asignatarios: ''
