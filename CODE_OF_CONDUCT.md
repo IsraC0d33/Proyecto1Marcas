@@ -2,7 +2,7 @@
 
 ## Nuestro compromiso
 
-Nosotros, como miembros, colaboradores y líderes, nos comprometemos a hacer lo mejor posible en el desarrollo de esa practica.
+Nosotros, como miembros, colaboradores y líderes, nos comprometemos a hacer lo mejor posible en el desarrollo de esta practica.
 
 Nos comprometemos a actuar e interactuar entre nosotros desde el respeto.
 
