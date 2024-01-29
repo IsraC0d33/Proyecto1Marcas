@@ -1,6 +1,6 @@
 <h1>💡Proyecto Marcas💡</h1>
 
-## Participantes y Funciones:>
+## 🧑‍💻 Participantes y Funciones 🧑‍💻:>
 - **Jamal Rabah** --> _Estructurador y medio HTML y medio CSS_
 > Crear la estructura de ficheros y archivos y crear parte de html y css.
 
