@@ -21,6 +21,7 @@
 - **Israel Soriano** --> HTML && ORGANIZADOR
 - Encargarse de algunas partes del HTML.
 - Usar Jira para llevar un seguimiento de:>
+  
 1.Lo que está por hacer
   
 2.Lo que está en proceso
