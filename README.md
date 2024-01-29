@@ -21,9 +21,9 @@
 - **Israel Soriano** --> HTML && ORGANIZADOR
 - Encargarse de algunas partes del HTML.
 - Usar Jira para llevar un seguimiento de:>
-  1-Lo que está por hacer
-  2-Lo que está en proceso
-  3-Lo que está ya hecho
+1-Lo que está por hacer
+2-Lo que está en proceso
+3-Lo que está ya hecho
 
 ![Imagen de WhatsApp 2024-01-12 a las 17 35 00_acb830d6](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/6d58a8d9-b76c-477b-a9ad-0d53d3357624)
 
