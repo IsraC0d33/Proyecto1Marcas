@@ -12,7 +12,7 @@
 ![Imagen de WhatsApp 2024-01-12 a las 17 33 48_f31db9f9](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/52bbf39a-178b-4b53-8f03-21f3ec3b8881)
 
 - **Equipo CSS**
-- **Marco,Mario y Andrés**
+- **Marcos Acedo,Mario Galán y Andrés Rodriguez**
 - _Encargarse del CSS_
 - Usar las clases creadas en HTML
 
