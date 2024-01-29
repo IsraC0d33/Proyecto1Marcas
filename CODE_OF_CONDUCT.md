@@ -26,8 +26,7 @@ Los líderes comunitarios son responsables de aclarar y hacer cumplir nuestras n
 comportamiento aceptable.
 
 Los líderes de la comunidad tienen el derecho y la responsabilidad de eliminar, editar o rechazar
-comentarios, commits, código, ediciones wiki, temas y otras contribuciones que no estén
-contribuciones que no se ajusten a este Código de Conducta, y comunicarán las razones de las
+comentarios, commits, código, ediciones wiki, temas y otras contribuciones que no se ajusten a este Código de Conducta, y comunicarán las razones de las
 moderación cuando proceda.
 
 ## Ámbito de aplicación
@@ -42,14 +41,14 @@ las consecuencias de cualquier acción que consideren que infringe este Código 
 
 ### 1. Corrección
 
-**Impacto en la comunidad**: Uso de lenguaje inapropiado u otro comportamiento considerado poco profesional.
+**Impacto en el equipo**: Uso de lenguaje inapropiado u otro comportamiento considerado poco profesional.
 
 **Consecuencia**: Advertencia privada y por escrito, en la que se de la infracción y una explicación de por qué el comportamiento fue inadecuado.
 
 ### 2. Prohibición permanente
 
-**Impacto en la comunidad**: Demostrar un patrón de violación de las normas de conducta, incluyendo comportamiento inapropiado sostenido,
-acoso de un individuo, o agresión hacia o menosprecio de clases de individuos.
+**Impacto en el equipo**: Demostrar un patrón de violación de las normas de conducta, incluyendo comportamiento inapropiado sostenido,
+acoso a un compañero, o agresión o menosprecio hacia varios compañeros.
 
 **Consecuencias**: Prohibición permanente.
 
