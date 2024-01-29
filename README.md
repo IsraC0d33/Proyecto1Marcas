@@ -1,3 +1,4 @@
+<h1 style="color:blue;">Título Principal</h1>
 # Proyecto1Marcas
 
 ## Participantes y Funciones:>
