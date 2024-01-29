@@ -17,7 +17,6 @@ Ejemplos de comportamiento que contribuyen a un entorno positivo para nuestro eq
 
 Ejemplos de comportamiento inaceptable:
 
-* El uso de lenguaje o imágenes sexualizadas y la atención o insinuaciones sexuales de cualquier tipo.
 * Comentarios insultantes o despectivos y ataques personales o políticos.
 * Otras conductas que puedan considerarse inapropiadas en un entorno educativo.
 
