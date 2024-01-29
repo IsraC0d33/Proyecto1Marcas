@@ -1,5 +1,4 @@
-<h1 style="color:blue;">Título Principal</h1>
-# Proyecto1Marcas
+<h1>Proyecto Marcas</h1>
 
 ## Participantes y Funciones:>
 - **Jamal Rabah** --> _Estructurador y medio HTML y medio CSS_
