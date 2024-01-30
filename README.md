@@ -2,6 +2,9 @@
 
 [![release](https://img.shields.io/github/v/release/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/releases)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/IsraC0d33/Proyecto1Marcas?display_date=published_at&style=for-the-badge&logo=wakatime&logoColor=%23EE3124)
+
+
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/IsraC0d33/Proyecto1Marcas/codeql.yml)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/IsraC0d33/Proyecto1Marcas/greetings.yml)
 [![pages-build-deployment](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment)
