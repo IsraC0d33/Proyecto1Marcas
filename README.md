@@ -11,6 +11,8 @@
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/IsraC0d33/Proyecto1Marcas/codeql.yml)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/IsraC0d33/Proyecto1Marcas/greetings.yml)
 [![pages-build-deployment](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%23l32c66&preset=HTML%2C%20SVG%201.1%2C%20MathML%203.0&style=plastic&logo=w3schools)
+
 
 
 
