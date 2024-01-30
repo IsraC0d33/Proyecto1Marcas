@@ -5,12 +5,12 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/IsraC0d33/Proyecto1Marcas?logo=html5)
 ![GitHub License](https://img.shields.io/github/license/IsraC0d33/Proyecto1Marcas)
 [![release](https://img.shields.io/github/v/release/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/releases)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/graphs/contributors)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/IsraC0d33/Proyecto1Marcas?display_date=published_at&logo=wakatime&logoColor=%23EE3124)
 
 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/IsraC0d33/Proyecto1Marcas/codeql.yml)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/IsraC0d33/Proyecto1Marcas/greetings.yml)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/IsraC0d33/Proyecto1Marcas/codeql.yml)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/codeql.yml)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/IsraC0d33/Proyecto1Marcas/greetings.yml)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/greetings.yml)
 [![pages-build-deployment](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fvalidator.w3.org%2Fnu%3F%2Fdoc%3Dhttps%253A%252F%252Fgithub.com%252FIsraC0d33%252FProyecto1Marcas%252Fblob%252Fmain%252Findex.html&preset=HTML%2C%20SVG%201.1%2C%20MathML%203.0&style=plastic&logo=w3schools)
 
