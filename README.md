@@ -33,7 +33,7 @@
 <br>
 Crear la estructura de ficheros y archivos y crear parte de html y css.
 
-![Estructura](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/2ad68054-044b-4003-8a83-582c2f77c350)
+![Estructura](https://github.com/IsraC0d33/Proyecto1Marcas/blob/main/assets/estructura1.png)
 
 -------------------------------------------------------------------------------------
 
@@ -41,6 +41,7 @@ Crear la estructura de ficheros y archivos y crear parte de html y css.
 <br>
 Encargarse de rellenar los archivos HTML que posteriormente Jamal ha creado.
 
+![Codigo HTML](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/52bbf39a-178b-4b53-8f03-21f3ec3b8881)
 ![Codigo HTML](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/52bbf39a-178b-4b53-8f03-21f3ec3b8881)
 
 -------------------------------------------------------------------------------------
