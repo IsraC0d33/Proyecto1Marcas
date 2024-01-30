@@ -1,6 +1,8 @@
 <h1>💡Proyecto Marcas💡</h1>
 
 [![release](https://img.shields.io/github/v/release/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/releases)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas)
+
 
 ## 🧑‍💻 Participantes y Funciones 🧑‍💻
 - **Jamal Rabah** --> _Estructurador y medio HTML y medio CSS_
