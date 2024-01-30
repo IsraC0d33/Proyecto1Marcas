@@ -1,4 +1,5 @@
 <div align="center">
+  
 # Política de seguridad
 
 ## Versiones compatibles
