@@ -1,6 +1,6 @@
 <h1>💡Proyecto Marcas💡</h1>
 
-[![release](https://img.shields.io/github/v/release/pakerwreah/Calendr)](https://github.com/pakerwreah/Calendr/releases/latest)
+[![release](https://img.shields.io/github/v/release/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/releases)
 
 ## 🧑‍💻 Participantes y Funciones 🧑‍💻
 - **Jamal Rabah** --> _Estructurador y medio HTML y medio CSS_
