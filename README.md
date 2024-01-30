@@ -1,5 +1,7 @@
 <h1>💡Proyecto Marcas💡</h1>
 
+[![release](https://img.shields.io/github/v/release/pakerwreah/Calendr)](https://github.com/pakerwreah/Calendr/releases/latest)
+
 ## 🧑‍💻 Participantes y Funciones 🧑‍💻
 - **Jamal Rabah** --> _Estructurador y medio HTML y medio CSS_
 > Crear la estructura de ficheros y archivos y crear parte de html y css.
