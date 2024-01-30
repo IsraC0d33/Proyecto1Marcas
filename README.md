@@ -22,37 +22,46 @@
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fvalidator.w3.org%2Fnu%3F%2Fdoc%3Dhttps%253A%252F%252Fgithub.com%252FIsraC0d33%252FProyecto1Marcas%252Fblob%252Fmain%252Findex.html&preset=HTML%2C%20SVG%201.1%2C%20MathML%203.0&style=plastic&logo=w3schools)
 </div>
 
+
 > [!NOTE]\
 > Para los colaboradores/líderes, les proporciono el enlace a nuestra segunda herramienta que utilizaremos en esta práctica, [Jira](https://pruebaisra.atlassian.net/jira/software/projects/KAN/boards/1).
 
+<div align="center">
 
 ## 🧑‍💻 Participantes y Funciones 🧑‍💻
-- **Jamal Rabah** --> _Estructurador y medio HTML y medio CSS_
-> Crear la estructura de ficheros y archivos y crear parte de html y css.
+**Jamal Rabah** --> _Estructurador y medio HTML y medio CSS_
+<br>
+Crear la estructura de ficheros y archivos y crear parte de html y css.
 
 ![Estructura](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/2ad68054-044b-4003-8a83-582c2f77c350)
 
 -------------------------------------------------------------------------------------
 
-- **Roberto Ortiz** --> _HTML_
-> Encargarse de rellenar los archivos HTML que posteriormente Jamal ha creado.
+**Roberto Ortiz** --> _HTML_
+<br>
+Encargarse de rellenar los archivos HTML que posteriormente Jamal ha creado.
 
 ![Codigo HTML](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/52bbf39a-178b-4b53-8f03-21f3ec3b8881)
 
 -------------------------------------------------------------------------------------
 
-- **Equipo CSS**
-- **Marcos Acedo,Mario Galán y Andrés Rodriguez**
-- _Encargarse del CSS_
-> Usar las clases creadas en HTML
+**Equipo CSS**
+<br>
+**Marcos Acedo,Mario Galán y Andrés Rodriguez**
+<br>
+_Encargarse del CSS_
+<br>
+Usar las clases creadas en HTML
 
 ![Codigo CSS](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/6d4732da-7c8b-454b-b931-4a82e14dc684)
 
 -------------------------------------------------------------------------------------
 
-- **Israel Soriano** --> HTML && ORGANIZADOR
-> Encargarse de algunas partes del HTML.
-> Usar Jira para llevar un seguimiento de:>
+**Israel Soriano** --> HTML && ORGANIZADOR
+<br>
+Encargarse de algunas partes del HTML.
+<br>
+Usar Jira para llevar un seguimiento de:>
   
 1- Lo que está por hacer
   
@@ -64,19 +73,19 @@
 
 -------------------------------------------------------------------------------------
 
-- **Andres Rodriguez** --> _Revision de la estructura_
-> Aparte de encargarse/ayudar en la parte de css.
-> Se encargará de revisar de la coherencia de la estructura y de un buen uso de las clases.
+**Andres Rodriguez** --> _Revision de la estructura_
+<br>
+Aparte de encargarse/ayudar en la parte de css.
+<br>
+Se encargará de revisar de la coherencia de la estructura y de un buen uso de las clases.
 
 <br>
 <hr>
-
-, y en la actualidad nos encontramos en la versión v1.0.x. Es importante destacar que no nos responsabilizamos por cualquier daño o malentendido que pueda surgir.
+</div>
 
 > [!IMPORTANT]\
 > Queremos hacer hincapié en que estamos llevando a cabo una práctica de Marcas bajo la supervisión de nuestra profesora.\
 > Las distintas versiones que desarrollaremos dependerán de las peticiones que nos haga nuestra profesora, y en la actualidad nos encontramos en la versión `v1.0.x`.\
 > Es importante destacar que no nos responsabilizamos por cualquier daño o malentendido que pueda surgir.
-
 
 
