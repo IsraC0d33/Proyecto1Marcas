@@ -1,0 +1,15 @@
+...
+            - name: CSS Analytics Diff
+  # You may pin to the exact commit or the version.
+  # uses: projectwallace/css-diff-action@e571fd24d958f7353ab2226d92681ecb25eb90c5
+  uses: projectwallace/css-diff-action@master
+  with:
+    # 
+    github-token: 
+    # Webhook token of the project on ProjectWallace.com
+    project-wallace-token: 
+    # Path to the CSS you want analyzed
+    css-path: 
+    # Whether this action should post a comment to the PR with changes
+    post-pr-comment: # default is true
+          
