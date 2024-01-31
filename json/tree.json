@@ -1,0 +1,83 @@
+{
+    "Proyecto": {
+        ".config": {
+            ".editorconfig": {}
+        },
+        "apartado1": {
+            "apartado1.html": {},
+            "css": {
+                "style-1.css": {}
+            }
+        },
+        "apartado2": {
+            "apartado2.html": {},
+            "css": {
+                "style-2.css": {}
+            }
+        },
+        "apartado3": {
+            "apartado3.html": {},
+            "css": {
+                "style-3.css": {}
+            }
+        },
+        "apartado4": {
+            "apartado4.html": {},
+            "css": {
+                "style-4.css": {}
+            }
+        },
+        "archivo3.txt": {},
+        "css": {
+            "style-main.css": {}
+        },
+        "font": {
+            "font.png": {},
+            "Poppins-Black.ttf": {},
+            "Poppins-BlackItalic.ttf": {},
+            "Poppins-Bold.ttf": {},
+            "Poppins-BoldItalic.ttf": {},
+            "Poppins-ExtraBold.ttf": {},
+            "Poppins-ExtraBoldItalic.ttf": {},
+            "Poppins-ExtraLight.ttf": {},
+            "Poppins-ExtraLightItalic.ttf": {},
+            "Poppins-Italic.ttf": {},
+            "Poppins-Light.ttf": {},
+            "Poppins-LightItalic.ttf": {},
+            "Poppins-Medium.ttf": {},
+            "Poppins-MediumItalic.ttf": {},
+            "Poppins-Regular.ttf": {},
+            "Poppins-SemiBold.ttf": {},
+            "Poppins-SemiBoldItalic.ttf": {},
+            "Poppins-Thin.ttf": {},
+            "Poppins-ThinItalic.ttf": {}
+        },
+        "iconos": {
+            "icon.css": {},
+            "marcas-conocidas": {
+                "cosas...": {}
+            },
+            "SVG": {
+                "cosas...": {}
+            }
+        },
+        "imagenes": {
+            "alert": {
+                "cosas...": {}
+            },
+            "JPG": {
+                "cosas...": {}
+            }
+        },
+        "index.html": {},
+        "logo": {
+            "PNG": {
+                "cosas...": {}
+            },
+            "SVG": {
+                "cosas...": {}
+            }
+        },
+        "README.md": {}
+    }
+}
