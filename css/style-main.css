@@ -255,7 +255,7 @@ margin-left: 4rem;
     margin: 10px;
     border-radius: 1em;
     width:70%;
-    height: 70%;
+    height: 40%;
 } 
 
 .dash-intern-abroad h4, .block-dash-intern-img {
@@ -271,9 +271,16 @@ margin-left: 4rem;
 
 
 .countries-dash-intern-aboard img {
-    width:30%;
-
+    width:15%;
+    border-radius: 0;
 }
+
+.dash-intern-abroad span {
+    position: absolute;
+    margin-top: 10px;
+}
+
+
 
 /* 
 .dash-intern-abroad img{
