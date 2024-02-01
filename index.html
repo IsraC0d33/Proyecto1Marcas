@@ -30,14 +30,35 @@
 
 <body>
     <!-- Editado por : Jamal Rabah -->
+    <div class="alert">
+        <h1>NO DISPONIBLE</h1>
+        <img src="./imagenes/alert/spain.png" alt="spain">
+        <h1>NOT AVAILABLE</h1>
+        <img src="./imagenes/alert/uk.png" alt="uk">
+        <h1>NÃO DISPONÍVEL</h1>
+        <img src="./imagenes/alert/pt.png" alt="portugal">
+        <h1>NON DISPONIBILE</h1>
+        <img src="./imagenes/alert/It.png" alt="italian">
+        <h1>NICHT VERFÜGBAR</h1>
+        <img src="./imagenes/alert/ger.png" alt="germany">
+    </div>
     <main>
         <header class="header-nav-min">
             <div class="change-language">
-                <button class="esp"><a href=""><img src="./iconos/SVG/spain.svg" alt=""></a>ESP</button>
-                <button class="eng"><a href=""><img src="./iconos/SVG/uk.svg" alt=""></a>ENG</button>
-                <button class="por"><a href=""><img src="./iconos/SVG/portugal.svg" alt=""></a>POR</button>
-                <button class="ita"><a href=""><img src="./iconos/SVG/italian.svg" alt=""></a>ITA</button>
-                <button class="det"><a href=""><img src="./iconos/SVG/germany.svg" alt=""></a>DET</button>
+                <div onclick="españa()" class="esp"><img src="./iconos/SVG/spain.svg" alt="España"> ESP</div>
+
+                <a href="https://www.volunteeringsolutions.com/">
+                    <div class="eng"><img src="./iconos/SVG/uk.svg" alt="Reino Unido"> ENG</div>
+                </a>
+                <a href="https://www.volunteeringsolutions.com/pt/">
+                    <div class="por"><img src="./iconos/SVG/portugal.svg" alt="Portugal"> POR</div>
+                </a>
+                <a href="https://www.volunteeringsolutions.com/it/">
+                    <div class="ita"><img src="./iconos/SVG/italian.svg" alt="Italia"> ITA</div>
+                </a>
+                <a href="https://www.volunteeringsolutions.com/de/">
+                    <div class="det"><img src="./iconos/SVG/germany.svg" alt="Alemania"> DET</div>
+                </a>
             </div>
             <nav class="nav-min">
                 <ul class="list-min">
@@ -56,8 +77,8 @@
                     <div class="logo"></div>
                 </a>
                 <ul class="list-max">
-                    <li><a href="https://www.volunteeringsolutions.co.uk/es/volunteering-destinations">Destinos</a></li>
-                    <li><a href="https://www.volunteeringsolutions.co.uk/es/intern-abroad">Pasante en el Extranjero</a>
+                    <li class="destiny"><a href="https://www.volunteeringsolutions.co.uk/es/volunteering-destinations">Destinos</a></li>
+                    <li class="foreign"><a href="https://www.volunteeringsolutions.co.uk/es/intern-abroad">Pasante en el Extranjero</a>
                     </li>
                     <li><a href="https://www.volunteeringsolutions.co.uk/es/volunteer-abroad-programs">Proyectos</a>
                     </li>
@@ -255,14 +276,14 @@
                     <div class="specific-featured">
                         <a href="">
                             <img src="imagenes/JPG/chica-con-niños.jpeg"></img>
-                            <h2>Programa especial de dos semanas</h2>
+                            <h3>Programa especial de dos semanas</h3>
                             <p>Arusha, Tanzania</p>
                         </a>
                     </div>
                     <div class="specific-featured">
                         <a href="">
                             <img src="imagenes/JPG/banner.jpg"></img>
-                            <h2>Programa de enseñanza en Vietnam</h2>
+                            <h3>Programa de enseñanza en Vietnam</h3>
                             <p>Hanoi, Vietnam</p>
                         </a>
                     </div>
@@ -273,65 +294,63 @@
 
             <div class="dash-intern-abroad">
                 <!-- Editado por : Israel Soriano -->
-                
-                <h2>Intern Aboard</h2>
                 <div>
-                    <a class="block-dash-intern-aboard" href="">
+                    <a class="block-dash-intern-img" href="">
                         <img src="imagenes/JPG/curando.jpg" alt="cura">
                         <h4>Intern in</h4>
                         <div class="countries-dash-intern-aboard">
                             <img src="iconos/SVG/india.svg" alt="indi">
-                            <h3>India</h3>
+                            <span>India</span>
                         </div>
                     </a>
                 </div>
                 <div>
-                    <a class="block-dash-intern-aboard" href="">
+                    <a class="block-dash-intern-img" href="">
                         <img src="imagenes/JPG/645_nepal_medical.jpg" alt="cura">
                         <h4>Intern in</h4>
-                        <div class="countries-dash-intern-aboard">
+                        <div class="countries-dash-intern-aboard">  
                             <img src="iconos/SVG/nepal.svg" alt="nepa">
-                            <h3>Nepal</h3>
+                             <span> Nepal<span>
                         </div>
                     </a>
                 </div>
                 <div>
-                    <a class="block-dash-intern-aboard" href="">
+                    <a class="block-dash-intern-img" href="">
                         <img src="imagenes/JPG/646_dental.jpg" alt="cura">
                         <h4>Intern in</h4>
                         <div class="countries-dash-intern-aboard">
                             <img src="iconos/SVG/peru.svg" alt="indi">
-                            <h3>Peru</h3>
+                            <span> Peru</span>
                         </div>
                     </a>
                 </div>
                 <div>
-                    <a class="block-dash-intern-aboard" href="">
+                    <a class="block-dash-intern-img" href="">
                         <img src="imagenes/JPG/644.jpg" alt="cura">
                         <h4>Intern in</h4>
                         <div class="countries-dash-intern-aboard">
                             <img src="iconos/SVG/thailand.svg" alt="thai">
-                            <h3>Tailanda</h3>
+                            <span> Tailanda</span>
                         </div>
                     </a>
                 </div>
                 <div>
-                    <a class="block-dash-intern-aboard" href="">
+                    <a class="block-dash-intern-img" href="">
                         <img src="imagenes/JPG/2518_medical_internship_ghana_short.jpg" alt="cura">
                         <h4>Intern in</h4>
                         <div class="countries-dash-intern-aboard">
                             <img src="iconos/SVG/ghana.svg" alt="ghan">
-                            <h3>Ghana</h3>
+                            <span>Ghana</span>
                         </div>
                     </a>
                 </div>
                 <div>
-                    <a class="block-dash-intern-aboard" href="">
+                    <a class="block-dash-intern-img" href="">
                         <img src="imagenes/JPG/2603_slmedinternshipshort.jpg" alt="cura">
                         <h4>Intern in</h4>
                         <div class="countries-dash-intern-aboard">
                             <img src="iconos/SVG/srilanka.svg" alt="sril">
-                            <h3>Sri Lanka</h3>
+                           <span> Sri Lanka</span>
                         </div>
                     </a>
                 </div>
@@ -339,6 +358,7 @@
                 <!-- Editado por : Israel Soriano -->
             </div>
 
+            <div class="other">
             <div class="dash-projects">
                 <div class="volunteer-abroad">
                     <!-- Editado por : Israel Soriano -->
@@ -622,9 +642,12 @@
                     <!-- Editado por : Israel Soriano -->
                 </div>
             </div>
+        </div>
 
         </header>
     </main>
+    <script src="./js/scriptClick.js"></script>
+    <script src="./js/scriptMouse.js"></script>
 </body>
 
 </html>
