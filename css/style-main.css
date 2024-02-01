@@ -239,10 +239,49 @@ margin-left: 4rem;
     padding-left: 1rem;
 
 }
+/* mario y marcos*/
 .dash-intern-abroad {
     display: flex;
+    width: fit-content;
+    padding: 0px;
+    background-color: red;
+    
 }
-.dash-intern-abroad img{
-    width: 6rem;
+.block-dash-intern-abroad{
+    width: 1rem;
+}
+
+.block-dash-intern-img img {
+    margin: 10px;
     border-radius: 1em;
+    width:70%;
+    height: 70%;
+} 
+
+.dash-intern-abroad h4, .block-dash-intern-img {
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter;
 }
+
+.countries-dash-intern-aboard {
+    color:#124231;
+    font-size: larger;
+}
+
+
+.countries-dash-intern-aboard img {
+    width:30%;
+
+}
+
+/* 
+.dash-intern-abroad img{
+    border-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding-left: 1em;
+    width: 50%;
+    height: 60px;
+    background: #000;
+    
+} */
