@@ -5,6 +5,8 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Poppins-Medium;
+
 }
 
 @font-face {
@@ -130,36 +132,234 @@
 }
 /* Editado por Andres y Marcos */
 
-.change-language{
-display: flex;
-flex-direction: column;
-width: 1.75rem;
-position: absolute;
-margin-left: 4rem;
-
+.change-language {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    margin-left: 4rem;
+    margin-top: 7px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 1px 1px 3px #000;
 }
 
-.esp{
+.change-language img {
+    width: 20px;
+}
+
+.change-language a {
+    text-decoration: none;
+    color: #000;
+}
+
+.esp {
+    cursor: pointer;
     background-color: #124231;
     color: #fff;
     border: 0.1em solid white;
+    border-radius: 5px;
+    padding: 3px;
+    width: 60px;
+    height: 20px;
 }
 
-.eng{
- display: none;   
- 
-}
-.por{
-    display: none;
-}
-.ita{
-    display: none;   
-   }
-.det{
-    display: none;
-   }
 
-.esp:hover ~button{
-    display: block;
+.eng {
+    margin-top: 10px;
+    display: none;
+    padding: 3px;
+    width: 60px;
+    height: 20px;
+    background: #fff;
+}
+
+.eng:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+.por {
+    display: none;
+    padding: 3px;
+    width: 60px;
+    height: 20px;
+    background: #fff;
+}
+
+.por:hover {
+    background: #000;
+    color: #fff;
+}
+
+.ita {
+    display: none;
+    padding: 3px;
+    width: 60px;
+    height: 20px;
+    background: #fff;
+}
+
+.ita:hover {
+    background: #000;
+    color: #fff;
+}
+
+.det {
+    display: none;
+    padding: 3px;
+    width: 60px;
+    height: 20px;
+    background: #fff;
+}
+
+.det:hover {
+    background: #000;
+    color: #fff;
+}
+.dash-destinations{
+
+    justify-self:right;
+    height: 22em;
+    position: absolute;
+    margin-top: 3rem;
     
+}
+.dash-destinations a{
+    text-decoration: none;
+    color: gray
+    
+}
+
+
+.dash-destinations a:hover{
+    color: black;
+}
+
+.dash-destinations img{
+    width: 20px;
+}
+.asia-countries{
+
+    width:  20%;
+    height: 0em;
+    padding-left: 5.625rem;
+}
+.africa-countries{
+   
+    width: 20%;
+    border-left: 20px;
+    padding-left: 16.25rem;
+    height: 0px;
+}
+.rest-countries{
+   
+   
+    width: 20%;
+    padding-left: 28.50rem;
+
+    height: 50px;
+    align-items: center;
+}
+.featured{
+    padding-left: 4em;
+    display: flex;
+}
+
+.featured img{
+    width: 17rem;
+    border-radius: 1em;
+   
+}
+.specific-featured a{
+    padding: 1em;
+}
+.featured h3{
+    margin-bottom: 0em;
+    padding-left: 1rem;
+    color: black;
+}
+.featured p{
+    
+    color: forestgreen;
+    margin-top: 1px;
+    padding-left: 1rem;
+
+}
+/* mario y marcos*/
+.dash-intern-abroad {
+    display: flex;
+    width: fit-content;
+    padding: 0px;
+}
+.block-dash-intern-abroad{
+    width: 1rem;
+}
+
+.block-dash-intern-img img {
+    margin: 10px;
+    border-radius: 1em;
+    width:70%;
+    height: 40%;
+} 
+
+.dash-intern-abroad h4, .block-dash-intern-img {
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.countries-dash-intern-aboard {
+    color:#124231;
+    font-size: larger;
+}
+
+
+.countries-dash-intern-aboard img {
+    width:15%;
+    border-radius: 0;
+}
+
+.dash-intern-abroad span {
+    position: absolute;
+    margin-top: 10px;
+}
+
+.other {
+    display: none;
+}
+
+/* 
+.dash-intern-abroad img{
+    border-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding-left: 1em;
+    width: 50%;
+    height: 60px;
+    background: #000;
+    
+} */
+
+
+.alert {
+    font-size: 100%;
+    text-align: center;
+    display: none;
+}
+
+.alert img {
+    width: 70%;
+}
+
+
+
+@media (min-width:320px) and (max-width: 884px) {
+    .alert {
+        display: block;
+    }
+
+    header {
+        display: none;
+    }
 }
