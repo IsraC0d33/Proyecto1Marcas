@@ -36,14 +36,21 @@
 
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fvalidator.w3.org%2Fnu%3F%2Fdoc%3Dhttps%253A%252F%252Fgithub.com%252FIsraC0d33%252FProyecto1Marcas%252Fblob%252Fmain%252Findex.html&preset=HTML%2C%20SVG%201.1%2C%20MathML%203.0&style=plastic&logo=w3schools)
 
-
 </div>
+
+<img align="center" width="100%" height="200" src="https://www.scgchemicals.com/assets/img/element/dot-banner.png" />
+
+<br>
+
 <img align="right" height="100" src="https://i.pinimg.com/originals/6b/f0/c8/6bf0c8ea5b563be2089d4f92836f719c.gif"  />
 
 <img align="center" height="100" src="https://i.pinimg.com/originals/6b/f0/c8/6bf0c8ea5b563be2089d4f92836f719c.gif"  />
 
+<br>
 
 ###
+
+
 
 
 
