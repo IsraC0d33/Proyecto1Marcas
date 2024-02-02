@@ -42,10 +42,7 @@
 
 <br>
 
-<img align="right" height="100" src="https://i.pinimg.com/originals/6b/f0/c8/6bf0c8ea5b563be2089d4f92836f719c.gif"  />
-
-<img align="center" height="100" src="https://i.pinimg.com/originals/6b/f0/c8/6bf0c8ea5b563be2089d4f92836f719c.gif"  />
-
+<img align="right" height="100" src="https://i.pinimg.com/originals/6b/f0/c8/6bf0c8ea5b563be2089d4f92836f719c.gif"  /><img align="center" height="100" src="https://i.pinimg.com/originals/6b/f0/c8/6bf0c8ea5b563be2089d4f92836f719c.gif"  />
 <br>
 
 ###
