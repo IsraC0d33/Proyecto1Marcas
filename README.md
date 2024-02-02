@@ -111,6 +111,9 @@ Aparte de encargarse/ayudar en la parte de css.
 <br>
 Se encargará de revisar de la coherencia de la estructura y de un buen uso de las clases.
 
+![Review](https://github.com/IsraC0d33/Proyecto1Marcas/assets/104717038/fa05b958-073c-417e-a63d-a6ca4c6ebfdb)
+
+
 <br>
 <hr>
 </div>
