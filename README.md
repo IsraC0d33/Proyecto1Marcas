@@ -35,6 +35,7 @@
 [![Greetings](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/greetings.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/greetings.yml)
 [![pages-build-deployment](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment)
 [![SonarQube analysis](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/sonarqube.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/sonarqube.yml)
+[![Fortify on Demand Scan](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/fortify.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/fortify.yml)
 <br>
 <br>
 
