@@ -34,6 +34,7 @@
 [![CodeQL](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/codeql.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/codeql.yml)
 [![Greetings](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/greetings.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/greetings.yml)
 [![pages-build-deployment](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment)
+[![SonarQube analysis](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/sonarqube.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/sonarqube.yml)
 <br>
 <br>
 
