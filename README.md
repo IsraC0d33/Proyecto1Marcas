@@ -1,6 +1,12 @@
 
 
 
+
+<div align="center">
+<img src="https://github.com/IsraC0d33/Proyecto1Marcas/assets/104717038/811658d2-0c14-4fc6-b0bf-bd951ae7bf95" width="450">
+</div>
+
+
 <h1 align="center">💡Proyecto Marcas💡</h1>
 
 
