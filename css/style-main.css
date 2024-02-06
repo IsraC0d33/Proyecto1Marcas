@@ -360,8 +360,15 @@
 
 .dash-projects {
     background-color: red;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
+}
+
+.project:hover {
+
+    border-left: 0.063rem solid #000;
+    border-right: 0.063rem solid #000;
+
 }
 
 .dash-projects a {
