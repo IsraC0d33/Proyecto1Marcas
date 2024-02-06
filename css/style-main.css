@@ -19,6 +19,7 @@
     src: url(../font/Poppins-Medium.ttf);
 }
 
+/*!SECTION Importante una vez hayamos acabado el header hay que hacer positions fixed para el header pequeño y el grande*/
 
 .nav-min {
     background: #124231;
@@ -414,9 +415,6 @@
     flex-wrap: wrap;
     margin-top: 5px;
 }
-
-.volunteer-abroad-Divs p {}
-
 
 /* Segunda */
 .block-intern-dash-proyects {
