@@ -28,6 +28,8 @@
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/graphs/contributors)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/IsraC0d33/Proyecto1Marcas?display_date=published_at&logo=wakatime&logoColor=%23EE3124)
 ![GitHub issue/pull request detail](https://img.shields.io/github/issues/detail/state/IsraC0d33/Proyecto1Marcas/8?style=flat-square&color=red)
+![GitHub issue/pull request detail](https://img.shields.io/github/issues/detail/state/IsraC0d33/Proyecto1Marcas/9?style=flat-square&color=red)
+
 
 
 
