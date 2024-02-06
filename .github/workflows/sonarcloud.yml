@@ -67,7 +67,7 @@ jobs:
             # Adds more detail to both client and server-side analysis logs, activating DEBUG mode for the scanner, and adding client-side environment variables and system properties to the server-side log of analysis report processing.
             #-Dsonar.verbose= # optional, default is false
       - name: Set up JDK
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v2
         with:
-          distribution: 'temurin'
-          java-version: 21
+          java-version: 17
+          distribution: 'zulu'
