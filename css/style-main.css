@@ -359,9 +359,9 @@
 }
 
 .dash-projects {
-    background-color: red;
     display: none;
     flex-wrap: wrap;
+    border-bottom: 0.063rem solid #8d8f8f;
 }
 
 .project:hover {
@@ -384,7 +384,7 @@
     text-align: center;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    width: 120px;
+    width: 110px;
 }
 
 .dash-projects div {
@@ -405,9 +405,8 @@
 
 .volunteer-abroad {
     margin-right: 5rem;
-    background-color: yellow;
     height: max-content;
-    width: 60%;
+    width: 70%;
 }
 
 .volunteer-abroad-Divs {
