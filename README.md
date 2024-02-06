@@ -27,6 +27,7 @@
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fisrac0d33.github.io%2FProyecto1Marcas%2F&logo=webauthn&logoColor=%23000&labelColor=%23fff)](https://israc0d33.github.io/Proyecto1Marcas/)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/graphs/contributors)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/IsraC0d33/Proyecto1Marcas?display_date=published_at&logo=wakatime&logoColor=%23EE3124)
+<br>
 ![GitHub issue/pull request detail](https://img.shields.io/github/issues/detail/state/IsraC0d33/Proyecto1Marcas/8?style=flat-square&color=red)
 ![GitHub issue/pull request detail](https://img.shields.io/github/issues/detail/state/IsraC0d33/Proyecto1Marcas/9?style=flat-square&color=red)
 
@@ -36,6 +37,7 @@
 [![CodeQL](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/codeql.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/codeql.yml)
 [![Greetings](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/greetings.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/greetings.yml)
 [![pages-build-deployment](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment)
+<br>
 [![SonarQube analysis](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/sonarqube.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/sonarqube.yml)
 [![Fortify on Demand Scan](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/fortify.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/fortify.yml)
 <br>
