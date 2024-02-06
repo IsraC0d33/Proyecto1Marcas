@@ -33,7 +33,6 @@
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/graphs/contributors)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/IsraC0d33/Proyecto1Marcas?display_date=published_at&logo=wakatime&logoColor=%23EE3124)
 <br>
-[![SonarCloud analysis](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/sonarcloud.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/sonarcloud.yml)
 
 
 
@@ -42,8 +41,7 @@
 [![Greetings](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/greetings.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/greetings.yml)
 [![pages-build-deployment](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment)
 <br>
-[![SonarQube analysis](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/sonarqube.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/sonarqube.yml)
-[![Fortify on Demand Scan](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/fortify.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/fortify.yml)
+[![SonarCloud analysis](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/sonarcloud.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/sonarcloud.yml)
 <br>
 <br>
 
