@@ -164,7 +164,7 @@
     width: 3.75rem;
     height: 1.25rem;
 }
-
+/* mario y marcos*/
 .eng {
     margin-top: 0.625rem;
     display: none;
@@ -289,7 +289,7 @@
     padding-left: 1rem;
 }
 
-/* mario y marcos*/
+
 
  .foreign:hover {
     border-left:0.063rem solid #000;
@@ -337,9 +337,58 @@
 
 
 /* No a dado tiempo a seguir con los demas subindices pero ya se pueden hacer una idea de como quedara el resto */
-.other {
-    display: none;
+.other{
+    display: inline;
 }
+.dash-projects{
+    background-color: red;
+    display: flex;
+    
+}
+.dash-projects a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-size: 0.75em;   
+}
+.dash-projects h1{
+    color: #0b241b;
+}
+.dash-projects p{
+    background-color: #124231;
+    padding: 10px;
+    width: 9em;
+}
+.dash-projects img{
+    background-color: #0b241b;
+    padding: 5px;
+}
+.block-dash-proyects{
+    display: flex;
+    padding-bottom: 4px;
+}
+.volunteer-abroad{
+    margin-right: 5rem;
+    background-color:  yellow;
+    height: max-content;
+    width: 60em;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.block-intern-dash-proyects{
+    display: flex;
+    padding-bottom: 4px;
+}
+.inter-abroad{
+  
+    margin-right: 1rem;
+    text-align: center;
+}
+.inter-abroad a{
+    text-align: center;
+}
+
 
 /* Pingünos */
 
@@ -364,3 +413,4 @@
         display: none;
     }
 }
+
