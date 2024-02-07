@@ -454,11 +454,23 @@
 
 .dash-groups{
     display: flex;
+    margin-left: 10em;
 }
 .dash-groups img{
-    width: 8em;
-    height: 8em;
+    width: 13em;
+    height: 13em;
+   
 }
+.dash-groups a > h4{
+   
+    width: 13em;
+    height: 1em;
+    background-color: yellow;
+    text-align: center;
+   
+
+}
+
 
 
 
