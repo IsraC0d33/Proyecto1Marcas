@@ -50,7 +50,7 @@ las consecuencias de cualquier acción que consideren que infringe este Código 
 **Impacto en el equipo**: Demostrar un patrón de violación de las normas de conducta, incluyendo comportamiento inapropiado sostenido,
 acoso a un compañero, o agresión o menosprecio hacia varios compañeros.
 
-**Consecuencias**: Prohibición permanente.
+**Consecuencias**: Expulsion permanente.
 
 ## Attribution
 
