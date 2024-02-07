@@ -378,12 +378,14 @@
 
 .dash-projects p {
     background-color: #124231;
-    padding: 5%;
-    font-size: small;
+    padding:5%;
+    font-size: 0.750rem;
     text-align: center;
     border-top-right-radius: 0.313em;
     border-bottom-right-radius:0.313em;
-    width:6.875em;
+    width:9em;
+    height: 4.150em;
+    padding-top: 0%;
 }
 
 .dash-projects div {
@@ -393,6 +395,8 @@
 .dash-projects img {
     background-color: #0b241b;
     padding: 0.313em;
+    width: 3em;
+    height: 3em;
 }
 
 .block-dash-proyects {
@@ -405,7 +409,7 @@
 .volunteer-abroad {
     margin-right: 5rem;
     height: max-content;
-    width: 70%;
+    width: 60%;
 }
 
 .volunteer-abroad-Divs {
@@ -444,7 +448,7 @@
 
 
 
-@media (min-width:0em) and (max-width: 68.75em) {
+@media (min-width:0em) and (max-width: 60.75em) {
     .alert {
         display: block;
     }
