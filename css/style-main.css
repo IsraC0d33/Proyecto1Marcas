@@ -450,6 +450,20 @@
 }
 
 /* Todos los px han sido sustituidos por em*/
+/* Grupos */
+
+.dash-groups{
+    display: flex;
+}
+.dash-groups img{
+    width: 8em;
+    height: 8em;
+}
+
+
+
+
+
 /* Pingünos */
 
 .alert {
