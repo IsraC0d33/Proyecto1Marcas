@@ -300,7 +300,7 @@
     padding-left: 1rem;
 }
 
-/* EDITADO POR MAARCOS Y MARIO Y JAMAL */
+/* EDITADO POR MARCOS Y MARIO Y JAMAL */
 
 .foreign:hover {
     border-left: 0.063rem solid #000;
@@ -348,8 +348,8 @@
 
 
 
+/* Hecho por Marcos Acedo y Mario Galan */
 /*Cambiado algunas partes por : Jamal Rabah*/
-
 /*NOTE - 
  Cambiar los pixeles por em o rem lo que os sea mas comodo */
 .volunteer-abroad h1>span {
@@ -383,13 +383,12 @@
 
 .dash-projects p {
     background-color: RGB(20 80 58);
-
     font-size: 0.750rem;
     text-align: center;
     border-top-right-radius: 0.313em;
     border-bottom-right-radius: 0.313em;
     width: 8em;
-    height: 4.8em;
+    height: 4.85em;
     padding-top: 0%;
 }
 
@@ -428,13 +427,11 @@
 .block-intern-dash-proyects {
     display: flex;
     padding-bottom: 1em;
-
 }
 
 .intern-abroad {
     margin-right: 1rem;
     text-align: center;
-
 }
 
 .intern-abroad h1>span {
@@ -443,7 +440,6 @@
 
 .intern-abroad div {
     margin-left: 2em;
-
 }
 
 .intern-abroad a {
