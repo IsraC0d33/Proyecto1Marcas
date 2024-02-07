@@ -351,10 +351,15 @@
 
 /*NOTE - 
  Cambiar los pixeles por em o rem lo que os sea mas comodo */
+.volunteer-abroad h1>span
+{
+    color: #1c7652;
+}
 
 .dash-projects h1 {
     color: #0b241b;
     margin-left: 0.938em;
+    font-weight: lighter;
 }
 
 .dash-projects {
@@ -374,22 +379,23 @@
     text-decoration: none;
     color: white;
 }
-
+ 
 
 .dash-projects p {
-    background-color: #124231;
-    padding:5%;
+    background-color:  RGB(20 80 58) ;
+    
     font-size: 0.750rem;
     text-align: center;
     border-top-right-radius: 0.313em;
     border-bottom-right-radius:0.313em;
-    width:9em;
-    height: 4.150em;
+    width:8em;
+    height: 4.8em;
     padding-top: 0%;
 }
 
 .dash-projects div {
-    margin: 0.625em;
+    margin-right: 0.325em;
+    margin-left: 1em;
 }
 
 .dash-projects img {
@@ -421,15 +427,25 @@
 /* Segunda */
 .block-intern-dash-proyects {
     display: flex;
-    padding-bottom: 0.25em;
+    padding-bottom: 1em;
+    
 }
 
-.inter-abroad {
+.intern-abroad {
     margin-right: 1rem;
     text-align: center;
+
+}
+.intern-abroad h1 > span{
+    color: #1c7652;
 }
 
-.inter-abroad a {
+.intern-abroad div{
+    margin-left: 2em;
+    
+}
+
+.intern-abroad a {
     text-align: center;
 }
 
