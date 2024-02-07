@@ -454,6 +454,7 @@
     display: flex;
     margin-left: 7em;
     margin-top: 1em;
+    padding: 1em;
    
 }
 .dash-groups div > a{
@@ -476,22 +477,34 @@
 }
 /* Recursos */
 .dash-resources{
-    display: flex;  
+    display: flex; 
+    padding: 1em; 
 }
 .general-resources{
     background-color: yellow;
     display: flex;
-    flex-direction: row;
-    width: 50em;
-    height: 35em;
+    flex-wrap: wrap;
+    margin-left:  15em;
+    width: 180em;
+    height: 50em;
+    padding-left: 1em;
+}
+.general-resources div{
+    padding-right: 1em ;
+ 
+}
+.block-resources-general-information-reserva div {
+    padding:  1em;
+    background-color: #000
 }
 /* foto*/
 .block-resources-general-information-reserva{
-    height: 10em;
+    height: 9em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(/imagenes/JPG/509_509_flght_short_image.jpg);
+    
 }
 .block-resources-general-information-preguntas{
     height: 10em;
@@ -548,7 +561,8 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/imagenes/JPG/banner.jpg);
+    background-image: url(/imagenes/JPG/2572_diploma_in_international_volunteering_4.png);
+   
 }
 .block-resources-general-information-curso{
     height: 10em;
@@ -566,44 +580,43 @@
 .block-resources-general-information-preguntas p{
     background-color: #1c7652;
     color: white;
-    margin-top: 1.5em;  
+    margin-top: 3em;  
 }
 .block-resources-general-information-fondos p{
     background-color: #1c7652;
     color: white;
-    margin-top: 1.5em; 
+    margin-top: 3em; 
 }
 .block-resources-general-information-ofertas p{
     background-color: #1c7652;
     color: white;
-    margin-top: 3em; 
+    margin-top: 4.5em; 
 }
 .block-resources-general-information-conozca p{
     background-color: #1c7652;
     color: white;
-    margin-top: 1.5em; 
+    margin-top: 3em; 
 }
 .block-resources-general-information-costes p {
     background-color: #1c7652;
     color: white;
-    margin-top: 1.5em;
+    margin-top: 3em;
 }
 .block-resources-general-information-fechas p {
     background-color: #1c7652;
     color: white;
-    
+    margin-top: 1.5em;
 }
 .block-resources-general-information-comprar p{
     background-color: #1c7652;
     color: white;
-    margin-top: 1.5em;
+    margin-top: 3em;
 }
 .block-resources-general-information-diplomado p{
     background-color: #1c7652;
     color: white;
-    background-color: #1c7652;
-    color: white;
     margin-top: 1em;
+    font-size: smaller;
 }
 .block-resources-general-information-curso p{
     background-color: #1c7652;
