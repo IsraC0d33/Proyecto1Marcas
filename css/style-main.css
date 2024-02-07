@@ -181,7 +181,7 @@
 .ita,
 .det {
     display: none;
-    padding:0.188em;
+    padding: 0.188em;
     width: 3.75rem;
     height: 1.25rem;
     background: #fff;
@@ -218,6 +218,7 @@
     height: max-content;
     border-bottom: 0.063rem solid #8d8f8f;
 }
+
 /* EDITADO POR MARCOS Y MARIO */
 
 .dash-destinations .countries,
@@ -351,8 +352,7 @@
 
 /*NOTE - 
  Cambiar los pixeles por em o rem lo que os sea mas comodo */
-.volunteer-abroad h1>span
-{
+.volunteer-abroad h1>span {
     color: #1c7652;
 }
 
@@ -379,16 +379,16 @@
     text-decoration: none;
     color: white;
 }
- 
+
 
 .dash-projects p {
-    background-color:  RGB(20 80 58) ;
-    
+    background-color: RGB(20 80 58);
+
     font-size: 0.750rem;
     text-align: center;
     border-top-right-radius: 0.313em;
-    border-bottom-right-radius:0.313em;
-    width:8em;
+    border-bottom-right-radius: 0.313em;
+    width: 8em;
     height: 4.8em;
     padding-top: 0%;
 }
@@ -428,7 +428,7 @@
 .block-intern-dash-proyects {
     display: flex;
     padding-bottom: 1em;
-    
+
 }
 
 .intern-abroad {
@@ -436,13 +436,14 @@
     text-align: center;
 
 }
-.intern-abroad h1 > span{
+
+.intern-abroad h1>span {
     color: #1c7652;
 }
 
-.intern-abroad div{
+.intern-abroad div {
     margin-left: 2em;
-    
+
 }
 
 .intern-abroad a {
@@ -451,31 +452,44 @@
 
 /* Todos los px han sido sustituidos por em*/
 /* Grupos */
+/*Cambiado algunas partes por : Jamal Rabah*/
 /* CREADO POR MARCOS ACEDO */
-.dash-groups{
-    display: flex;
-    margin-left: 7em;
-    margin-top: 1em;
-   
+.groups:hover {
+    border-left: 0.063rem solid #000;
+    border-right: 0.063rem solid #000;
 }
-.dash-groups div > a{
+
+.dash-groups {
+    display: none;
+    justify-content: center;
+    margin-top: 1em;
+    border-bottom: 0.063rem solid #8d8f8f;
+}
+
+.dash-groups div {
+    margin: 1rem;
+}
+
+.dash-groups div>a {
     text-decoration: none;
 }
-.dash-groups img{
-    width: 13em;
-    height: 10em;
-    margin: 0.5em;
+
+.dash-groups img {
+    width: 95%;
+    height: 12em;
+    margin: 0.4em;
     border-radius: 0.5em;
-    
 }
-.dash-groups a > h4{
-   
-    width: 13em;
-    height: 3em;
+
+.dash-groups a>h4 {
+    font-size: larger;
+    font-weight: bolder;
     text-align: center;
     margin-left: 0.5em;
-    color:  #1c7652;
+    height: 3em;
+    color: #1c7652;
 }
+
 /* Recursos */
 
 
