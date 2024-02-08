@@ -1,6 +1,5 @@
 User-agent: *
 Disallow: /.config/
-Disallow: /font/
 Disallow: /json/
 Disallow: /assets/
 
