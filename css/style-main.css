@@ -486,10 +486,26 @@
     color: #1c7652;
 }
 
+
+
 /* Recursos */
+/* Cambiado/añadido algunas cosas Jamal Rabah */
+/* Creado por Marcos Acedo */
+.resources:hover {
+    border-left: 0.063rem solid #000;
+    border-right: 0.063rem solid #000;
+}
+
+
 .dash-resources {
-    display: flex;
+    display: none;
     padding: 1em;
+    border-bottom: 0.063rem solid #8d8f8f;
+}
+
+.dash-resources hr {
+    margin-bottom: 0.5rem;
+    width: 60%;
 }
 
 .general-resources {
@@ -655,27 +671,44 @@
     color: white;
     margin-top: 3em;
 }
+
 /* parte de preguntas frecuentes */
 .faqs-questions {
     width: 190%;
     text-decoration: none;
 }
-.questions{
+
+.questions {
     display: flex;
     flex-direction: column;
-    
+
 }
-.questions a{
+
+.questions a {
     margin-top: 1em;
     text-decoration: none;
-    color:  #1c7652;
+    color: #1c7652;
 }
-.faqs p{ 
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+}
+
+.faqs p {
     margin-left: 27em;
     font-size: small;
 }
-.faqs h2{
+
+.faqs h2 {
     color: #124231;
+    font-weight: lighter;
+}
+
+.faqs .all {
+    background: #124231;
+    width: 10%;
+    margin-left: 22rem;
 }
 
 
