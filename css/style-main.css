@@ -655,7 +655,28 @@
     color: white;
     margin-top: 3em;
 }
-
+/* parte de preguntas frecuentes */
+.faqs-questions {
+    width: 190%;
+    text-decoration: none;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    
+}
+.questions a{
+    margin-top: 1em;
+    text-decoration: none;
+    color:  #1c7652;
+}
+.faqs p{ 
+    margin-left: 27em;
+    font-size: small;
+}
+.faqs h2{
+    color: #124231;
+}
 
 
 
