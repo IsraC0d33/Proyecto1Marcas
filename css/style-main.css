@@ -610,7 +610,7 @@
     background-image: url(../imagenes/JPG/2495_teaching_madagascar_\(1\).jpg);
 }
 
-/* letras*/
+/* letras Editado por Marcos Acedo*/
 .block-resources-general-information-reserva p {
     background-color: #1c7652;
     color: white;
@@ -672,7 +672,7 @@
     margin-top: 3em;
 }
 
-/* parte de preguntas frecuentes */
+/* parte de preguntas frecuentes editado por Marcos Acedo */
 .faqs-questions {
     width: 190%;
     text-decoration: none;
@@ -714,6 +714,106 @@
 
 
 
+
+
+
+/* Parte de sobre nostros*/
+.about-us{
+    display: flex;
+    padding: 1em;
+}
+.general-information{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10em;
+    width: 300%;
+    height: max-content;
+    
+    background-color: yellow;
+    
+}
+.general-information div{
+    padding-right: 1em;
+    
+}
+
+
+
+
+/* FOTOS */
+.block-about-us-general-information-conocer{
+    height: max-content;
+    width: max-content;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/JPG/517_meet_the_team_short.jpg);
+}
+.block-about-us-general-information-mensaje{
+    height: 7em;
+    width: 10em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/JPG/551_message_to_parents_short.jpg);
+}
+.block-about-us-general-information-noticias{
+    height: 10em;
+    width: 10em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/JPG/1094_news_articles_short.jpg);
+}
+.block-about-us-general-information-politicas{
+    height: 7em;
+    width: 10em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/JPG/510_510_fundraising_short.jpg);
+}
+.block-about-us-general-information-volsol{
+    height: 7em;
+    width: 10em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/JPG/516_whatvolsolshort.jpg);
+}
+.block-about-us-general-information-elegirnos{
+    height: 7em;
+    width: 10em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/JPG/616_wildlife_and_animal_care.jpg);
+}
+.block-about-us-general-information-pagar{
+    height: 8em;
+    width: 10em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/JPG/2603_slmedinternshipshort.jpg);
+}
+.block-about-us-general-information-arbol{
+    height: 7.777em;
+    width: 10em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/JPG/chica-con-niños.jpeg);
+}
+/* letras*/
+.block-about-us-general-information-conocer p{
+    background-color: #1c7652;
+    color: white;
+    margin-top: 5em;
+}
+.block-about-us-general-information-mensaje p {
+    background-color: #1c7652;
+    color: white;
+    margin-top: 3.5em;
+}
+
+
+.latest-news{
+    margin-left: 4em;
+}
+
 /* Pingünos */
 
 .alert {
@@ -725,9 +825,6 @@
 .alert img {
     width: 70%;
 }
-
-
-
 @media (min-width:0em) and (max-width: 60.75em) {
     .alert {
         display: block;
