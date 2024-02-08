@@ -481,17 +481,16 @@
     padding: 1em; 
 }
 .general-resources{
-    background-color: yellow;
     display: flex;
     flex-wrap: wrap;
-    margin-left:  15em;
-    width: 180em;
-    height: 50em;
+    margin-left:  10em;
+    width: 180%;
+    height: max-content;
     padding-left: 1em;
 }
 .general-resources div{
-    padding-right: 1em ;
- 
+    
+    margin: 0.5em;
 }
 .block-resources-general-information-reserva div {
     padding:  1em;
@@ -499,83 +498,83 @@
 }
 /* foto*/
 .block-resources-general-information-reserva{
-    height: 9em;
+    height: 7em;
     width: 10em;
-    background-size: contain;
+    background-size: 10em;
     background-repeat: no-repeat;
-    background-image: url(/imagenes/JPG/509_509_flght_short_image.jpg);
+    background-image: url(../imagenes/JPG/509_509_flght_short_image.jpg);
     
 }
 .block-resources-general-information-preguntas{
-    height: 10em;
+    height: 7em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/imagenes/JPG/501_501_faq_short.jpg);
+    background-image: url(../imagenes/JPG/501_501_faq_short.jpg);
 }
 .block-resources-general-information-fondos{
-    height: 10em;
+    height: 7em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/imagenes/JPG/510_510_fundraising_short.jpg);
+    background-image: url(../imagenes/JPG/510_510_fundraising_short.jpg);
 }
 .block-resources-general-information-ofertas{
-    height: 10em;
+    height: 7em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/imagenes/JPG/724_724_untitled_design_5_short.jpg);
+    background-image: url(../imagenes/JPG/724_724_untitled_design_5_short.jpg);
 }
 
 .block-resources-general-information-conozca{
-    height: 10em;
+    height: 7em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/imagenes/JPG/502_meet_a_volunteer_short.jpg);
+    background-image: url(../imagenes/JPG/502_meet_a_volunteer_short.jpg);
 }
 .block-resources-general-information-costes{
-    height: 10em;
+    height: 7em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/imagenes/JPG/498_cost_page_short.jpg);
+    background-image: url(../imagenes/JPG/498_cost_page_short.jpg);
 }
 .block-resources-general-information-fechas{
-    height: 10em;
+    height: 6em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/imagenes/JPG/518_conservation_madagascar.jpg);
+    background-image: url(../imagenes/JPG/518_conservation_madagascar.jpg);
 }
 .block-resources-general-information-comprar{
-    height: 10em;
+    height:6em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/imagenes/JPG/631_corporate_volunteering_page_banner.jpg);
+    background-image: url(../imagenes/JPG/631_corporate_volunteering_page_banner.jpg);
 }
 .block-resources-general-information-diplomado{
-    height: 10em;
+    height: 6em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/imagenes/JPG/2572_diploma_in_international_volunteering_4.png);
+    background-image: url(../imagenes/JPG/2572_diploma_in_international_volunteering_4.png);
    
 }
 .block-resources-general-information-curso{
-    height: 10em;
+    height: 7em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/imagenes/JPG/2495_teaching_madagascar_\(1\).jpg);  
+    background-image: url(../imagenes/JPG/2495_teaching_madagascar_\(1\).jpg);  
 }
 /* letras*/
 .block-resources-general-information-reserva p{
     background-color: #1c7652;
     color: white;
-    margin-top: 3em;  
+    margin-top: 4.5em;  
 }
 .block-resources-general-information-preguntas p{
     background-color: #1c7652;
@@ -621,8 +620,9 @@
 .block-resources-general-information-curso p{
     background-color: #1c7652;
     color: white;
-    margin-top: 1.5em;
+    margin-top: 3em;
 }
+
 
 
 
