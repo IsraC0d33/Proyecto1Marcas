@@ -181,7 +181,7 @@
 .ita,
 .det {
     display: none;
-    padding:0.188em;
+    padding: 0.188em;
     width: 3.75rem;
     height: 1.25rem;
     background: #fff;
@@ -218,6 +218,7 @@
     height: max-content;
     border-bottom: 0.063rem solid #8d8f8f;
 }
+
 /* EDITADO POR MARCOS Y MARIO */
 
 .dash-destinations .countries,
@@ -299,7 +300,7 @@
     padding-left: 1rem;
 }
 
-/* EDITADO POR MAARCOS Y MARIO Y JAMAL */
+/* EDITADO POR MARCOS Y MARIO Y JAMAL */
 
 .foreign:hover {
     border-left: 0.063rem solid #000;
@@ -347,10 +348,11 @@
 
 
 
+/* Hecho por Marcos Acedo y Mario Galan */
 /*Cambiado algunas partes por : Jamal Rabah*/
-
-.volunteer-abroad h1>span
-{
+/*NOTE - 
+ Cambiar los pixeles por em o rem lo que os sea mas comodo */
+.volunteer-abroad h1>span {
     color: #1c7652;
 }
 
@@ -377,17 +379,16 @@
     text-decoration: none;
     color: white;
 }
- 
+
 
 .dash-projects p {
-    background-color:  RGB(20 80 58) ;
-    
+    background-color: RGB(20 80 58);
     font-size: 0.750rem;
     text-align: center;
     border-top-right-radius: 0.313em;
-    border-bottom-right-radius:0.313em;
-    width:8em;
-    height: 4.8em;
+    border-bottom-right-radius: 0.313em;
+    width: 8em;
+    height: 4.85em;
     padding-top: 0%;
 }
 
@@ -421,26 +422,24 @@
     flex-wrap: wrap;
     margin-top: 0.313em;
 }
-/* CREADO POR MARCOS ACEDO */
+
 /* Segunda */
 .block-intern-dash-proyects {
     display: flex;
     padding-bottom: 1em;
-    
 }
 
 .intern-abroad {
     margin-right: 1rem;
     text-align: center;
-
 }
-.intern-abroad h1 > span{
+
+.intern-abroad h1>span {
     color: #1c7652;
 }
 
-.intern-abroad div{
+.intern-abroad div {
     margin-left: 2em;
-    
 }
 
 .intern-abroad a {
@@ -449,77 +448,96 @@
 
 /* Todos los px han sido sustituidos por em*/
 /* Grupos */
+/*Cambiado algunas partes por : Jamal Rabah*/
 /* CREADO POR MARCOS ACEDO */
-.dash-groups{
-    display: flex;
-    margin-left: 7em;
-    margin-top: 1em;
-    padding: 1em;
-   
+.groups:hover {
+    border-left: 0.063rem solid #000;
+    border-right: 0.063rem solid #000;
 }
-.dash-groups div > a{
+
+.dash-groups {
+    display: none;
+    justify-content: center;
+    margin-top: 1em;
+    border-bottom: 0.063rem solid #8d8f8f;
+}
+
+.dash-groups div {
+    margin: 1rem;
+}
+
+.dash-groups div>a {
     text-decoration: none;
 }
-.dash-groups img{
-    width: 13em;
-    height: 10em;
-    margin: 0.5em;
+
+.dash-groups img {
+    width: 95%;
+    height: 12em;
+    margin: 0.4em;
     border-radius: 0.5em;
-    
 }
-.dash-groups a > h4{
-   
-    width: 13em;
-    height: 3em;
+
+.dash-groups a>h4 {
+    font-size: larger;
+    font-weight: bolder;
     text-align: center;
     margin-left: 0.5em;
-    color:  #1c7652;
+    height: 3em;
+    color: #1c7652;
 }
+
 /* Recursos */
-.dash-resources{
-    display: flex; 
-    padding: 1em; 
+.dash-resources {
+    display: flex;
+    padding: 1em;
 }
-.general-resources{
+
+.general-resources {
     display: flex;
     flex-wrap: wrap;
-    margin-left:  10em;
+    margin-left: 10em;
     width: 180%;
     height: max-content;
     padding-left: 1em;
 }
-.general-resources div{
-    
+
+.general-resources div {
+
     margin: 0.5em;
 }
+
 .block-resources-general-information-reserva div {
-    padding:  1em;
+    padding: 1em;
     background-color: #000
 }
+
 /* foto*/
-.block-resources-general-information-reserva{
+.block-resources-general-information-reserva {
     height: 7em;
     width: 10em;
     background-size: 10em;
     background-repeat: no-repeat;
     background-image: url(../imagenes/JPG/509_509_flght_short_image.jpg);
-    
+
 }
-.block-resources-general-information-preguntas{
+
+.block-resources-general-information-preguntas {
     height: 7em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../imagenes/JPG/501_501_faq_short.jpg);
 }
-.block-resources-general-information-fondos{
+
+.block-resources-general-information-fondos {
     height: 7em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../imagenes/JPG/510_510_fundraising_short.jpg);
 }
-.block-resources-general-information-ofertas{
+
+.block-resources-general-information-ofertas {
     height: 7em;
     width: 10em;
     background-size: contain;
@@ -527,97 +545,112 @@
     background-image: url(../imagenes/JPG/724_724_untitled_design_5_short.jpg);
 }
 
-.block-resources-general-information-conozca{
+.block-resources-general-information-conozca {
     height: 7em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../imagenes/JPG/502_meet_a_volunteer_short.jpg);
 }
-.block-resources-general-information-costes{
+
+.block-resources-general-information-costes {
     height: 7em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../imagenes/JPG/498_cost_page_short.jpg);
 }
-.block-resources-general-information-fechas{
+
+.block-resources-general-information-fechas {
     height: 6em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../imagenes/JPG/518_conservation_madagascar.jpg);
 }
-.block-resources-general-information-comprar{
-    height:6em;
+
+.block-resources-general-information-comprar {
+    height: 6em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../imagenes/JPG/631_corporate_volunteering_page_banner.jpg);
 }
-.block-resources-general-information-diplomado{
+
+.block-resources-general-information-diplomado {
     height: 6em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../imagenes/JPG/2572_diploma_in_international_volunteering_4.png);
-   
+
 }
-.block-resources-general-information-curso{
+
+.block-resources-general-information-curso {
     height: 7em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/2495_teaching_madagascar_\(1\).jpg);  
+    background-image: url(../imagenes/JPG/2495_teaching_madagascar_\(1\).jpg);
 }
+
 /* letras*/
-.block-resources-general-information-reserva p{
+.block-resources-general-information-reserva p {
     background-color: #1c7652;
     color: white;
-    margin-top: 4.5em;  
+    margin-top: 4.5em;
 }
-.block-resources-general-information-preguntas p{
+
+.block-resources-general-information-preguntas p {
     background-color: #1c7652;
     color: white;
-    margin-top: 3em;  
+    margin-top: 3em;
 }
-.block-resources-general-information-fondos p{
+
+.block-resources-general-information-fondos p {
     background-color: #1c7652;
     color: white;
-    margin-top: 3em; 
+    margin-top: 3em;
 }
-.block-resources-general-information-ofertas p{
+
+.block-resources-general-information-ofertas p {
     background-color: #1c7652;
     color: white;
-    margin-top: 4.5em; 
+    margin-top: 4.5em;
 }
-.block-resources-general-information-conozca p{
+
+.block-resources-general-information-conozca p {
     background-color: #1c7652;
     color: white;
-    margin-top: 3em; 
+    margin-top: 3em;
 }
+
 .block-resources-general-information-costes p {
     background-color: #1c7652;
     color: white;
     margin-top: 3em;
 }
+
 .block-resources-general-information-fechas p {
     background-color: #1c7652;
     color: white;
     margin-top: 1.5em;
 }
-.block-resources-general-information-comprar p{
+
+.block-resources-general-information-comprar p {
     background-color: #1c7652;
     color: white;
     margin-top: 3em;
 }
-.block-resources-general-information-diplomado p{
+
+.block-resources-general-information-diplomado p {
     background-color: #1c7652;
     color: white;
     margin-top: 1em;
     font-size: smaller;
 }
-.block-resources-general-information-curso p{
+
+.block-resources-general-information-curso p {
     background-color: #1c7652;
     color: white;
     margin-top: 3em;
