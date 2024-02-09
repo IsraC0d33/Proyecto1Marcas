@@ -739,8 +739,6 @@
 
 
 
-
-/* FOTOS */
 .block-about-us-general-information-conocer{
     height: max-content;
     width: max-content;
@@ -808,11 +806,37 @@
     color: white;
     margin-top: 3.5em;
 }
+.block-about-us-general-information-noticias p{
+    background-color: #1c7652;
+    color: white;
+    margin-top: 3.5em;
+}
+.block-about-us-general-information-volsol p{
+    background-color: #1c7652;
+    color: white;
+    margin-top: 3.5em;
+}
+.block-about-us-general-information-elegirnos p{
+    background-color: #1c7652;
+    color: white;
+    margin-top: 3.5em;
+}
+.block-about-us-general-information-pagar p{
+    background-color: #1c7652;
+    color: white;
+    margin-top: 3.5em;
+}
+.block-about-us-general-information-arbol p{
+    background-color: #1c7652;
+    color: white;
+    margin-top: 3.5em;
+}
 
 
 .latest-news{
     margin-left: 4em;
 }
+
 
 /* Pingünos */
 
