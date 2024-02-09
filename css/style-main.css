@@ -132,7 +132,7 @@
     color: #fff;
 }
 
-/* Editado por Andres y Marcos */
+/* Editado por Mario y Marcos */
 
 .change-language {
     display: flex;
@@ -490,7 +490,7 @@
 
 /* Recursos */
 /* Cambiado/añadido algunas cosas Jamal Rabah */
-/* Creado por Marcos Acedo */
+/* Creado por Marcos Acedo y Mario */
 .resources:hover {
     border-left: 0.063rem solid #000;
     border-right: 0.063rem solid #000;
@@ -610,7 +610,7 @@
     background-image: url(../imagenes/JPG/2495_teaching_madagascar_\(1\).jpg);
 }
 
-/* letras Editado por Marcos Acedo*/
+/* letras Editado por Marcos y Mario*/
 .block-resources-general-information-reserva p {
     background-color: #1c7652;
     color: white;
@@ -672,7 +672,7 @@
     margin-top: 3em;
 }
 
-/* parte de preguntas frecuentes editado por Marcos Acedo */
+/* parte de preguntas frecuentes editado por Marcos y Mario */
 .faqs-questions {
     width: 190%;
     text-decoration: none;
@@ -714,7 +714,7 @@
 
 
 
-
+/* Editado por Mario y Marcos*/
 
 
 /* Parte de sobre nostros*/
@@ -726,11 +726,13 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: 10em;
-    width: 220%;
+    width: 180%;
     height: max-content;
-    background-color: yellow;
     padding: 1em ;
     
+}
+.general-information div{
+    margin: 0.5em;
 }
 
 
@@ -780,7 +782,7 @@
     background-image: url(../imagenes/JPG/616_wildlife_and_animal_care.jpg);
 }
 .block-about-us-general-information-pagar{
-    height: 7em;
+    height: 8em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
@@ -797,12 +799,12 @@
 .block-about-us-general-information-conocer p{
     background-color: #1c7652;
     color: white;
-    margin-top: 5em;
+    margin-top: 4.5em;
 }
 .block-about-us-general-information-mensaje p {
     background-color: #1c7652;
     color: white;
-    margin-top: 3.5em;
+    margin-top: 3em;
 }
 .block-about-us-general-information-noticias p {
     background-color: #1c7652;
@@ -817,7 +819,7 @@
 .block-about-us-general-information-volsol p{
     background-color: #1c7652;
     color: white;
-    margin-top: 4.5em;
+    margin-top: 3em;
 }
 .block-about-us-general-information-elegirnos p{
     background-color: #1c7652;
@@ -827,16 +829,17 @@
 .block-about-us-general-information-pagar p{
     background-color: #1c7652;
     color: white;
-    margin-top: 4.5em;
+    margin-top: 4em;
+    font-size: smaller;
 }
 .block-about-us-general-information-arbol p{
     background-color: #1c7652;
     color: white;
-    margin-top: 4.5em;
+    margin-top: 5.3em;
 }
 
 .latest-news{
-    margin-left: 4em;
+    margin-left: 1em;
 }
 .latest-news{
     width: 190%;
