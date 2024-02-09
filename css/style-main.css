@@ -726,35 +726,33 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: 10em;
-    width: 300%;
+    width: 220%;
     height: max-content;
-    
     background-color: yellow;
-    
-}
-.general-information div{
-    padding-right: 1em;
+    padding: 1em ;
     
 }
 
 
 
+
+/* FOTOS */
 .block-about-us-general-information-conocer{
-    height: max-content;
-    width: max-content;
+    height: 7em;
+    width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../imagenes/JPG/517_meet_the_team_short.jpg);
 }
 .block-about-us-general-information-mensaje{
     height: 7em;
-    width: 10em;
+    width: 10em;  
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../imagenes/JPG/551_message_to_parents_short.jpg);
 }
 .block-about-us-general-information-noticias{
-    height: 10em;
+    height: 7em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
@@ -782,7 +780,7 @@
     background-image: url(../imagenes/JPG/616_wildlife_and_animal_care.jpg);
 }
 .block-about-us-general-information-pagar{
-    height: 8em;
+    height: 7em;
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
@@ -806,36 +804,98 @@
     color: white;
     margin-top: 3.5em;
 }
-.block-about-us-general-information-noticias p{
+.block-about-us-general-information-noticias p {
     background-color: #1c7652;
     color: white;
-    margin-top: 3.5em;
+    margin-top: 4.5em;
+}
+.block-about-us-general-information-politicas p{
+    background-color: #1c7652;
+    color: white;
+    margin-top: 4.5em;
 }
 .block-about-us-general-information-volsol p{
     background-color: #1c7652;
     color: white;
-    margin-top: 3.5em;
+    margin-top: 4.5em;
 }
 .block-about-us-general-information-elegirnos p{
     background-color: #1c7652;
     color: white;
-    margin-top: 3.5em;
+    margin-top: 4.5em;
 }
 .block-about-us-general-information-pagar p{
     background-color: #1c7652;
     color: white;
-    margin-top: 3.5em;
+    margin-top: 4.5em;
 }
 .block-about-us-general-information-arbol p{
     background-color: #1c7652;
     color: white;
-    margin-top: 3.5em;
+    margin-top: 4.5em;
 }
-
 
 .latest-news{
     margin-left: 4em;
 }
+.latest-news{
+    width: 190%;
+    text-decoration: none;
+}
+.latest-posts {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.latest-posts a {
+    margin-top: 1em;
+    text-decoration: none;
+    color: #1c7652;
+}
+
+.last-news-articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.last-news-articles p {
+    margin-left: 27em;
+    font-size: small;
+}
+
+.last-news-articles h2 {
+    color: #124231;
+    font-weight: lighter;
+}
+
+.last-news-articles .all {
+    background: #124231;
+    width: 10%;
+    margin-left: 22rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Pingünos */
