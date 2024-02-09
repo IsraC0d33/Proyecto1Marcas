@@ -902,6 +902,60 @@
     margin-left: 22rem;
 }
 
+/* Editado por Marcos y Mario*/
+/* Parte de abajo del navegador*/
+/* JAMAL HAZ LO TUYO*/
+.primer-section{
+    margin-left: 12em;
+    width:  35%;
+    margin-top: 2.5em;
+}
+.texto-inicio h1{
+    color: #124231;
+    font-size: 3.7em;
+}
+.texto-inicio span{
+    color: #1c7652;
+
+}
+
+.btn-proyectos{
+    width: 30%;
+    border: 0.125rem solid #124231;
+    border-radius: 0.313rem;
+    text-align: center;
+    font-size: 1.050rem;
+    font-family: Poppins-Medium;
+    color: #186447;
+    font-weight: bold;
+}
+.btn-destinos{
+    width: 30%;
+    margin-top: 1em;
+    margin-right: rem;
+    background: #186447;
+    border: 0.125rem solid #124231;
+    border-radius: 0.313rem;
+    text-align: center;
+    font-size: 1.050rem;
+    font-family: Poppins-Medium;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Pingünos */
 
