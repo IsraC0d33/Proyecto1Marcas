@@ -19,7 +19,26 @@
     src: url(../font/Poppins-Medium.ttf);
 }
 
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../font/Poppins-Bold.ttf);
+}
+
 /*!SECTION Importante una vez hayamos acabado el header hay que hacer positions fixed para el header pequeño y el grande*/
+
+
+.header-nav-main {
+    position: fixed;
+    width: 100%;
+    margin-top: 2.5rem;
+    top: 0;
+}
+
+.header-nav-min {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
 
 .nav-min {
     background: #124231;
@@ -214,6 +233,7 @@
 }
 
 .dash-destinations {
+    background: #fff;
     display: none;
     height: max-content;
     border-bottom: 0.063rem solid #8d8f8f;
@@ -308,6 +328,7 @@
 }
 
 .dash-intern-abroad {
+    background: #fff;
     display: none;
     height: max-content;
     border-bottom: 0.063rem solid #8d8f8f;
@@ -363,6 +384,7 @@
 }
 
 .dash-projects {
+    background: #fff;
     display: none;
     flex-wrap: wrap;
     border-bottom: 0.063rem solid #8d8f8f;
@@ -456,6 +478,7 @@
 }
 
 .dash-groups {
+    background: #fff;
     display: none;
     justify-content: center;
     margin-top: 1em;
@@ -498,6 +521,7 @@
 
 
 .dash-resources {
+    background: #fff;
     display: none;
     padding: 1em;
     border-bottom: 0.063rem solid #8d8f8f;
@@ -726,8 +750,10 @@
 }
 
 .about-us {
+    background: #fff;
     display: none;
     padding: 1em;
+    border-bottom: 0.063rem solid #8d8f8f;
 }
 
 .general-information {
@@ -905,22 +931,52 @@
 /* Editado por Marcos y Mario*/
 /* Parte de abajo del navegador*/
 /* JAMAL HAZ LO TUYO*/
-.primer-section{
-    margin-left: 12em;
-    width:  35%;
-    margin-top: 2.5em;
+.primer-section {
+    display: flex;
+    margin-left: 5em;
+    margin-top: 12em;
+    width: 35%;
 }
-.texto-inicio h1{
+
+
+.primer-section .parents {
+    margin-left: 58%;
+    width: 140%;
+    height: 30em;
+}
+
+
+.texto-inicio h1 {
+    font-family: Poppins-Bold;
     color: #124231;
-    font-size: 3.7em;
-}
-.texto-inicio span{
-    color: #1c7652;
-
+    font-size: 3.5em;
+    width: 150%;
+    line-height: 1;
 }
 
-.btn-proyectos{
-    width: 30%;
+.texto-inicio span {
+    color: #2D9C6D;
+}
+
+.texto-inicio p {
+    margin-top: 2em;
+}
+
+.botones {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.btn-proyectos:hover {
+    background: #a1cdbc;
+}
+
+.btn-destinos:hover {
+    background: #a1cdbc;
+}
+
+.btn-proyectos {
+    padding: 2%;
     border: 0.125rem solid #124231;
     border-radius: 0.313rem;
     text-align: center;
@@ -929,8 +985,9 @@
     color: #186447;
     font-weight: bold;
 }
-.btn-destinos{
-    width: 30%;
+
+.btn-destinos {
+    padding: 2%;
     margin-top: 1em;
     margin-right: rem;
     background: #186447;
@@ -942,31 +999,31 @@
     color: #fff;
     font-weight: bold;
 }
-.trustpilot img{
+
+.trustpilot img {
     margin-top: 1em;
-    width: 55%;
+    width: 40%;
 }
-.segundo-section{
+
+.segundo-section {
     text-align: center;
-    width: 60em;
-    margin-left: 13em;
-    
+    margin: auto;
+    width: 90%;
+    font-size: larger;
+
 }
 
+.segundo-section h2 {
+    margin-top: 7rem;
+    color: #4A6F62;
+    font-family: Poppins-Bold;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.segundo-section .texto-segundo-section a {
+    color: #247B58;
+    font-family: Poppins-Bold;
+    font-size: small;
+}
 
 /* Pingünos */
 
