@@ -38,6 +38,7 @@
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 2;
 }
 
 .nav-min {
@@ -481,7 +482,7 @@
     background: #fff;
     display: none;
     justify-content: center;
-    margin-top: 1em;
+    margin-top: 0;
     border-bottom: 0.063rem solid #8d8f8f;
 }
 
