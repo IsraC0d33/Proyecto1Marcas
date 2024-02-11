@@ -5,7 +5,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Poppins-Medium;
+    font-family: Poppins-Medium,system-ui;
 
 }
 
@@ -51,7 +51,7 @@
     text-decoration: none;
     color: #B3C2BC;
     padding: 0.625rem;
-    font-family: Poppins;
+    font-family: Poppins,system-ui;
 }
 
 .nav-min a:hover {
@@ -105,7 +105,7 @@
 .list-max a {
     text-decoration: none;
     font-size: 1rem;
-    font-family: Poppins-Medium;
+    font-family: Poppins-Medium,system-ui;
     color: #686F7B;
     padding: 0 0.900rem;
 }
@@ -123,7 +123,7 @@
     text-align: center;
     font-size: 1.050rem;
     padding: 0.625rem;
-    font-family: Poppins-Medium;
+    font-family: Poppins-Medium,system-ui;
     color: #186447;
     font-weight: bold;
 }
@@ -142,7 +142,7 @@
     text-align: center;
     font-size: 1.050rem;
     padding: 0.625rem;
-    font-family: Poppins-Medium;
+    font-family: Poppins-Medium,system-ui;
     color: #fff;
     font-weight: bold;
 }
@@ -949,7 +949,7 @@
 
 
 .texto-inicio h1 {
-    font-family: PoppinsBold;
+    font-family: PoppinsBold,system-ui;
     color: #124231;
     font-size: 3.5em;
     width: 150%;
@@ -983,7 +983,7 @@
     border-radius: 0.313rem;
     text-align: center;
     font-size: 1.050rem;
-    font-family: Poppins-Medium;
+    font-family: Poppins-Medium,system-ui;
     color: #186447;
     font-weight: bold;
 }
@@ -997,7 +997,7 @@
     border-radius: 0.313rem;
     text-align: center;
     font-size: 1.050rem;
-    font-family: Poppins-Medium;
+    font-family: Poppins-Medium,system-ui;
     color: #fff;
     font-weight: bold;
 }
@@ -1018,12 +1018,12 @@
 .segundo-section h2 {
     margin-top: 7rem;
     color: #4A6F62;
-    font-family: PoppinsBold;
+    font-family: PoppinsBold,system-ui;
 }
 
 .segundo-section .texto-segundo-section a {
     color: #247B58;
-    font-family: PoppinsBold;
+    font-family: PoppinsBold,system-ui;
     font-size: small;
 }
 
@@ -1045,7 +1045,7 @@
 
 .titulo-tercer-section {
     font-size: larger;
-    font-family: PoppinsBold;
+    font-family: PoppinsBold,system-ui;
     color: #144231;
 }
 
