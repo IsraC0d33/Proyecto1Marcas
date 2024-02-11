@@ -22,4 +22,4 @@ jobs:
           args: >
             -Dsonar.organization=israc0d33
             -Dsonar.projectKey=IsraC0d33_Proyecto1Marcas
-            -Dsonar.sources=./index.html
+            -Dsonar.sources=/github/Proyecto1Marcas/index.html
