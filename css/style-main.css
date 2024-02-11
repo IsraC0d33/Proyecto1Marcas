@@ -2,12 +2,7 @@
 
 
 /* Editado por : Jamal Rabah */
-* {
-    padding: 0;
-    margin: 0;
-    font-family: Poppins-Medium,system-ui;
 
-}
 
 @font-face {
     font-family: Poppins;
@@ -15,13 +10,19 @@
 }
 
 @font-face {
-    font-family: Poppins-Medium;
+    font-family: PoppinsMedium;
     src: url(../font/Poppins-Medium.ttf);
 }
 
 @font-face {
     font-family: PoppinsBold;
     src: url(../font/Poppins-Bold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: PoppinsMedium,system-ui;
 }
 
 /*!SECTION Importante una vez hayamos acabado el header hay que hacer positions fixed para el header pequeño y el grande*/
@@ -105,7 +106,7 @@
 .list-max a {
     text-decoration: none;
     font-size: 1rem;
-    font-family: Poppins-Medium,system-ui;
+    font-family: PoppinsMedium,system-ui;
     color: #686F7B;
     padding: 0 0.900rem;
 }
@@ -123,7 +124,7 @@
     text-align: center;
     font-size: 1.050rem;
     padding: 0.625rem;
-    font-family: Poppins-Medium,system-ui;
+    font-family: PoppinsMedium,system-ui;
     color: #186447;
     font-weight: bold;
 }
@@ -142,7 +143,7 @@
     text-align: center;
     font-size: 1.050rem;
     padding: 0.625rem;
-    font-family: Poppins-Medium,system-ui;
+    font-family: PoppinsMedium,system-ui;
     color: #fff;
     font-weight: bold;
 }
@@ -983,7 +984,7 @@
     border-radius: 0.313rem;
     text-align: center;
     font-size: 1.050rem;
-    font-family: Poppins-Medium,system-ui;
+    font-family: PoppinsMedium,system-ui;
     color: #186447;
     font-weight: bold;
 }
@@ -997,7 +998,7 @@
     border-radius: 0.313rem;
     text-align: center;
     font-size: 1.050rem;
-    font-family: Poppins-Medium,system-ui;
+    font-family: PoppinsMedium,system-ui;
     color: #fff;
     font-weight: bold;
 }
