@@ -1027,6 +1027,47 @@
     font-size: small;
 }
 
+/* Editado por Jamal Rabah */
+/* Arreglar las banderas y sus nombres */
+.tercer-section div {
+    display: flex;
+    margin: 3rem;
+}
+
+.destinos-destacados .tarjetas-tercer-section {
+    padding-left: 0;
+}
+
+.destinos-destacados a {
+    padding-right: 2.5rem;
+    text-decoration: none;
+}
+
+.titulo-tercer-section {
+    font-size: larger;
+    font-family: Poppins-Bold;
+    color: #144231;
+}
+
+.titulo-tercer-section a {
+    font-size: small;
+    text-decoration: none;
+    margin-left: auto;
+    margin-top: 0.5rem;
+}
+
+.tercer-section img {
+    width: 20rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+
+.tarjetas-tercer-section .bandera-pais img {
+    width: 2rem;
+}
+
+
+
 /* Iconos */
 /* Son solo pruebas esta parte de css se borrara -Meteremos clases a cada icon- */
 .icons i {
@@ -1069,6 +1110,7 @@
     header {
         display: none;
     }
+
     main {
         display: none;
     }
