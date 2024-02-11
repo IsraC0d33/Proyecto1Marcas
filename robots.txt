@@ -9,3 +9,5 @@ Crawl-delay: 2
 
 User-agent: Bingbot
 Crawl-delay: 5
+
+Sitemap: https://israc0d33.github.io/Proyecto1Marcas/sitemap.xml
