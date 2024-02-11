@@ -58,10 +58,6 @@
 
 </div>
 
-> [!WARNING]\
-> No os preocupéis, este mensaje solo es temporal hasta que los nuevos workflows funcionen correctamente, os dejo un docs oficial sobre el uso de workflows
-> [Github](https://docs.github.com/en/actions/using-workflows).
-
 <img align="center" width="100%" height="200" src="https://www.scgchemicals.com/assets/img/element/dot-banner.png" />
 
 <br>
