@@ -20,7 +20,7 @@
 }
 
 @font-face {
-    font-family: Poppins-Bold;
+    font-family: PoppinsBold;
     src: url(../font/Poppins-Bold.ttf);
 }
 
@@ -949,7 +949,7 @@
 
 
 .texto-inicio h1 {
-    font-family: Poppins-Bold;
+    font-family: PoppinsBold;
     color: #124231;
     font-size: 3.5em;
     width: 150%;
@@ -1018,12 +1018,12 @@
 .segundo-section h2 {
     margin-top: 7rem;
     color: #4A6F62;
-    font-family: Poppins-Bold;
+    font-family: PoppinsBold;
 }
 
 .segundo-section .texto-segundo-section a {
     color: #247B58;
-    font-family: Poppins-Bold;
+    font-family: PoppinsBold;
     font-size: small;
 }
 
@@ -1045,7 +1045,7 @@
 
 .titulo-tercer-section {
     font-size: larger;
-    font-family: Poppins-Bold;
+    font-family: PoppinsBold;
     color: #144231;
 }
 
