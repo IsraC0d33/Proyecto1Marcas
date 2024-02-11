@@ -27,6 +27,15 @@
 
 ![Static Badge](https://img.shields.io/badge/Saludos-Bienvenidos%20a%20nuestra%20Practica-orange?style=for-the-badge&logo=bandsintown&logoColor=%23fff)
 
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
+<br>
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=IsraC0d33_Proyecto1Marcas)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
+<br>
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
+
+
+
 ![GitHub top language](https://img.shields.io/github/languages/top/IsraC0d33/Proyecto1Marcas?logo=html5)
 [![release](https://img.shields.io/github/v/release/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/releases)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fisrac0d33.github.io%2FProyecto1Marcas%2F&logo=webauthn&logoColor=%23000&labelColor=%23fff)](https://israc0d33.github.io/Proyecto1Marcas/)
