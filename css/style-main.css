@@ -39,13 +39,14 @@
     width: 100%;
     margin-top: 2.5rem;
     top: 0;
+    z-index: 99;
 }
 
 .header-nav-min {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 2;
+    z-index: 999;
 }
 
 .nav-min {
@@ -936,6 +937,10 @@
     margin-left: 22rem;
 }
 
+.gray {
+    background: #F9FAFB;
+}
+
 /* Editado por Marcos y Mario*/
 /* Parte de abajo del navegador*/
 /* Hecho, cambiado algunas partes por Jamal */
@@ -1043,7 +1048,6 @@
     margin: 2rem;
 }
 
-
 .destinos-destacados a {
     padding-right: 2.5rem;
     text-decoration: none;
@@ -1131,6 +1135,266 @@
     color: #1C7673;
     text-decoration-color: #BDE3D4;
 }
+
+
+/* Editado por Jamal Rabah */
+.quinto-section {
+    margin: 2rem;
+}
+
+.titulo-quinto-section h1 {
+    font-size: xx-large;
+    color: #16513B;
+    font-family: PoppinsBold, system-ui;
+}
+
+.quinto-section img {
+    width: 20rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+
+.quinto-section a {
+    padding-right: 2.5rem;
+    text-decoration: none;
+    color: #16513B;
+}
+
+.subSection {
+    display: flex;
+}
+
+/* Arreglarlo y ponerlo a ala izquierda */
+.titulo-quinto-section a {
+    font-size: small;
+    text-decoration: none;
+    margin-left: auto;
+    margin-top: 0.5rem;
+}
+
+
+
+/* Editado por Jamal Rabah */
+.sexto-section {
+    margin-top: 6rem;
+}
+
+.tarjetas-sexto-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-left: 10%;
+    margin-bottom: 4rem;
+}
+
+.tarjetas-sexto-section img {
+    position: absolute;
+    background: #2D9C6D;
+    width: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.tarjeta-sexto {
+    width: 30%;
+    padding: 1rem;
+}
+
+.texto-sexto h3 {
+    margin-top: 0.5rem;
+    margin-left: 3.5rem;
+}
+
+.texto-sexto p {
+    width: 80%;
+    margin-left: 3.5rem;
+}
+
+.titulo-sexto {
+    text-align: center;
+}
+
+.titulo-sexto h1 {
+    font-size: xx-large;
+    color: #16513B;
+    font-family: PoppinsBold, system-ui;
+}
+
+.titulo-sexto p {
+    width: 50%;
+    margin: auto;
+    font-size: large;
+    font-weight: lighter;
+    color: #7F8088;
+}
+
+/* Editado por Jamal Rabah */
+.septimo-section {
+    margin-left: 3.5rem;
+    background: #FFFFFF;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+}
+
+.septimo-section h2 {
+    font-size: xx-large;
+}
+
+.imagenes-septimo img {
+    width: 20%;
+    padding-left: 2rem;
+}
+
+.septimo-section span {
+    color: #437652;
+}
+
+/* Editado por Jamal Rabah */
+.octavo-section {
+    margin-top: 5rem;
+}
+
+.titulo-octavo {
+    text-align: center;
+}
+
+.titulo-octavo h2 {
+    font-size: xx-large;
+    color: #16513B;
+    font-family: PoppinsBold, system-ui;
+}
+
+.titulo-octavo p {
+    width: 50%;
+    margin: auto;
+    font-size: large;
+    font-weight: lighter;
+    color: #7F8088;
+}
+
+.tarjetas-octavo-section {
+    display: flex;
+    align-items: center;
+}
+
+.tarjeta-octavo {
+    margin-top: 4rem;
+    padding-left: 1.5rem;
+    margin-bottom: 7rem;
+}
+
+.tarjeta-octavo img {
+    width: 30rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.tarjeta-octavo h2 {
+    width: 100%;
+    font-size: x-large;
+    font-family: PoppinsBold, system-ui;
+    font-weight: 900;
+}
+
+.two-images {
+    margin-top: 1.5rem;
+}
+
+.three-image {
+    margin-top: 4.6rem;
+}
+
+.tarjeta-octavo p {
+    color: #7D838F;
+}
+
+/* Editado por Jamal Rabah */
+.titulo-noveno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    background: #EFFAF4;
+}
+
+.titulo-noveno p {
+    color: #237B58;
+    font-family: PoppinsBold, system-ui;
+    font-weight: 900;
+}
+
+.tarjetas-noveno-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    background: #E3F7EC;
+}
+
+.tarjetas-noveno-section-sub {
+    height: fit-content;
+    width: 90%;
+}
+
+
+.tarjetas-noveno-section img {
+    width: 10%;
+    padding-left: 10rem;
+}
+
+/* Editado por Jamal Rabah */
+.decimo-section {
+    background: #15503A;
+    height: 25rem;
+}
+
+.titulo-decimo h2 {
+    padding-top: 2rem;
+    text-align: center;
+    color: #fff;
+    font-family: PoppinsBold, system-ui;
+    font-size: xx-large;
+}
+
+.titulo-decimo p {
+    text-align: center;
+    color: #B3E5CA;
+    margin-top: 0.5rem;
+}
+
+.contact-info-decimo {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.contact-info-decimo i {
+    font-size: larger;
+    background: #40C351;
+    border-radius: 1rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.contact-info-decimo img {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.contact-info {
+    margin: auto;
+    background: #FFFFFF;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: #318362;
+    cursor: pointer;
+}
+
+
+
 
 
 /* Iconos */
