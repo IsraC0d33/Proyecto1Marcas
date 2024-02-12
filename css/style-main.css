@@ -1031,15 +1031,18 @@
 /* Arreglar las banderas y sus nombres */
 .tercer-section div {
     display: flex;
-    background-color: yellow;
     margin: 3rem;
-  
+    
+
 }
 
 .destinos-destacados .tarjetas-tercer-section {
     padding-left: 0;
 }
 
+.destinos-destacados div{
+    
+}
 
 .destinos-destacados a {
     padding-right: 2.5rem;
@@ -1066,7 +1069,6 @@
     font-size: smaller;
 }
 .bandera-pais p{
-    background-color: blue;
     height: 2em;
     color: #124231;
     font-size:large;
@@ -1081,6 +1083,12 @@
 .tarjetas-tercer-section .bandera-pais img {
     width: 2rem;
 }
+.bandera-pais {
+    background-color: blue;
+    width: fit-content;
+height: 1em;
+}
+
  
 
 .bandera-pais IMG{
