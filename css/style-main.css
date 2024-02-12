@@ -932,7 +932,6 @@
 
 /* Editado por Marcos y Mario*/
 /* Parte de abajo del navegador*/
-/* JAMAL HAZ LO TUYO*/
 /* Hecho, cambiado algunas partes por Jamal */
 .primer-section {
     display: flex;
@@ -1032,12 +1031,15 @@
 /* Arreglar las banderas y sus nombres */
 .tercer-section div {
     display: flex;
+    background-color: yellow;
     margin: 3rem;
+  
 }
 
 .destinos-destacados .tarjetas-tercer-section {
     padding-left: 0;
 }
+
 
 .destinos-destacados a {
     padding-right: 2.5rem;
@@ -1048,6 +1050,7 @@
     font-size: larger;
     font-family: PoppinsBold,system-ui;
     color: #144231;
+    
 }
 
 .titulo-tercer-section a {
@@ -1055,19 +1058,36 @@
     text-decoration: none;
     margin-left: auto;
     margin-top: 0.5rem;
+    
 }
 
+.tarjetas-tercer-section p{
+    color: #1c7652;
+    font-size: smaller;
+}
+.bandera-pais p{
+    background-color: blue;
+    height: 2em;
+    color: #124231;
+    font-size:large;
+    padding-top: 0%;
+}
 .tercer-section img {
-    width: 20rem;
-    height: 15rem;
+    width: 17rem;
+    height: 12rem;
     border-radius: 1rem;
 }
 
 .tarjetas-tercer-section .bandera-pais img {
     width: 2rem;
 }
+ 
 
-
+.bandera-pais IMG{
+    
+    margin-top:0PX ;
+    height: 2em;
+}
 
 /* Iconos */
 /* Son solo pruebas esta parte de css se borrara -Meteremos clases a cada icon- */
