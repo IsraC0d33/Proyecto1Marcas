@@ -14,9 +14,12 @@ jobs:
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
       - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '16'
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          nvm install 20
+          nvm use 20
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
