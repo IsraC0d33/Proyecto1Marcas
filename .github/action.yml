@@ -1,0 +1,6 @@
+name: 'Nombre de tu acción'
+description: 'Descripción de tu acción'
+
+runs:
+  using: 'node12'
+  node-version: '20'
