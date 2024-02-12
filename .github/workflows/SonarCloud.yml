@@ -9,6 +9,8 @@ jobs:
   sonarcloud:
     name: SonarCloud
     runs-on: ubuntu-latest
+    env:
+      NODE_VERSION: 20
     steps:
       - uses: actions/checkout@v3
         with:
