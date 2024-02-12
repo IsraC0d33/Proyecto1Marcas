@@ -22,7 +22,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: PoppinsMedium;
+    font-family: PoppinsMedium,system-ui;
 }
 
 /*!SECTION Importante una vez hayamos acabado el header hay que hacer positions fixed para el header pequeño y el grande*/
