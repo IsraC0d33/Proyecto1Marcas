@@ -33,7 +33,8 @@
 <br>
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
-
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 
 
 ![GitHub top language](https://img.shields.io/github/languages/top/IsraC0d33/Proyecto1Marcas?logo=html5)
