@@ -19,10 +19,16 @@
     src: url(../font/Poppins-Bold.ttf);
 }
 
+@font-face {
+    font-family: PoppinsLight;
+    src: url(../font/Poppins-Light.ttf);
+}
+
+
 * {
     padding: 0;
     margin: 0;
-    font-family: PoppinsMedium,system-ui;
+    font-family: PoppinsMedium, system-ui;
 }
 
 /*!SECTION Importante una vez hayamos acabado el header hay que hacer positions fixed para el header pequeño y el grande*/
@@ -52,7 +58,7 @@
     text-decoration: none;
     color: #B3C2BC;
     padding: 0.625rem;
-    font-family: Poppins,system-ui;
+    font-family: Poppins, system-ui;
 }
 
 .nav-min a:hover {
@@ -106,7 +112,7 @@
 .list-max a {
     text-decoration: none;
     font-size: 1rem;
-    font-family: PoppinsMedium,system-ui;
+    font-family: PoppinsMedium, system-ui;
     color: #686F7B;
     padding: 0 0.900rem;
 }
@@ -124,7 +130,7 @@
     text-align: center;
     font-size: 1.050rem;
     padding: 0.625rem;
-    font-family: PoppinsMedium,system-ui;
+    font-family: PoppinsMedium, system-ui;
     color: #186447;
     font-weight: bold;
 }
@@ -143,7 +149,7 @@
     text-align: center;
     font-size: 1.050rem;
     padding: 0.625rem;
-    font-family: PoppinsMedium,system-ui;
+    font-family: PoppinsMedium, system-ui;
     color: #fff;
     font-weight: bold;
 }
@@ -949,7 +955,7 @@
 
 
 .texto-inicio h1 {
-    font-family: PoppinsBold,system-ui;
+    font-family: PoppinsBold, system-ui;
     color: #124231;
     font-size: 3.5em;
     width: 150%;
@@ -983,7 +989,7 @@
     border-radius: 0.313rem;
     text-align: center;
     font-size: 1.050rem;
-    font-family: PoppinsMedium,system-ui;
+    font-family: PoppinsMedium, system-ui;
     color: #186447;
     font-weight: bold;
 }
@@ -997,7 +1003,7 @@
     border-radius: 0.313rem;
     text-align: center;
     font-size: 1.050rem;
-    font-family: PoppinsMedium,system-ui;
+    font-family: PoppinsMedium, system-ui;
     color: #fff;
     font-weight: bold;
 }
@@ -1018,12 +1024,12 @@
 .segundo-section h2 {
     margin-top: 7rem;
     color: #4A6F62;
-    font-family: PoppinsBold,system-ui;
+    font-family: PoppinsBold, system-ui;
 }
 
 .segundo-section .texto-segundo-section a {
     color: #247B58;
-    font-family: PoppinsBold,system-ui;
+    font-family: PoppinsBold, system-ui;
     font-size: small;
 }
 
@@ -1031,18 +1037,12 @@
 /* Arreglar las banderas y sus nombres */
 .tercer-section div {
     display: flex;
-    margin: 3rem;
-    
-
 }
 
-.destinos-destacados .tarjetas-tercer-section {
-    padding-left: 0;
+.tercer-section {
+    margin: 2rem;
 }
 
-.destinos-destacados div{
-    
-}
 
 .destinos-destacados a {
     padding-right: 2.5rem;
@@ -1051,9 +1051,8 @@
 
 .titulo-tercer-section {
     font-size: larger;
-    font-family: PoppinsBold,system-ui;
+    font-family: PoppinsBold, system-ui;
     color: #144231;
-    
 }
 
 .titulo-tercer-section a {
@@ -1061,41 +1060,78 @@
     text-decoration: none;
     margin-left: auto;
     margin-top: 0.5rem;
-    
 }
 
-.tarjetas-tercer-section p{
+.tarjetas-tercer-section p {
     color: #1c7652;
     font-size: smaller;
 }
-.bandera-pais p{
-    height: 2em;
-    color: #124231;
-    font-size:large;
-    padding-top: 0%;
+
+.bandera-pais p {
+    height: 5em;
+    color: #15503A;
+    font-size: xx-large;
+    font-family: PoppinsBold, system-ui;
 }
+
 .tercer-section img {
-    width: 17rem;
-    height: 12rem;
+    width: 100%;
+    height: 15em;
     border-radius: 1rem;
+    margin-top: 0.6rem;
 }
+
 
 .tarjetas-tercer-section .bandera-pais img {
     width: 2rem;
-}
-.bandera-pais {
-    background-color: blue;
-    width: fit-content;
-height: 1em;
+    height: fit-content;
+    border-radius: 0;
+    margin-right: 1rem;
 }
 
- 
+/* Editado por Jamal Rabah */
 
-.bandera-pais IMG{
-    
-    margin-top:0PX ;
-    height: 2em;
+.cuarto-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
+
+.cuarto-section img {
+    width: 45rem;
+    height: 30rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 2rem;
+}
+
+.cuarto-section h4 {
+    padding-left: 1.2rem;
+    margin-top: 1rem;
+    width: 90%;
+    font-size: x-large;
+    font-family: PoppinsLight, system-ui;
+}
+
+.cuarto-section p {
+    padding-left: 1.2rem;
+    font-size: 1rem;
+    width: 90%;
+    color: #717E8F;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cuarto-section .bricks {
+    margin-bottom: 2.6rem;
+}
+
+.tarjeta-cuarto-section a {
+    padding-left: 1.2rem;
+    color: #1C7673;
+    text-decoration-color: #BDE3D4;
+}
+
 
 /* Iconos */
 /* Son solo pruebas esta parte de css se borrara -Meteremos clases a cada icon- */
