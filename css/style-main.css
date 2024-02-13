@@ -1391,12 +1391,46 @@
 }
 
 
-/* Ultimo */
+/* Editado por Marcos y Mario */
 
 .undecimo-section img {
     width: 30%;
 }
-
+.tarjetas-undecimo-section{
+    display: flex;
+    padding-left: 10em;
+    background-color: #124231;
+}
+.tarjeta-undecimo h3{
+    color: #1c7652;
+}
+.tarjeta-undecimo{
+    margin-left: 2em;
+}
+.tarjeta-undecimo img{
+    width: 2em;
+    height: 2em;
+}
+.tarjeta-undecimo li{
+    color: white;
+    padding: 0.5em;
+    list-style: none;
+}
+.social-media-logos{
+    text-align: center;
+    width: fit-content;
+    border: 0.1rem solid  #1c7652;;
+    border-radius: 0.5em;
+}
+.social-media-logos img {
+    width: 6em;
+    height: 6em;
+}
+.sign-up{
+    color:white;
+    background-color: #1c7652;
+    
+}
 
 /* Iconos */
 /* Son solo pruebas esta parte de css se borrara -Meteremos clases a cada icon- */
@@ -1445,3 +1479,11 @@
         display: none;
     }
 }
+
+
+
+
+
+
+
+
