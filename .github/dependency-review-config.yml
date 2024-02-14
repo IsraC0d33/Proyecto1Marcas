@@ -1,0 +1,3 @@
+fail_on_severity: 'critical'
+allow_licenses:
+  - 'GPL-3.0'
