@@ -12,5 +12,6 @@ no requerimos actualizaciones frecuentes de seguridad.
 | ------- | ------------------ |
 |  <p align="center">1.0.x</p>  |        <p align="center">✖️</p>          |
 |  <p align="center">2.0.x</p>  |        <p align="center">✖️</p>          |
+|  <p align="center">3.0.x</p>  |        <p align="center">✖️</p>          |
 
 </div>
