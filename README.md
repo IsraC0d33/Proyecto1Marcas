@@ -81,7 +81,11 @@
 
 <div align="center">
 
-## 🧑‍💻 Participantes y Funciones 🧑‍💻
+## 🧑‍💻 Participantes 
+
+<a href="https://github.com/IsraC0d33/Proyecto1Marcas/graphs/contributors"><img src="https://contrib.rocks/image?repo=IsraC0d33/Proyecto1Marcas" /></a>
+
+## Funciones 🧑‍💻
 **Jamal Rabah** --> _Estructurador y medio HTML y medio CSS_
 <br>
 Crear la estructura de ficheros y archivos y crear parte de html y css.
