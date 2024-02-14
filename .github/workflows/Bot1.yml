@@ -1,0 +1,25 @@
+name: Auto Commit Bot
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Git
+      run: |
+        git config --global user.name 'Mamasita'
+        git config --global user.email 'ballwictb@gmail.com'
+
+    - name: Commit changes
+      run: |
+        git add .
+        git commit -m "Auto commit por el Bot"
+        git push
