@@ -12,7 +12,7 @@ assignees: ''
 
 Una descripción clara y concisa de lo que es el fallo.
 
-# Reproducir
+## Reproducir
 
 Pasos para reproducir el comportamiento:
 
@@ -21,21 +21,21 @@ Pasos para reproducir el comportamiento:
 3. Desplácese hasta '....'
 4. Ver error
 
-# Comportamiento esperado
+### Comportamiento esperado
 
 Una descripción clara y concisa de lo que espera que ocurra.
 
-# Capturas de pantalla
+#### Capturas de pantalla
 
 Si procede, añada capturas de pantalla para ayudar a explicar su problema.
 
-# Escritorio (complete la siguiente información):
+##### Escritorio (complete la siguiente información):
 
    - OS: [e.g. iOS]
    - Navegador [e.g. chrome, safari]
    - Version [e.g. 22]
 
-# Smartphone (por favor, complete la siguiente información):
+###### Smartphone (por favor, complete la siguiente información):
 
    - Dispositivo: [e.g. iPhone6]
    - OS: [e.g. iOS8.1]
