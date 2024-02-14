@@ -3,7 +3,7 @@
 
 
 <div align="center">
-<img src="https://github.com/IsraC0d33/Proyecto1Marcas/blob/main/assets/marca.gif" width="400">
+<a href="https://github.com/IsraC0d33/Proyecto1Marcas"><img src="https://github.com/IsraC0d33/Proyecto1Marcas/blob/main/assets/marca.gif" width="400"></a>
 </div>
 
 
