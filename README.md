@@ -147,7 +147,7 @@ Se encargará de revisar de la coherencia de la estructura y de un buen uso de l
 
 > [!IMPORTANT]\
 > Queremos hacer hincapié en que estamos llevando a cabo una práctica de Marcas bajo la supervisión de nuestra profesora.\
-> Las distintas versiones que desarrollaremos dependerán de las peticiones que nos haga nuestra profesora, y en la actualidad nos encontramos en la versión `v2.0.x`.\
+> Las distintas versiones que desarrollaremos dependerán de las peticiones que nos haga nuestra profesora, y en la actualidad nos encontramos en la versión `v3.0.x`.\
 > Es importante destacar que no nos responsabilizamos por cualquier daño o malentendido que pueda surgir.
 
 
