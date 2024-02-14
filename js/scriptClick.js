@@ -6,7 +6,7 @@ let countries = container.querySelectorAll('div');
 
 //REVIEW - Creando un objeto para poder añadir los siguientes paises. 
 
-const rugged = [
+const rugged = {
     esp: () => {
         for (let i = 1; i < countries.length; i++) {
             if (countries[i].style.display == 'none') {
@@ -20,7 +20,7 @@ const rugged = [
     pt: {},
     it: {},
     de: {}
-]
+};
 
 
 //REVIEW -  Prueba superada - {Cambio a un codigo mas flexible}
