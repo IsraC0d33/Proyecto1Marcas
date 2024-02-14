@@ -52,7 +52,8 @@
 [![Greetings](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/greetings.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/greetings.yml)
 [![pages-build-deployment](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/pages/pages-build-deployment)
 <br>
-[![Build](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/SonarCloud.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/SonarCloud.yml)
+[![SonarCLoud](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/SonarCloud.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/SonarCloud.yml)
+[![Codacy Security Scan](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/codacy.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/codacy.yml)
 <br>
 <br>
 
