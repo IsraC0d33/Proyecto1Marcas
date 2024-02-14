@@ -8,7 +8,7 @@ assignees: ''
 
 ---
 
-# Describa el fallo
+## Describa el fallo
 
 Una descripción clara y concisa de lo que es el fallo.
 
@@ -29,18 +29,16 @@ Una descripción clara y concisa de lo que espera que ocurra.
 
 Si procede, añada capturas de pantalla para ayudar a explicar su problema.
 
-## Escritorio (complete la siguiente información):
+* Escritorio (complete la siguiente información)
+  * OS: [e.g. iOS]
+  * Navegador [e.g. chrome, safari]
+  * Version [e.g. 22]
 
-  - OS: [e.g. iOS]
-  - Navegador [e.g. chrome, safari]
-  - Version [e.g. 22]
-
-## Smartphone (por favor, complete la siguiente información)
-
-  - Dispositivo: [e.g. iPhone6]
-  - OS: [e.g. iOS8.1]
-  - Navegador [e.g. stock browser, safari]
-  - Version [e.g. 22]
+* Smartphone (por favor, complete la siguiente información)
+  * Dispositivo: [e.g. iPhone6]
+  * OS: [e.g. iOS8.1]
+  * Navegador [e.g. stock browser, safari]
+  * Version [e.g. 22]
 
 ## Contexto adicional
 
