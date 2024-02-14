@@ -22,4 +22,5 @@ jobs:
       run: |
         git add .
         git commit -m "Auto commit por el Bot"
+        git remote set-url origin https://IsraC0d33:${{ secrets.GITHUB_TOKEN }}@github.com/IsraC0d33/Proyecto1Marcas.git
         git push
