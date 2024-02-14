@@ -27,6 +27,7 @@
 
 ![Static Badge](https://img.shields.io/badge/Saludos-Bienvenidos%20a%20nuestra%20Practica-orange?style=for-the-badge&logo=bandsintown&logoColor=%23fff)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f4c18c37b7a5446092638ac5901bb9bd)](https://app.codacy.com/gh/IsraC0d33/Proyecto1Marcas?utm_source=github.com&utm_medium=referral&utm_content=IsraC0d33/Proyecto1Marcas&utm_campaign=Badge_Grade)
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 <br>
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=IsraC0d33_Proyecto1Marcas)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
