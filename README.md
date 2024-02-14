@@ -31,6 +31,7 @@
 <br>
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=IsraC0d33_Proyecto1Marcas)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 <br>
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/103f6e4133a542b3ab5aa9a1a0d2d9dd)](https://app.codacy.com/gh/IsraC0d33/Proyecto1Marcas/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
