@@ -58,6 +58,9 @@
 
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fvalidator.w3.org%2Fnu%3F%2Fdoc%3Dhttps%253A%252F%252Fgithub.com%252FIsraC0d33%252FProyecto1Marcas%252Fblob%252Fmain%252Findex.html&preset=HTML%2C%20SVG%201.1%2C%20MathML%203.0&style=plastic&logo=w3schools)
 
+<a href="http://www.w3.org/WAI/WCAG1A-Conformance" title="Explicación del Nivel A de Conformidad">
+<img height="42" width="98" src="http://www.w3.org/WAI/wcag1A-blue" alt="Icono de conformidad con el Nivel A, de las Directrices de Accesibilidad para el Contenido Web 1.0 del W3C-WAI"></a>
+
 </div>
 
 <img align="center" width="100%" height="200" src="https://www.scgchemicals.com/assets/img/element/dot-banner.png" />
