@@ -53,7 +53,7 @@
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fisrac0d33.github.io%2FProyecto1Marcas%2F&logo=webauthn&logoColor=%23000&labelColor=%23fff)](https://israc0d33.github.io/Proyecto1Marcas/)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/graphs/contributors)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/IsraC0d33/Proyecto1Marcas?display_date=published_at&logo=wakatime&logoColor=%23EE3124)
-![GitHub License](https://img.shields.io/github/license/IsraC0d33/Proyecto1Marcas)
+[![GitHub License](https://img.shields.io/github/license/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/tree/main?tab=License-2-ov-file)
 
 <br>
 
