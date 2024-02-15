@@ -1,5 +1,5 @@
 
-GNU GENERAL PUBLIC LICENSE
+
 ---
 
 # 3rd-Party Software for [Proyecto1Marcas]()
@@ -20,7 +20,7 @@ Date generated | Revision ID
 
 ### GPL-3.0-only
 
-```
+
 GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
 Copyright © 2007 Free Software Foundation, Inc. &lt;http s ://fsf.org/&gt;
@@ -147,14 +147,6 @@ This is free software, and you are welcome to redistribute it under certain cond
 The hypothetical commands `show w&#39; and `show c&#39; should show the appropriate parts of the General Public License. Of course, your program&#39;s commands might be different; for a GUI interface, you would use an &quot;about box&quot;.
 You should also get your employer (if you work as a programmer) or school, if any, to sign a &quot;copyright disclaimer&quot; for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see &lt;http s ://www.gnu.org/licenses/&gt;.
 The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read &lt;http s ://www.gnu.org/philosophy/why-not-lgpl.html&gt;.
-```
-
-
-
-
-
-
-
 
 [FOSSA]: # (Do not touch the comments below)
 
