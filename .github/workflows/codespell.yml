@@ -12,4 +12,4 @@ jobs:
       - name: Set language environment variable
         run: export LANGUAGE=es
       - name: Run Codespell
-        run: codespell --config ./codespell_config.ini ./
+        run: codespell --config .codespell_config.ini ./
