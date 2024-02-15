@@ -1,4 +1,5 @@
 
+GNU GENERAL PUBLIC LICENSE
 ---
 
 # 3rd-Party Software for [Proyecto1Marcas]()
