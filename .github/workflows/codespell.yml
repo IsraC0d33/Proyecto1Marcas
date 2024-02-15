@@ -9,13 +9,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x' # Asegúrate de especificar la versión correcta de Python que necesitas
-      - name: Install Codespell
-        run: pip install codespell
       - name: Set language environment variable
         run: export LANGUAGE=es
       - name: Run Codespell
-        run: codespell --config .codespell_config.ini ./
+        run: codespell --config ./codespell_config.ini ./
