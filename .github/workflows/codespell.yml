@@ -16,5 +16,4 @@ jobs:
       - name: Install Codespell
         run: pip install codespell
       - name: Run Codespell
-        run: codespell --config .codespell_config.ini ./
-
+        run: codespell --config .codespell_config.ini --skip .codespell_config.ini ./
