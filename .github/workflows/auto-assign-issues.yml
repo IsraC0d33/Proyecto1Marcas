@@ -13,3 +13,4 @@ jobs:
               with:
                   assignees: IsraC0d33,MarcosAcedoLlerena,MarioGalanEscudero,roberto-ortizperez,MuiGt
                   numOfAssignee: 1
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
