@@ -19,6 +19,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Set language environment variable
-        run: export LANGUAGE=es
+        run: export LANGUAGE=ES
       - name: Codespell
         uses: codespell-project/actions-codespell@v2
