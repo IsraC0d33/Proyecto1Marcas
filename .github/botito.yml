@@ -1,0 +1,31 @@
+name: Actualizaciones de dependencias
+
+on:
+  schedule:
+    - cron: '0 0 * * *' 
+
+jobs:
+  update_dependencies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Actualizar dependencias de devcontainers
+        if: ${{ github.event_name == 'schedule' }}
+        run: |
+          # Actualizar dependencias de devcontainers
+          echo "Actualizando dependencias de devcontainers"
+          git add .
+          git commit -m "build(deps): Actualizar dependencias de devcontainers"
+          git push
+
+      - name: Actualizar dependencias de github-actions
+        if: ${{ github.event_name == 'schedule' }}
+        run: |
+          # Actualizar dependencias de github-actions
+          echo "Actualizando dependencias de github-actions"
+          git add .
+          git commit -m "mamasita: Actualizar dependencias de github-actions"
+          git push
