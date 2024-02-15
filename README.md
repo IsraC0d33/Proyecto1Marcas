@@ -149,6 +149,6 @@
 > Las distintas versiones que desarrollaremos dependerán de las peticiones que nos haga nuestra profesora, y en la actualidad nos encontramos en la versión `v3.0.x`.\
 > Es importante destacar que no nos responsabilizamos por cualquier daño o malentendido que pueda surgir.
 
-<p align="center"><a href="https://github.com/IsraC0d33/Proyecto1Marcas"><img src="http://randojs.com/images/barsSmall.gif" alt="Barras animadas" width="100%"/></a></p>
+<p align="center"><a href="https://github.com/IsraC0d33/Proyecto1Marcas/pulse"><img src="http://randojs.com/images/barsSmall.gif" alt="Barras animadas" width="100%"/></a></p>
 
 <p align="center"><a href="https://github.com/IsraC0d33/Proyecto1Marcas"><img src="http://randojs.com/images/backToTopButton.png" alt="Volver al principio" height="30"/></a></p>
