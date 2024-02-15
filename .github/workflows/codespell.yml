@@ -3,7 +3,7 @@ on: [push, pull_request]
 permissions: {}
 jobs:
   codespell:
-    name: Verificar CamelCase de Clases
+    name: Verificar Ortografía en Español
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -16,4 +16,4 @@ jobs:
       - name: Install Codespell
         run: pip install codespell
       - name: Run Codespell
-        run: codespell --config ./.codespell_config.ini --skip ./.codespell_config.ini ./
+        run: codespell --language es ./
