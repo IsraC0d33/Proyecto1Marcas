@@ -3,13 +3,18 @@ on: [push, pull_request]
 permissions: {}
 jobs:
   codespell:
-    name: Verificar errores de ortografía
+    name: Verificar CamelCase de Clases
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
-      - name: Set language environment variable
-        run: export LANGUAGE=es
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install Codespell
+        run: pip install codespell
       - name: Run Codespell
         run: codespell --config .codespell_config.ini ./
+
