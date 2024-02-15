@@ -1,16 +1,22 @@
 name: 'Close stale issues and PRs'
 on:
   schedule:
-    - cron: '41 10 * * *'
-
+    - cron: '30 1 * * *'
+ 
 jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v9
+      - uses: actions/stale@v3
         with:
-          days-before-issue-close: 1
-          close-issue-message: 'Esta issue se a cerrado por que no ha habido actividad durante 1 dia'
-          exempt-all-pr-assignees: true
-          enable-statistics: true
-          debug-only: true
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          stale-issue-message: 'Este tema está obsoleto porque lleva abierto 2 días sin actividad. Elimina la etiqueta o el comentario o se cerrará en 3 días.'
+          stale-pr-message: 'Este PR está obsoleto porque lleva abierto 5 días sin actividad. Elimine la etiqueta de obsoleto o coméntelo o se cerrará en 10 días.'
+          close-issue-message: 'Este tema se ha cerrado porque lleva 5 días parado sin actividad.'
+          exempt-all-issue-assignees: true # no cierra una incidencia si se le ha asignado a alguien.
+          close-pr-message: 'Este PR se cerró porque lleva 10 días estancado sin actividad.'
+          exempt-all-pr-assignees: true # no cierra un pr si alguien fue asignado a él.
+          days-before-issue-stale: 2
+          days-before-pr-stale: 5
+          days-before-issue-close: 3
+          days-before-pr-close: 10
