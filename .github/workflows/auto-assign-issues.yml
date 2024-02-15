@@ -10,9 +10,10 @@ jobs:
     steps:
       - name: Assign to all users
         id: assign
-        run: |
-          assignees=("IsraC0d33" "MarcosAcedoLlerena" "MarioGalanEscudero" "roberto-ortizperez" "MuiGt")
-          for assignee in "${assignees[@]}"; do
-            echo "Assigning to $assignee"
-            github.issues.addAssignees({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, assignees: [assignee] });
-          done
+        uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/:owner/:repo/issues/:issue_number/assignees
+          owner: ${{ github.repository_owner }}
+          repo: ${{ github.event.repository.name }}
+          issue_number: ${{ github.event.issue.number }}
+          assignees: IsraC0d33,MarcosAcedoLlerena,MarioGalanEscudero,roberto-ortizperez,MuiGt
