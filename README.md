@@ -3,7 +3,7 @@
 
 
 <div align="center">
-<a href="https://github.com/IsraC0d33/Proyecto1Marcas"><img src="https://github.com/IsraC0d33/Proyecto1Marcas/blob/main/assets/marca.gif" width="400"></a>
+<a href="https://github.com/IsraC0d33/Proyecto1Marcas"><img src="https://github.com/IsraC0d33/Proyecto1Marcas/blob/main/assets/marca.gif" width="300"></a>
 </div>
 
 
@@ -19,6 +19,9 @@
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
   </a> 
+  <a href="https://docs.docker.com/get-started/overview/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="50" height="50"/>
+  </a>
 </p>
 
 <div align="center">
@@ -29,17 +32,29 @@
 <br>
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=IsraC0d33_Proyecto1Marcas)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 <br>
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FIsraC0d33%2FProyecto1Marcas.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FIsraC0d33%2FProyecto1Marcas?ref=badge_small)
+<details>
+  
+  [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FIsraC0d33%2FProyecto1Marcas.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2FIsraC0d33%2FProyecto1Marcas?ref=badge_large&issueType=license)
+
+</details>
+
+
+
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/103f6e4133a542b3ab5aa9a1a0d2d9dd)](https://app.codacy.com/gh/IsraC0d33/Proyecto1Marcas/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
+
 ![GitHub top language](https://img.shields.io/github/languages/top/IsraC0d33/Proyecto1Marcas?logo=html5)
 [![release](https://img.shields.io/github/v/release/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/releases)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fisrac0d33.github.io%2FProyecto1Marcas%2F&logo=webauthn&logoColor=%23000&labelColor=%23fff)](https://israc0d33.github.io/Proyecto1Marcas/)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/graphs/contributors)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/IsraC0d33/Proyecto1Marcas?display_date=published_at&logo=wakatime&logoColor=%23EE3124)
+![GitHub License](https://img.shields.io/github/license/IsraC0d33/Proyecto1Marcas)
+
 <br>
 
 [![CodeQL](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/codeql.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/codeql.yml)
