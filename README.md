@@ -1,7 +1,3 @@
-
-
-
-
 <div align="center">
 <a href="https://github.com/IsraC0d33/Proyecto1Marcas"><img src="https://github.com/IsraC0d33/Proyecto1Marcas/blob/main/assets/marca.gif" width="400"></a>
 </div>
@@ -127,7 +123,8 @@
 
 &#8546; Lo que está ya hecho
 
-![Jira](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/6d58a8d9-b76c-477b-a9ad-0d53d3357624)
+![Jira](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/6d58a8d9-b76c-477b-a9ad-0d53d3357624)[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FIsraC0d33%2FProyecto1Marcas.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FIsraC0d33%2FProyecto1Marcas?ref=badge_shield)
+
 
 -------------------------------------------------------------------------------------
 
@@ -152,3 +149,7 @@
 <p align="center"><a href="https://github.com/IsraC0d33/Proyecto1Marcas/pulse"><img src="http://randojs.com/images/barsSmall.gif" alt="Barras animadas" width="100%"/></a></p>
 
 <p align="center"><a href="https://github.com/IsraC0d33/Proyecto1Marcas"><img src="http://randojs.com/images/backToTopButton.png" alt="Volver al principio" height="30"/></a></p>
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FIsraC0d33%2FProyecto1Marcas.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FIsraC0d33%2FProyecto1Marcas?ref=badge_large)
