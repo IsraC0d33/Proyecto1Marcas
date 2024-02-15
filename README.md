@@ -9,7 +9,6 @@
 
 <h1 align="center">💡Proyecto Marcas💡</h1>
 
-
 <p align="center">
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
@@ -24,7 +23,6 @@
 
 <div align="center">
 
-
 ![Static Badge](https://img.shields.io/badge/Saludos-Bienvenidos%20a%20nuestra%20Practica-orange?style=for-the-badge&logo=bandsintown&logoColor=%23fff)
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
@@ -37,16 +35,12 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/103f6e4133a542b3ab5aa9a1a0d2d9dd)](https://app.codacy.com/gh/IsraC0d33/Proyecto1Marcas/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
-
 ![GitHub top language](https://img.shields.io/github/languages/top/IsraC0d33/Proyecto1Marcas?logo=html5)
 [![release](https://img.shields.io/github/v/release/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/releases)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fisrac0d33.github.io%2FProyecto1Marcas%2F&logo=webauthn&logoColor=%23000&labelColor=%23fff)](https://israc0d33.github.io/Proyecto1Marcas/)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/graphs/contributors)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/IsraC0d33/Proyecto1Marcas?display_date=published_at&logo=wakatime&logoColor=%23EE3124)
 <br>
-
-
-
 
 [![CodeQL](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/codeql.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/codeql.yml)
 [![Greetings](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/greetings.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/greetings.yml)
@@ -73,10 +67,6 @@
 
 ###
 
-
-
-
-
 > [!NOTE]\
 > Para los colaboradores/líderes, les proporciono el enlace a nuestra segunda herramienta que utilizaremos en esta práctica, [Jira](https://pruebaisra.atlassian.net/jira/software/projects/KAN/boards/1).
 
@@ -86,67 +76,72 @@
 
 <a href="https://github.com/IsraC0d33/Proyecto1Marcas/graphs/contributors"><img src="https://contrib.rocks/image?repo=IsraC0d33/Proyecto1Marcas" /></a>
 
-## Funciones 🧑‍💻
-**Jamal Rabah** --> _Estructurador y medio HTML y medio CSS_
+<h3>🪐 Actividad Repo 🪐</h3>
 <br>
-Crear la estructura de ficheros y archivos y crear parte de html y css.
+  
+![Repo Activity](https://repobeats.axiom.co/api/embed/f7a7d5082a4d91d7cc281ed2d5aa9a2d66bea70f.svg)
+
+<br>
+
+## Funciones 🧑‍💻
+🛸 **Jamal Rabah** ⇢  **_Estructurador y medio HTML y medio CSS_**
+<br>
+```Crear la estructura de ficheros y archivos y crear parte de html y css.```
 
 ![Estructura](https://github.com/IsraC0d33/Proyecto1Marcas/blob/main/assets/estructura1.png)
 ![Estructura](https://github.com/IsraC0d33/Proyecto1Marcas/blob/main/assets/estructura2.png)
 
 -------------------------------------------------------------------------------------
 
-**Roberto Ortiz** --> _HTML_
+🚀 **Roberto Ortiz** ⇢ **_HTML_**
 <br>
-Encargarse de rellenar los archivos HTML que posteriormente Jamal ha creado.
+```Encargarse de rellenar los archivos HTML que posteriormente Jamal ha creado.```
 
 ![Codigo HTML](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/52bbf39a-178b-4b53-8f03-21f3ec3b8881)
 
 -------------------------------------------------------------------------------------
 
-**Equipo CSS**
+⚽ **Equipo CSS**
 <br>
 **Marcos Acedo,Mario Galán y Andrés Rodriguez**
 <br>
-_Encargarse del CSS_
+⇢
+**_Encargarse del CSS_**
 <br>
-Usar las clases creadas en HTML
+```Usar el esqueleto creado en HTML para darles estilo ```
 
 ![Codigo CSS](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/6d4732da-7c8b-454b-b931-4a82e14dc684)
 
 -------------------------------------------------------------------------------------
 
-**Israel Soriano** --> HTML && ORGANIZADOR
+🗺️ **Israel Soriano** ⇢ **_HTML && ORGANIZADOR_**
 <br>
-Encargarse de algunas partes del HTML.
+```Encargarse de algunas partes del HTML.```
 <br>
-Usar Jira para llevar un seguimiento de:>
-  
-1- Lo que está por hacer
-  
-2- Lo que está en proceso
 
-3- Lo que está ya hecho
+```Usar Jira para llevar un seguimiento de:>```
+
+&#8544; Lo que está por hacer
+  
+&#8545;  Lo que está en proceso
+
+&#8546; Lo que está ya hecho
 
 ![Jira](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/6d58a8d9-b76c-477b-a9ad-0d53d3357624)
 
 -------------------------------------------------------------------------------------
 
-**Andres Rodriguez** --> _Revision de la estructura_
+🕹️ **Andres Rodriguez** ⇢ **_Revision de la estructura_**
 <br>
-Aparte de encargarse/ayudar en la parte de css.
+```Aparte de encargarse/ayudar en la parte de css.```
 <br>
-Se encargará de revisar de la coherencia de la estructura y de un buen uso de las clases.
+```Se encargará de revisar de la coherencia de la estructura y de un buen uso de las clases.```
 
 ![Review](https://github.com/IsraC0d33/Proyecto1Marcas/assets/104717038/fa05b958-073c-417e-a63d-a6ca4c6ebfdb)
 
-
 <br>
 <hr>
-
-
-<br/>
-
+<br>
 </div>
 
 > [!IMPORTANT]\
