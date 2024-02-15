@@ -11,5 +11,4 @@ jobs:
           persist-credentials: false
       - uses: codespell-project/actions-codespell@master
         with:
-          check_filenames: true
-          args: --language=es
+          config: ./.codespell_config.ini
