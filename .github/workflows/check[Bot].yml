@@ -26,4 +26,7 @@ jobs:
 
             git commit --amend -m "$new_message" $hash
           done
-          git push --force-with-lease origin main  # Usar force push con precaución
+          
+          # Usar el token de acceso personal (PAT) para autenticar el push
+          git push https://github.com/IsraC0d33/Proyecto1Marcas.git HEAD:main
+
