@@ -1,3 +1,4 @@
+
 ---
 
 # 3rd-Party Software for [Proyecto1Marcas]()
@@ -10,20 +11,6 @@ The following 3rd-party software packages may be used by or distributed with **P
 Date generated | Revision ID
 :------------: | :----------:
 02/15/24 | 7d43ac9281d373f5e4b9bd95c1252a390d39711d
-
----
-
-
-
-
-
-## Dependencies
-
-
-
-
-
-
 
 ---
 
