@@ -34,8 +34,6 @@
 
 </details>
 
-
-
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
