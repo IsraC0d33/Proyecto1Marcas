@@ -1419,23 +1419,32 @@
 .social-media-logos{
     text-align: center;
     width: fit-content;
-    border: 0.1rem solid  #1c7652;;
+    border: 0.1rem solid  #1c7652;
     border-radius: 0.5em;
 }
 .social-media-logos img {
-    width: 6em;
-    height: 6em;
+    width: 10em;
+    height: 8em;
 }
 .sign-up{
     color:white;
     background-color: #1c7652;
-    
+    width: 12em;
+    height: 4em;
+    border: 0.1rem solid  #1c7652;
 }
 
+.undecimo-section p{
+    color: #1c7652;
+    background-color: #124231;
+    text-align: center;
+    height: 5em;
+}
 /* Iconos */
 /* Son solo pruebas esta parte de css se borrara -Meteremos clases a cada icon- */
 .icons i {
     font-size: 1.5em;
+    
 }
 
 .icons i:nth-of-type(3) {
