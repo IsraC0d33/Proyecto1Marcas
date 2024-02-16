@@ -1,0 +1,33 @@
+name: Create Branch and Pull Request
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  create-branch-and-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Create branch
+      run: git checkout -b feature-branch
+
+    - name: Push branch to repository
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Create feature branch"
+        git push origin feature-branch
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: feature-branch
+        title: "Feature branch"
+        body: "This is a new feature branch"
