@@ -1,18 +1,35 @@
-root = true   # Indica que este archivo es el archivo de configuración raíz.
-
-
-[*] # Configuración para todos los archivos del proyecto.
-
-indent_style = space # Estilo de sangrado: espacio.
-indent_size = 2 # Tamaño de la sangría: 2 espacios.
-
 # https://editorconfig.org/
 
-end_of_line = crlf # Establece el tipo de final de línea como retorno de carro + salto de línea. 
-end_of_line = lf  # También acepta salto de línea (line feed).
-charset = utf-8 # Codificación de caracteres UTF-8.
-trim_trailing_whitespace = true # Elimina espacios en blanco al final de las líneas.
-insert_final_newline = true # Inserta una nueva línea al final del archivo.
+# Indica que este archivo es el archivo de configuración raíz.
+root = true   
 
-[*.md] # Configuración específica para archivos Markdown.
-trim_trailing_whitespace = false # No elimina espacios en blanco al final de las líneas en archivos Markdown.
+# Configuración para todos los archivos del proyecto.
+[*] 
+
+# Estilo de sangrado: espacio.
+indent_style = space 
+
+# Tamaño de la sangría: 2 espacios.
+indent_size = 2
+
+
+# Establece el tipo de final de línea como retorno de carro + salto de línea.
+end_of_line = crlf  
+
+# También acepta salto de línea (line feed).
+end_of_line = lf  
+
+# Codificación de caracteres UTF-8.
+charset = utf-8 
+
+# Elimina espacios en blanco al final de las líneas.
+trim_trailing_whitespace = true 
+
+# Inserta una nueva línea al final del archivo.
+insert_final_newline = true 
+
+# Configuración específica para archivos Markdown.
+[*.md] 
+
+# No elimina espacios en blanco al final de las líneas en archivos Markdown.
+trim_trailing_whitespace = false 
