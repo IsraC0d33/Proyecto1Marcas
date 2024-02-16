@@ -53,6 +53,8 @@ jobs:
 
         # Runs Snyk Code (SAST) analysis and uploads result into GitHub.
         # Use || true to not fail the pipeline
+      - name: Configurar token de autenticación de Snyk
+        run: export SNYK_TOKEN=47fc14da-7d9e-4104-ac56-1e2034ca310d
       - name: Autenticar cuenta Snyk
         run: snyk auth
       - name: Snyk Code test
