@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Declaración XML especificando la versión y codificación -->
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
+<!-- Elemento raíz del sitemap -->
+  
   <url>
+    <!-- Etiqueta que representa una URL en el sitemap -->
        <loc>https://israc0d33.github.io/Proyecto1Marcas/index.html</loc>
+     <!-- Especifica la ubicación de la URL -->
        <lastmod>2024-02-10T09:07:28+00:00</lastmod>
+    <!-- Especifica la fecha y hora de la última modificación de la URL -->
        <changefreq>daily</changefreq>
+    <!-- Especifica la frecuencia de cambio de la URL -->
        <priority>0.8000</priority>
+    <!-- Especifica la prioridad de indexación de la URL -->
   </url>
 </urlset>
