@@ -11,6 +11,8 @@ updates:
         update-types: ["version-update:semver-patch"]
     labels:
       - "Dependencias del Devcontainer"
+    versioning-strategy: increase
+    open-pull-requests-limit: 20
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -30,12 +32,3 @@ updates:
       prefix: "papasito[Docker]"
     labels:
       - "Dependencias de Docker"
-
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    commit-message:
-      prefix: "pepe[npm]"
-    labels:
-      - "Dependencias de npm"
