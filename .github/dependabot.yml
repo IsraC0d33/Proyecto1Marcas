@@ -17,6 +17,16 @@ updates:
     schedule:
       interval: "daily"
     commit-message:
-      prefix: "mamasita"
+      prefix: "mamasita[Actions]"
     labels:
     - "Dependencias del actions"
+
+    updates:
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "papasito[Docker]"
+    labels:
+      - "Dependencias de Docker"
