@@ -43,11 +43,11 @@ updates:
     labels:
       - "Mejoras en sintaxis de Markdown"
 
-  - package-ecosystem: "ubuntu"
+  - package-ecosystem: "composer"
     directory: "/"
     schedule:
       interval: "daily"
     commit-message:
-      prefix: "update(ubuntu)"
+      prefix: "update(composer)"
     labels:
-      - "Actualización de paquetes de Ubuntu"
+      - "Actualización de Composer"
