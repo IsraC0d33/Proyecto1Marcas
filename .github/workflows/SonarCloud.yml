@@ -1,28 +1,34 @@
-name: Build
-on:
+name: Build  # Define el nombre del flujo de trabajo como "Build"
+
+on:  # Desencadena el flujo de trabajo en push a la rama main
   push:
     branches:
       - main
   pull_request:
     types: [opened, synchronize, reopened]
+
 jobs:
   sonarcloud:
     name: SonarCloud
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Lo en una máquina virtual Ubuntu con la última versión disponible
+
     env:
-      NODE_VERSION: 20
-    steps:
-      - uses: actions/checkout@v4.1.1
+      NODE_VERSION: 20  # Especifica la versión de Node.js en este caso 20
+
+    steps:  # Pasos a segir
+      - uses: actions/checkout@v4.1.1  # Clonar el repositorio
         with:
-          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+          fetch-depth: 0  # Deshabilita las clonaciones poco profundas
+
       - name: Setup Node.js
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y nodejs npm
-          node -v
-          npm -v
+        run: |  # Ejecuta un script bash
+          sudo apt-get update  # Actualiza los paquetes del sistema
+          sudo apt-get install -y nodejs npm  # Instala Node.js y npm
+          node -v  # Muestra la versión de Node.js instalada
+          npm -v  # Muestra la versión de npm instalada
+
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
+        uses: SonarSource/sonarcloud-github-action@master  # Acción de SonarCloud para hacer el escaneo
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Token de GitHub
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  # Token de SonarCloud
