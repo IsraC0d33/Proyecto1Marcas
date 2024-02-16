@@ -7,10 +7,10 @@ updates:
     commit-message:
       prefix: "build(deps)"
     ignore:
-    - dependency-name: "*"
-      update-types: ["version-update:semver-patch"]
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
     labels:
-    - "Dependencias del Devcontainer"
+      - "Dependencias del Devcontainer"
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -19,7 +19,7 @@ updates:
     commit-message:
       prefix: "mamasita[Actions]"
     labels:
-    - "Dependencias del actions"
+      - "Dependencias del actions"
 
   - package-ecosystem: "docker"
     directory: "/"
@@ -29,7 +29,7 @@ updates:
       prefix: "papasito[Docker]"
     labels:
       - "Dependencias de Docker"
-      
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
