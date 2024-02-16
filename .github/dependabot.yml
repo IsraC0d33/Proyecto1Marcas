@@ -30,3 +30,12 @@ updates:
       prefix: "papasito[Docker]"
     labels:
       - "Dependencias de Docker"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "pepe[npm]"
+    labels:
+      - "Dependencias de npm"
