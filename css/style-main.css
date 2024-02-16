@@ -1435,7 +1435,7 @@
 /* Iconos */
 /* Son solo pruebas esta parte de css se borrara -Meteremos clases a cada icon- */
 .icons i {
-    font-size: xxx-large;
+    font-size: 1.5em;
 }
 
 .icons i:nth-of-type(3) {
