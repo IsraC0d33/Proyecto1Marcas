@@ -137,7 +137,6 @@
 
 ![Jira](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/6d58a8d9-b76c-477b-a9ad-0d53d3357624)
 
-
 -------------------------------------------------------------------------------------
 
 🕹️ **Andres Rodriguez** ⇢ **_Revision de la estructura_**
