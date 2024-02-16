@@ -16,13 +16,14 @@ jobs:
     - name: Create branch
       run: git checkout -b feature-branch
 
-    - name: Push branch to repository
+    - name: Create branch and make changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git commit -m "Create feature branch"
-        git push origin feature-branch
+       git checkout -b feature-branch
+       echo "Hello, World!" > example.txt
+       git add example.txt
+       git commit -m "Create feature branch"
+       git push origin feature-branch
+
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
