@@ -12,7 +12,7 @@ updates:
     labels:
       - "Dependencias del Devcontainer"
 
-  - package-ecosystem: "github-actions-actions1"
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
@@ -30,7 +30,7 @@ updates:
     labels:
       - "Dependencias de Docker"
 
-  - package-ecosystem: "github-actions-md-improvements"
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
