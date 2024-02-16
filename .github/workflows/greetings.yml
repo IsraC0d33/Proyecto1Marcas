@@ -1,16 +1,16 @@
 name: Greetings
 
-on: [pull_request_target, issues]
+on: [pull_request_target, issues] # Desencadena el trabajo en eventos de pull request target y issues
 
 jobs:
   greeting:
-    runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      pull-requests: write
+    runs-on: ubuntu-latest # Ejecuta una máquina virtual Ubuntu con la última versión disponible
+    permissions: # permisos
+      issues: write # Escribir en los issues
+      pull-requests: write # Escribir en los pull request
     steps:
-    - uses: actions/first-interaction@v1
+    - uses: actions/first-interaction@v1 # Utiliza first-interaction para gestionar el saludo en la primera interacción del usuario
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "Message that will be displayed on users' first issue"
-        pr-message: "Message that will be displayed on users' first pull request"
+        repo-token: ${{ secrets.GITHUB_TOKEN }} # Utiliza el token de github para autenticar la acción
+        issue-message: "Tu primera issue, por fin te pones a chambear 🤖" # Mensaje que se muestra en el primer issue del usuario
+        pr-message: "Tu primera pull request, por fin te pones a chambear 🤖" # Mensaje que se muestra en el primer pull request del usuario
