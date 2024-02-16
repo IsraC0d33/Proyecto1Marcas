@@ -2,7 +2,7 @@ name: Actualizaciones diarias de dependencias
 
 on:
   schedule:
-    - cron: '* * * * *' # Ejecucion cada minuto para prueba | Formato: minutos, horas, días del mes, meses y días de la semana.
+    - cron: '*/2 * * * *' # Ejecucion cada minuto para prueba | Formato: minutos, horas, días del mes, meses y días de la semana.
 
 jobs:
   update_dependencies:
