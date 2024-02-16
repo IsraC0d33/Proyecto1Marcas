@@ -29,3 +29,16 @@ updates:
       prefix: "papasito[Docker]"
     labels:
       - "Dependencias de Docker"
+      
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "pepe(md)"
+    ignore:
+      - dependency-name: "*"
+    paths:
+      - path: "*.md"
+    labels:
+      - "Mejoras en sintaxis de Markdown"
