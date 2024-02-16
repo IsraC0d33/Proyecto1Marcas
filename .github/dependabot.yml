@@ -42,12 +42,3 @@ updates:
       - path: "*.md"
     labels:
       - "Mejoras en sintaxis de Markdown"
-
-  - package-ecosystem: "composer"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    commit-message:
-      prefix: "composer"
-    labels:
-      - "Actualización de Composer"
