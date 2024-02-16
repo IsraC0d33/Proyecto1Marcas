@@ -2,7 +2,7 @@ name: Actualizar sistema Linux
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Ejecutar diariamente a medianoche
+    - cron: "* * * * *" # Ejecutar diariamente a medianoche | mentira cambiado a que se ejecute cada minuto
 
 jobs:
   update_linux:
