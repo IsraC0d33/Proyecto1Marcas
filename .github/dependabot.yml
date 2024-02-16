@@ -42,3 +42,12 @@ updates:
       - path: "*.md"
     labels:
       - "Mejoras en sintaxis de Markdown"
+
+  - package-ecosystem: "ubuntu"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "update(ubuntu)"
+    labels:
+      - "Actualización de paquetes de Ubuntu"
