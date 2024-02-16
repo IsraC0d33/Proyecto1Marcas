@@ -2,7 +2,7 @@ name: Actualizaciones diarias de dependencias
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '* * * * *' # Ejecucion cada minuto para prueba | Formato: minutos, horas, días del mes, meses y días de la semana.
 
 jobs:
   update_dependencies:
@@ -11,15 +11,6 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
-
-      - name: Actualizar dependencias de devcontainers
-        run: |
-          # Actualizar dependencias de devcontainers
-          echo "Actualizando dependencias de devcontainers"
-          git add .
-          git commit -m "build(deps): Actualizar dependencias de devcontainers"
-          git push
-
       - name: Actualizar dependencias de github-actions
         run: |
           # Actualizar dependencias de github-actions
