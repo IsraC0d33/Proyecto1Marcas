@@ -1,3 +1,4 @@
-fail_on_severity: 'critical'
-allow_licenses:
+fail_on_severity: 'critical' # Establece el nivel de severidad crítico para fallar en la evaluación de las vulnerabilidades.
+allow_licenses: # Lista de licencias permitidas.
   - 'GPL-3.0'
+  - 'GPL-3.0-only'
