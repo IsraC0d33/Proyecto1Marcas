@@ -21,7 +21,6 @@ updates:
     labels:
     - "Dependencias del actions"
 
-    updates:
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
