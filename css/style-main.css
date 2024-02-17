@@ -1448,6 +1448,42 @@
     height: 5em;
 }
 
+.formulario{
+    width: 60%;
+    background-color: #215543;
+    color: white;
+    padding: 1em;
+}
+.primer-form{
+    display: flex;
+    justify-content: center;
+}
+.segundo-form{
+    display: flex;
+    justify-content: center;
+
+}
+.tercer-form{
+    text-align: center;
+}
+.cuarto-form{
+    display: flex;
+    justify-content: center;
+
+}
+.quinto-form{
+    display: flex;
+    justify-content: center;
+}
+.sexto-form input{
+    color: white;
+    padding: 0.7em;
+    background-color: #173a2d;
+    margin-top: 2em;
+    font-family: PoppinsBold;
+    border-style: none;
+    border-radius: 0.2em;
+}
 /* Iconos */
 /* Son solo pruebas esta parte de css se borrara -Meteremos clases a cada icon- */
 
