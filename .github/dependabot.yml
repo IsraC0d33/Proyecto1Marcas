@@ -35,7 +35,6 @@ updates:  # Configuración de actualizaciones para las diferentes áreas/actions
     labels:
       - "Dependencias del actions"
 
-
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
