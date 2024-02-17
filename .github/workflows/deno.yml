@@ -35,6 +35,11 @@ jobs:
       - name: Verify formatting
         run: deno fmt --check
 
+      - name: Verify formatting and commit changes
+        run: |
+          deno fmt && git add .
+          git diff --quiet --exit-code || git commit -m "Auto-format code"
+          
       - name: Run linter
         run: deno lint
 
