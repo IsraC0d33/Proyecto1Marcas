@@ -1474,7 +1474,7 @@
 
 /*cookies*/
 .aviso-cookies{
-    display: block;
+    display: none;
     background-color: #fff;
     padding: 20px;
     width: calc(100%-40px);
@@ -1488,6 +1488,9 @@
     padding-top: 40px;
     box-shadow: 0px 2px  20px 10px rgba(222, 222, 222, .25);
     text-align: center;
+}
+.aviso-cookies .activo{
+    display: block;
 }
 
 .aviso-cookies .galleta{
@@ -1529,7 +1532,7 @@
 }
 
 .fondo-aviso-cookies{
-    display: block;
+    display: none;
     background: rgb(0,0,0,.20);
     position: fixed;
     z-index: 99;
@@ -1538,7 +1541,9 @@
     top: 0;
     left: 0;
 }
-
+ .fondo-aviso-cookies .activo{
+    display: block;
+ }
 
 /* Pingünos */
 
