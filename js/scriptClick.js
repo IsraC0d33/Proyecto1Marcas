@@ -1,12 +1,12 @@
 
 //No evaluable -> intensidad:Poca
 
-const container = document.querySelector('.change-language');
-const countries = container.querySelectorAll('div');
+let container = document.querySelector('.change-language');
+let countries = container.querySelectorAll('div');
 
 //REVIEW - Creando un objeto para poder añadir los siguientes paises. 
 
-const _rugged = {
+const rugged = {
     esp: () => {
         for (let i = 1; i < countries.length; i++) {
             if (countries[i].style.display == 'none') {

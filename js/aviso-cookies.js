@@ -1,13 +1,25 @@
-const botontAceptarCookies = document.getElementById('btn-aceptar-cookies');
-const avisoCookies = document.getElementById('aviso-cookies');
-const fondoAvisoCokies = document.getElementById('fondo-aviso-cookies');
+// Editado por Marcos
+let cookiesAceptadas = localStorage.getItem("cookiesAceptadas");
+const botontAceptarCookies = document.querySelector('.boton');
+const avisoCookies = document.querySelector('.aviso-cookies');
+const fondoAvisoCokies = document.querySelector('.fondo-aviso-cookies');
 
-avisoCookies.classList.add('activo')
-fondoAvisoCokies.classList.add('activo')
+if (cookiesAceptadas) {
 
-botontAceptarCookies.addEventListener('click', () => {
     avisoCookies.classList.remove('activo');
     fondoAvisoCokies.classList.remove('activo');
+}
+else {
 
-    localStorage.setItem('cookies-aceptadas', true );
-});
+    avisoCookies.classList.add('activo')
+    fondoAvisoCokies.classList.add('activo')
+
+    botontAceptarCookies.addEventListener('click', () => {
+
+        avisoCookies.classList.remove('activo');
+        fondoAvisoCokies.classList.remove('activo');
+
+        localStorage.setItem("cookiesAceptadas", true);
+    });
+}
+
