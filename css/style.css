@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #237fac;
+    box-shadow: 0.125rem 0.125rem 0.25rem #237fa0;
+    height: 6.25rem;
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: right;
+    background-image: url(../logo/eDreams_logo_negative.svg);
+    background-repeat: no-repeat;
+    background-position: center left 2%;
+}
+
+.list {
+    margin: 2.188rem;
+    display: flex;
+    list-style: none;
+    font-family: 'Rubik';
+}
+
+.list>li {
+    margin: 0.413rem;
+}
+
+.list a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+}
+
+
+.list a:hover {
+    background: #000;
+    padding: 0.625rem;
+    transition: 0.5s;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 650px;
+}
+
+.Right {
+    width: 45%;
+}
+
+
+h3 {
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: #5a79ba;
+    margin: 2.5rem;
+    margin-left: 1.875rem;
+}
+
+.forms {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Rubik';
+    width: fit-content;
+    margin: 35px;
+}
+
+.forms>div {
+    margin-left: 2.188rem;
+}
+
+.titles>label {
+    margin-top: 0.938rem;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.values {
+    width: fit-content;
+}
+
+.values input,
+select {
+    border-radius: 0.313rem;
+    padding: 0.313rem;
+    margin-top: 0.640rem;
+}
+
+.values form {
+    display: flex;
+    flex-direction: column;
+}
+
+.values button {
+    padding: 0.313rem;
+    margin-top: 3.125rem;
+    font-size: large;
+    font-family: 'Rubik';
+}
+
+.values button:hover {
+    background: #f2f2f2;
+}
+
+
+.googleMaps {
+    margin-left: 10%;
+    border: 0.500rem double #90abd9;
+    box-shadow: 0.125rem 0.125rem 0.25rem #000;
+    border-radius: 0.725rem;
+    width: 80%;
+}
+
+.googleMaps>iframe {
+    border-radius: 0.250rem;
+    width: 100%;
+    height: 25rem;
+    border: 0;
+}
+
+.Left {
+    display: flex;
+    width: 45%;
+    height: 150%;
+    flex-direction: column;
+
+}
+
+.imagesAside {
+    width: 95%;
+}
+
+.imagesAside img {
+    border-radius: 1rem 0.500rem;
+    border: 0.600rem double #90abd9;
+    box-shadow: 0.063rem 0.063rem 0.588rem #000;
+    width: 100%;
+    margin-top: 0.750rem;
+
+}
+
+footer {
+    position: fixed;
+    font-family: 'Rubik';
+    font-size: larger;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #e9edf1;
+    text-align: center;
+    box-shadow: 0.063rem 0.063rem 0.588rem #000;
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+    border-top: 0.063rem solid #000;
+}

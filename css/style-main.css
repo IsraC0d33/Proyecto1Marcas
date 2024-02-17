@@ -6,22 +6,22 @@
 
 @font-face {
     font-family: Poppins;
-    src: url(../font/Poppins-SemiBold.ttf);
+    src: url("../font/Poppins-SemiBold.ttf");
 }
 
 @font-face {
     font-family: PoppinsMedium;
-    src: url(../font/Poppins-Medium.ttf);
+    src: url("../font/Poppins-Medium.ttf");
 }
 
 @font-face {
     font-family: PoppinsBold;
-    src: url(../font/Poppins-Bold.ttf);
+    src: url("../font/Poppins-Bold.ttf");
 }
 
 @font-face {
     font-family: PoppinsLight;
-    src: url(../font/Poppins-Light.ttf);
+    src: url("../font/Poppins-Light.ttf");
 }
 
 
@@ -46,7 +46,7 @@
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 999;
+    z-index: 100;
 }
 
 .nav-min {
@@ -1391,69 +1391,83 @@
 }
 
 /* Editado por Marcos y Mario */
+.tarjetas-undecimo-section {
+    padding-top: 2rem;
+}
 
 .undecimo-section img {
     width: 30%;
 }
 
-.tarjetas-undecimo-section{
+.tarjetas-undecimo-section {
     display: flex;
     padding-left: 10em;
     background-color: #124231;
 }
 
-.tarjeta-undecimo h3{
+.tarjeta-undecimo h3 {
     color: #1c7652;
 }
 
-.tarjeta-undecimo{
+.tarjeta-undecimo {
     margin-left: 2em;
 }
 
-.tarjeta-undecimo img{
+.tarjeta-undecimo img {
     width: 2em;
     height: 2em;
 }
 
-.tarjeta-undecimo li{
+.tarjeta-undecimo li {
     color: white;
     padding: 0.5em;
     list-style: none;
 }
 
-.social-media-logos{
+.tarjeta-undecimo span {
+    font-size: x-large;
+    font-weight: lighter;
+    color: #fff;
+}
+
+.social-media-logos {
     text-align: center;
     width: fit-content;
-    border: 0.1rem solid  #1c7652;
+    border: 0.1rem solid #1c7652;
     border-radius: 0.5em;
+}
+
+.social-media-logos h4 {
+    color: #61A687;
 }
 
 .social-media-logos img {
     width: 10em;
-    height: 8em;
+    height: 7em;
 }
 
-.sign-up{
-    color:white;
+.sign-up {
+    color: white;
     background-color: #1c7652;
     width: 12em;
     height: 4em;
-    border: 0.1rem solid  #1c7652;
+    border: 0.1rem solid #1c7652;
 }
 
-.undecimo-section p{
+.undecimo-section p {
     color: #1c7652;
     background-color: #124231;
     text-align: center;
     height: 5em;
 }
 
+
 /* Iconos */
 /* Son solo pruebas esta parte de css se borrara -Meteremos clases a cada icon- */
 
 .icons i {
-    font-size: 1.5em;
-    
+    font-size: 2em;
+    margin-bottom: 1rem;
 }
 
 .icons i:nth-of-type(3) {
@@ -1472,78 +1486,85 @@
     color: #106BFF;
 }
 
+
+footer {
+    background-color: #124231;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: #5C8373;
+    font-size: small;
+}
+
+
 /*cookies*/
-.aviso-cookies{
+/* Editado por Marcos */
+.aviso-cookies {
     display: none;
-    background-color: #fff;
-    padding: 20px;
-    width: calc(100% - 40px);
-    max-width: 300px;
-    line-height: 150%;
-    border-radius: 10px;
     position: fixed;
-    bottom: 20px;
-    left: 20px;
-    z-index: 100;
-    padding-top: 40px;
-    box-shadow: 0px 2px  20px 10px rgba(222, 222, 222, .25);
+    background-color: #fff;
+    padding: 1.5rem;
+    width: 20rem;
+    border-radius: 0.9rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    z-index: 102;
+    box-shadow: #dedede40;
     text-align: center;
 }
-.aviso-cookies.activo{
+
+.activo {
     display: block;
 }
 
-.aviso-cookies .galleta{
- max-width: 100px;
+.aviso-cookies .galleta {
+    width: 7rem;
 }
 
-.aviso-cookies h3{
-    margin-bottom: 15px;
+.aviso-cookies p {
+    margin-bottom: 1.5rem;
 }
 
-.aviso-cookies p{
-    margin-bottom: 15px;
-}
-
-.aviso-cookies .boton{
-    width: 100%;
+.aviso-cookies .boton {
     background-color: #595959;
+    width: 100%;
+    cursor: pointer;
     border: none;
     color: #fff;
     text-align: center;
-    padding: 15px 20px;
-    cursor: pointer;
-    transition: .3s ease all;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    font-size: 14px;
+    padding: 1rem;
+    transition: .4s;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
 }
 
-.aviso-cookies .boton:hover{
+.aviso-cookies .boton:hover {
     background: #000;
 }
 
-.aviso-cookies a{
+.aviso-cookies a {
     text-decoration: none;
     color: #000;
 }
-.aviso-cookies a:hover{
+
+.aviso-cookies a:hover {
     text-decoration: underline;
 }
 
-.fondo-aviso-cookies{
+.fondo-aviso-cookies {
     display: none;
-    background: rgb(0,0,0,.20);
     position: fixed;
-    z-index: 99;
-    height: 100vw;
-    width: 100vw;
+    z-index: 101;
+    background: #00000033;
+    height: 100%;
+    width: 100%;
     top: 0;
-    left: 0;
 }
- .fondo-aviso-cookies.activo{
+
+.fondo-aviso-cookies.activo {
     display: block;
- }
+}
 
 /* Pingünos */
 
@@ -1570,11 +1591,3 @@
         display: none;
     }
 }
-
-
-
-
-
-
-
-
