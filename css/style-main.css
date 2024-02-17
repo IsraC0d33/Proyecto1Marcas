@@ -1489,7 +1489,7 @@
     box-shadow: 0px 2px  20px 10px rgba(222, 222, 222, .25);
     text-align: center;
 }
-.aviso-cookies .activo{
+.aviso-cookies.activo{
     display: block;
 }
 
@@ -1541,7 +1541,7 @@
     top: 0;
     left: 0;
 }
- .fondo-aviso-cookies .activo{
+ .fondo-aviso-cookies.activo{
     display: block;
  }
 
