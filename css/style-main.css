@@ -1465,10 +1465,17 @@
 /*cookies*/
 .aviso-cookies{
     display: block;
-    background-color: #FFFFFF;
+    background-color: yellow;
     padding: 20px;
     width: calc(100%-40px);
     max-width: 300px;
+    line-height: 150%;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+    padding-top: 60px;
 }
 
 
