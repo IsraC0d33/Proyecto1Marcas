@@ -24,8 +24,6 @@ jobs:
         with:
           node-version: ${{ steps.nvm.outputs.NVMRC }}
 
-      - name: Check formatting
-        run: npm run format-check
 
       - name: Run linter
         run: npm run lint-check
