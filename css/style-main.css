@@ -1477,7 +1477,7 @@
     display: none;
     background-color: #fff;
     padding: 20px;
-    width: calc(100%-40px);
+    width: calc(100% - 40px);
     max-width: 300px;
     line-height: 150%;
     border-radius: 10px;
