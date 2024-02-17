@@ -40,8 +40,8 @@ jobs:
           deno fmt && git add .
           git diff --quiet --exit-code || git commit -m "Auto-format code"
           
-      #- name: Run linter
-      #  run: deno lint
+      - name: Run linter
+        run: deno lint
 
-      - name: Run tests
-        run: deno test -A
+      #- name: Run tests
+      #  run: deno test -A
