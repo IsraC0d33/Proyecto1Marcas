@@ -38,7 +38,7 @@ updates:  # Configuración de actualizaciones para las diferentes áreas/actions
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "dailay"
     commit-message:
       prefix: "papasito[Docker]"
     labels:
