@@ -1462,6 +1462,17 @@
 .icons i:nth-of-type(6) {
     color: #106BFF;
 }
+/*cookies*/
+.aviso-cookies{
+    display: block;
+    background-color: #FFFFFF;
+    padding: 20px;
+    width: calc(100%-40px);
+    max-width: 300px;
+}
+
+
+
 
 /* Pingünos */
 
