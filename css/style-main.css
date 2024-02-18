@@ -285,7 +285,6 @@
 }
 
 .africa-countries {
-
     display: flex;
     flex-direction: column;
     padding-left: 16.25rem;
@@ -743,11 +742,11 @@
     margin-left: 22rem;
 }
 
-/* Algunos cambios por Jamal Rabah */
+/* Algunos cambios por Jamal Rabah */ 
 
-/* Editado por Mario y Marcos*/
+/* Editado por Mario y Marcos*/ 
 
-/* Parte de sobre nosotros*/
+/* Parte de sobre nosotros*/ 
 
 .about:hover {
     border-left: 0.063rem solid #000;
@@ -1234,7 +1233,7 @@
 
 .septimo-section {
     margin-left: 3.5rem;
-    background: #FFFFFF;
+    background: #FFF;
     height: 25rem;
     display: flex;
     align-items: center;
@@ -1402,17 +1401,15 @@
 
 .tarjetas-undecimo-section {
     padding-top: 2rem;
+    display: flex;
+    padding-left: 10em;
+    background-color: #124231;
 }
 
 .undecimo-section img {
     width: 30%;
 }
 
-.tarjetas-undecimo-section {
-    display: flex;
-    padding-left: 10em;
-    background-color: #124231;
-}
 
 .tarjeta-undecimo h3 {
     color: #1c7652;
