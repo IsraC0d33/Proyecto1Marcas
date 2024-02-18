@@ -1357,7 +1357,7 @@
 .titulo-decimo h2 {
     padding-top: 2rem;
     text-align: center;
-    color: #fff;
+    color: #FFF;
     font-family: PoppinsBold, system-ui;
     font-size: xx-large;
 }
@@ -1389,7 +1389,7 @@
 
 .contact-info {
     margin: auto;
-    background: #FFFFFF;
+    background: #FFF;
     width: fit-content;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -1584,7 +1584,7 @@ footer {
     width: 70%;
 }
 
-@media (min-width:0em) and (max-width: 60.75em) {
+@media (min-width:0) and (max-width: 60.75em) {
     .alert {
         display: block;
     }
