@@ -33,12 +33,12 @@ jobs:
           format: sarif  # formato de salida
           gh-code-scanning-compat: true 
           
-          Descripcion: >
-           Compatibilidad con GitHub Code Scanning (El análisis de código es una función que se
-           utiliza para analizar el código de un repositorio de GitHub con el 
-           fin de encontrar vulnerabilidades de seguridad y errores de codificación.
-           Cualquier problema identificado por el análisis se muestra en tu repositorio.)
-           para problemas de severidad no relacionados con la seguridad.
+          #Descripcion: >
+          # Compatibilidad con GitHub Code Scanning (El análisis de código es una función que se
+          # utiliza para analizar el código de un repositorio de GitHub con el 
+          # fin de encontrar vulnerabilidades de seguridad y errores de codificación.
+          # Cualquier problema identificado por el análisis se muestra en tu repositorio.)
+          # para problemas de severidad no relacionados con la seguridad.
            
           max-allowed-issues: 2147483647  # Límite máximo de problemas
 
