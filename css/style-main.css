@@ -31,7 +31,7 @@
     font-family: PoppinsMedium, system-ui;
 }
 
-/*!SECTION Importante una vez hayamos acabado el header hay que hacer positions fixed para el header pequeño y el grande*/
+/* !SECTION Importante una vez hayamos acabado el header hay que hacer positions fixed para el header pequeño y el grande */
 
 
 .header-nav-main {
@@ -82,7 +82,7 @@
 
 /* < !-- Editado por : Jamal Rabah --> */
 .nav-main {
-    background: #FFFFFF;
+    background: #FFF;
     width: 100%;
     height: 6.25rem;
     display: flex;
@@ -100,7 +100,7 @@
     margin-top: 1rem;
     width: 15.625rem;
     height: 6.25rem;
-    background-image: url(../logo/SVG/logo.svg);
+    background-image: url("../logo/SVG/logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -195,7 +195,8 @@
     height: 1.25rem;
 }
 
-/* EDITADO POR MARIO Y MARCOS*/
+/* EDITADO POR MARIO Y MARCOS */
+
 .eng {
     margin-top: 0.625rem;
     display: none;
@@ -277,7 +278,6 @@
 }
 
 .asia-countries {
-
     display: flex;
     flex-direction: column;
     height: 0;
@@ -376,12 +376,10 @@
 
 }
 
+/* Hecho por Marcos Acedo y Mario Galan, cambiado algunas partes por : Jamal Rabah */
 
+/* NOTE - Cambiar los pixeles por em o rem lo que os sea mas comodo */
 
-/* Hecho por Marcos Acedo y Mario Galan */
-/*Cambiado algunas partes por : Jamal Rabah*/
-/*NOTE - 
- Cambiar los pixeles por em o rem lo que os sea mas comodo */
 .volunteer-abroad h1>span {
     color: #1c7652;
 }
@@ -400,10 +398,8 @@
 }
 
 .project:hover {
-
     border-left: 0.063rem solid #000;
     border-right: 0.063rem solid #000;
-
 }
 
 .dash-projects a {
@@ -413,7 +409,7 @@
 
 
 .dash-projects p {
-    background-color: RGB(20 80 58);
+    background-color: rgb(20 80 58);
     font-size: 0.750rem;
     text-align: center;
     border-top-right-radius: 0.313em;
@@ -477,10 +473,12 @@
     text-align: center;
 }
 
-/* Todos los px han sido sustituidos por em*/
+/* Todos los px han sido sustituidos por em */
+
 /* Grupos */
-/*Cambiado algunas partes por : Jamal Rabah*/
-/* CREADO POR MARCOS ACEDO */
+
+/* Creado por Marcos Acedo, cambiado algunas partes por: Jamal Rabah */
+
 .groups:hover {
     border-left: 0.063rem solid #000;
     border-right: 0.063rem solid #000;
@@ -518,11 +516,10 @@
     color: #1c7652;
 }
 
-
-
 /* Recursos */
-/* Cambiado/añadido algunas cosas Jamal Rabah */
-/* Creado por Marcos Acedo y Mario */
+
+/* Creado por Marcos Acedo y Mario, cambiado/añadido algunas cosas por: Jamal Rabah */
+
 .resources:hover {
     border-left: 0.063rem solid #000;
     border-right: 0.063rem solid #000;
@@ -551,7 +548,6 @@
 }
 
 .general-resources div {
-
     margin: 0.5em;
 }
 
@@ -560,13 +556,14 @@
     background-color: #000
 }
 
-/* foto*/
+/* foto */
+
 .block-resources-general-information-reserva {
     height: 7em;
     width: 10em;
     background-size: 10em;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/509_509_flght_short_image.jpg);
+    background-image: url("../imagenes/JPG/509_509_flght_short_image.jpg");
 
 }
 
@@ -575,7 +572,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/501_501_faq_short.jpg);
+    background-image: url("../imagenes/JPG/501_501_faq_short.jpg");
 }
 
 .block-resources-general-information-fondos {
@@ -583,7 +580,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/510_510_fundraising_short.jpg);
+    background-image: url("../imagenes/JPG/510_510_fundraising_short.jpg");
 }
 
 .block-resources-general-information-ofertas {
@@ -591,7 +588,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/724_724_untitled_design_5_short.jpg);
+    background-image: url("../imagenes/JPG/724_724_untitled_design_5_short.jpg");
 }
 
 .block-resources-general-information-conozca {
@@ -599,7 +596,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/502_meet_a_volunteer_short.jpg);
+    background-image: url("../imagenes/JPG/502_meet_a_volunteer_short.jpg");
 }
 
 .block-resources-general-information-costes {
@@ -607,7 +604,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/498_cost_page_short.jpg);
+    background-image: url("../imagenes/JPG/498_cost_page_short.jpg");
 }
 
 .block-resources-general-information-fechas {
@@ -615,7 +612,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/518_conservation_madagascar.jpg);
+    background-image: url("../imagenes/JPG/518_conservation_madagascar.jpg");
 }
 
 .block-resources-general-information-comprar {
@@ -623,7 +620,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/631_corporate_volunteering_page_banner.jpg);
+    background-image: url("../imagenes/JPG/631_corporate_volunteering_page_banner.jpg");
 }
 
 .block-resources-general-information-diplomado {
@@ -631,7 +628,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/2572_diploma_in_international_volunteering_4.png);
+    background-image: url("../imagenes/JPG/2572_diploma_in_international_volunteering_4.png");
 
 }
 
@@ -640,10 +637,11 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/2495_teaching_madagascar_\(1\).jpg);
+    background-image: url("../imagenes/JPG/2495_teaching_madagascar_\(1\).jpg");
 }
 
-/* letras Editado por Marcos y Mario*/
+/* Letras editado por Marcos y Mario */
+
 .block-resources-general-information-reserva p {
     background-color: #1c7652;
     color: white;
@@ -705,7 +703,8 @@
     margin-top: 3em;
 }
 
-/* parte de preguntas frecuentes editado por Marcos y Mario */
+/* Parte de preguntas frecuentes editado por Marcos y Mario */
+
 .faqs-questions {
     width: 190%;
     text-decoration: none;
@@ -744,11 +743,12 @@
     margin-left: 22rem;
 }
 
-
-
 /* Algunos cambios por Jamal Rabah */
+
 /* Editado por Mario y Marcos*/
+
 /* Parte de sobre nosotros*/
+
 .about:hover {
     border-left: 0.063rem solid #000;
     border-right: 0.063rem solid #000;
@@ -786,7 +786,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/517_meet_the_team_short.jpg);
+    background-image: url("../imagenes/JPG/517_meet_the_team_short.jpg");
 }
 
 .block-about-us-general-information-mensaje {
@@ -794,7 +794,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/551_message_to_parents_short.jpg);
+    background-image: url("../imagenes/JPG/551_message_to_parents_short.jpg");
 }
 
 .block-about-us-general-information-noticias {
@@ -802,7 +802,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/1094_news_articles_short.jpg);
+    background-image: url("../imagenes/JPG/1094_news_articles_short.jpg");
 }
 
 .block-about-us-general-information-politicas {
@@ -810,7 +810,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/510_510_fundraising_short.jpg);
+    background-image: url("../imagenes/JPG/510_510_fundraising_short.jpg");
 }
 
 .block-about-us-general-information-volsol {
@@ -818,7 +818,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/516_whatvolsolshort.jpg);
+    background-image: url("../imagenes/JPG/516_whatvolsolshort.jpg");
 }
 
 .block-about-us-general-information-elegirnos {
@@ -826,7 +826,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/616_wildlife_and_animal_care.jpg);
+    background-image: url("../imagenes/JPG/616_wildlife_and_animal_care.jpg");
 }
 
 .block-about-us-general-information-pagar {
@@ -834,7 +834,7 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/2603_slmedinternshipshort.jpg);
+    background-image: url("../imagenes/JPG/2603_slmedinternshipshort.jpg");
 }
 
 .block-about-us-general-information-arbol {
@@ -842,10 +842,11 @@
     width: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../imagenes/JPG/chica-con-niños.jpeg);
+    background-image: url("../imagenes/JPG/chica-con-niños.jpeg");
 }
 
-/* letras*/
+/* Letras */
+
 .block-about-us-general-information-conocer p {
     background-color: #1c7652;
     color: white;
@@ -938,9 +939,12 @@
     background: #F9FAFB;
 }
 
-/* Editado por Marcos y Mario*/
-/* Parte de abajo del navegador*/
+/* Editado por Marcos y Mario */
+
+/* Parte de abajo del navegador */
+
 /* Hecho, cambiado algunas partes por Jamal */
+
 .primer-section {
     display: flex;
     margin-left: 5em;
@@ -1020,7 +1024,6 @@
     margin: auto;
     width: 90%;
     font-size: larger;
-
 }
 
 .segundo-section h2 {
@@ -1036,7 +1039,9 @@
 }
 
 /* Editado por Jamal Rabah */
+
 /* Arreglar las banderas y sus nombres */
+
 .tercer-section div {
     display: flex;
 }
@@ -1133,8 +1138,8 @@
     text-decoration-color: #BDE3D4;
 }
 
-
 /* Editado por Jamal Rabah */
+
 .quinto-section {
     margin: 2rem;
 }
@@ -1162,6 +1167,7 @@
 }
 
 /* Arreglarlo y ponerlo a ala izquierda */
+
 .titulo-quinto-section a {
     font-size: small;
     text-decoration: none;
@@ -1169,9 +1175,8 @@
     margin-top: 0.5rem;
 }
 
-
-
 /* Editado por Jamal Rabah */
+
 .sexto-section {
     margin-top: 6rem;
 }
@@ -1226,6 +1231,7 @@
 }
 
 /* Editado por Jamal Rabah */
+
 .septimo-section {
     margin-left: 3.5rem;
     background: #FFFFFF;
@@ -1248,6 +1254,7 @@
 }
 
 /* Editado por Jamal Rabah */
+
 .octavo-section {
     margin-top: 5rem;
 }
@@ -1307,6 +1314,7 @@
 }
 
 /* Editado por Jamal Rabah */
+
 .titulo-noveno {
     display: flex;
     align-items: center;
@@ -1335,13 +1343,13 @@
     width: 90%;
 }
 
-
 .tarjetas-noveno-section img {
     width: 10%;
     padding-left: 10rem;
 }
 
 /* Editado por Jamal Rabah */
+
 .decimo-section {
     background: #15503A;
     height: 25rem;
@@ -1391,6 +1399,7 @@
 }
 
 /* Editado por Marcos y Mario */
+
 .tarjetas-undecimo-section {
     padding-top: 2rem;
 }
@@ -1461,8 +1470,8 @@
     height: 5em;
 }
 
-
 /* Iconos */
+
 /* Son solo pruebas esta parte de css se borrara -Meteremos clases a cada icon- */
 
 .icons i {
@@ -1486,7 +1495,6 @@
     color: #106BFF;
 }
 
-
 footer {
     background-color: #124231;
     text-align: center;
@@ -1496,8 +1504,8 @@ footer {
     font-size: small;
 }
 
+/* Cookies */
 
-/* cookies */
 /* Editado por Marcos */
 
 .aviso-cookies {
