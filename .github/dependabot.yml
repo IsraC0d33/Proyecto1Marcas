@@ -1,5 +1,6 @@
 # https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 version: 2 # Versión de Dependabot
+registries: "*"
 # Debido a que se repite los parametros comentare solo uno.
 # - package-ecosystem: "<area>"  Ecosistema de paquetes para devcontainers
 #   directory: "<path>"  Ruta
@@ -43,6 +44,3 @@ updates:  # Configuración de actualizaciones para las diferentes áreas/actions
       prefix: "papasito[Docker]"
     labels:
       - "Dependencias de Docker"
-
-#Activar dependabot-preview
-preview: true
