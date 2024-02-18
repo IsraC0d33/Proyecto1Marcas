@@ -1,6 +1,6 @@
 # https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+# https://docs.github.com/es/code-security/dependabot
 version: 2 # Versión de Dependabot
-registries: "*"
 # Debido a que se repite los parametros comentare solo uno.
 # - package-ecosystem: "<area>"  Ecosistema de paquetes para devcontainers
 #   directory: "<path>"  Ruta
