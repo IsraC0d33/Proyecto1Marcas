@@ -43,3 +43,6 @@ updates:  # Configuración de actualizaciones para las diferentes áreas/actions
       prefix: "papasito[Docker]"
     labels:
       - "Dependencias de Docker"
+
+#Activar dependabot-preview
+preview: true
