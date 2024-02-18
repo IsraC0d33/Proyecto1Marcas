@@ -1499,6 +1499,7 @@ footer {
 
 /* cookies */
 /* Editado por Marcos */
+
 .aviso-cookies {
     display: none;
     position: fixed;
@@ -1556,7 +1557,7 @@ footer {
     display: none;
     position: fixed;
     z-index: 101;
-    background: #00000033;
+    background: black;
     height: 100%;
     width: 100%;
     top: 0;

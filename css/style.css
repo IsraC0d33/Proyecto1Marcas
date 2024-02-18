@@ -12,7 +12,6 @@ header {
 .navigation {
     display: flex;
     justify-content: right;
-    background-image: url(../logo/eDreams_logo_negative.svg);
     background-repeat: no-repeat;
     background-position: center left 2%;
 }
@@ -133,7 +132,6 @@ select {
     width: 45%;
     height: 150%;
     flex-direction: column;
-
 }
 
 .imagesAside {
