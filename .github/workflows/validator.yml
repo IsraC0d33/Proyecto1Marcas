@@ -1,0 +1,28 @@
+name: test-html-validate
+on:
+  pull_request:
+    types:
+    - assigned
+    - opened
+    - synchronize
+    - reopened
+  push:
+    branches:
+    - main
+jobs:
+  build-unminified-site:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v4
+    - name: "Build site with Hugo and audit"
+      uses: wildtechgarden/audit-build-action-hugo-dfd@main
+      with:
+        base-url: "https://www.example.com/"
+        build-for-downstream: "true"
+        source-directory: exampleSite
+        use-lfs: false
+    - name: "Validate HTML of statically generated website"
+      uses: wildtechgarden/validator-html-action@main
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        use-existing-workspace: "true"
