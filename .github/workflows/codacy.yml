@@ -41,8 +41,3 @@ jobs:
           # para problemas de severidad no relacionados con la seguridad.
            
           max-allowed-issues: 2147483647  # Límite máximo de problemas
-
-      - name: Upload SARIF results file
-        uses: github/codeql-action/upload-sarif@v3  # Utiliza la acción para cargar el archivo SARIF generado en el paso anterior
-        with:
-          sarif_file: results.sarif  # Especifica el archivo SARIF
