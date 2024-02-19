@@ -121,7 +121,7 @@ select {
     width: 80%;
 }
 
-.googleMaps>iframe {
+.google-maps>iframe {
     border-radius: 0.250rem;
     width: 100%;
     height: 25rem;
