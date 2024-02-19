@@ -49,7 +49,7 @@ header {
     height: 650px;
 }
 
-.right {
+.Right {
     width: 45%;
 }
 
@@ -113,7 +113,7 @@ select {
 }
 
 
-.google-maps {
+.googleMaps {
     margin-left: 10%;
     border: 0.500rem double #90abd9;
     box-shadow: 0.125rem 0.125rem 0.25rem #000;
@@ -121,25 +121,25 @@ select {
     width: 80%;
 }
 
-.google-maps>iframe {
+.googleMaps>iframe {
     border-radius: 0.250rem;
     width: 100%;
     height: 25rem;
     border: 0;
 }
 
-.left {
+.Left {
     display: flex;
     width: 45%;
     height: 150%;
     flex-direction: column;
 }
 
-.images-aside {
+.imagesAside {
     width: 95%;
 }
 
-.images-aside img {
+.imagesAside img {
     border-radius: 1rem 0.500rem;
     border: 0.600rem double #90abd9;
     box-shadow: 0.063rem 0.063rem 0.588rem #000;

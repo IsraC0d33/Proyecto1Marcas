@@ -443,7 +443,7 @@
     width: 60%;
 }
 
-.volunteer-abroad-divs {
+.volunteer-abroad-Divs {
     display: flex;
     flex-wrap: wrap;
     margin-top: 0.313em;
@@ -1161,7 +1161,7 @@
     color: #16513B;
 }
 
-.sub-section {
+.subSection {
     display: flex;
 }
 
