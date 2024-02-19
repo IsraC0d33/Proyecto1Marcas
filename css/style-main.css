@@ -1584,7 +1584,7 @@ footer {
     width: 70%;
 }
 
-@media (min-width: 0px) and (max-width: 60.75em) {
+@media (width <= 60.75em) {
     .alert {
         display: block;
     }
