@@ -86,9 +86,13 @@
 <br>
 <br>
 
+<!--
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fvalidator.w3.org%2Fnu%3F%2Fdoc%3Dhttps%253A%252F%252Fgithub.com%252FIsraC0d33%252FProyecto1Marcas%252Fblob%252Fmain%252Findex.html&preset=HTML%2C%20SVG%201.1%2C%20MathML%203.0&style=plastic&logo=w3schools)
+!-->
 
 <img src="https://camo.githubusercontent.com/54b858cc41d89a782c18ec3fc07001f0d197e32cd794eca626a5c297499bbfe6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5733432d76616c6964617465642d627269676874677265656e">
+
+<br>
 
 <a href="http://www.w3.org/WAI/WCAG1A-Conformance" title="Explicación del Nivel A de Conformidad">
 <img height="42" width="98" src="http://www.w3.org/WAI/wcag1A-blue" alt="Icono de conformidad con el Nivel A, de las Directrices de Accesibilidad para el Contenido Web 1.0 del W3C-WAI"></a>
