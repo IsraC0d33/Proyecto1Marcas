@@ -787,8 +787,8 @@
                                 <p>Ecuador</p>
                             </div>
                         </a>
-                        
-                    <!-- Note Para el tiempo que hay no hay tiempo para implementar el js para la funcionalidad de arrastrar a la derecha  
+
+                        <!-- Note Para el tiempo que hay no hay tiempo para implementar el js para la funcionalidad de arrastrar a la derecha  
                     (quien se vea capaz que descomente esta parte y le de duro al js)
                         
                     <a href="" class="tarjetas-tercer-section">
@@ -847,7 +847,7 @@
                             <p>Marruecos</p>
                         </div>
                     </a> -->
-                     
+
                     </div>
                 </div>
             </section>
@@ -898,7 +898,7 @@
                         </a>
 
                     </div>
-                     
+
                     <!-- <a href="" class="tarjetas-quinto-section">
                     <img src="imagenes/JPG/cuidado.jpg" alt="cuid">
                     <h3>Cuidado de niños</h3>
@@ -931,7 +931,7 @@
                     <img src="imagenes/JPG/idioma.jpg" alt="idio">
                     <h3>Idioma - Semana de Orientación</h3>
                 </a> -->
-                 
+
                 </div>
             </section>
 
@@ -1092,110 +1092,104 @@
                     </div>
                 </div>
             </section>
-                    <section>
-            <div class="formulario">
-                <h1>Get in touch</h1>
-                <i class="fas fa-xmark"></i>
-                <form action="" method="get">
-                    <div class="primer-form">
-                        <div>
+
+            <section class="formulario-completo">
+                <div class="formulario">
+                    <header>
+                        <h1>Get in touch</h1>
+                    </header>
+                    <form action="#" method="get">
+                        <div class="field">
                             <label for="fname">First name<span class="req">*</span></label>
-                            <input type="text" name="fname" id="fname" required>
+                            <input type="text" id="fname" name="fname" required>
                         </div>
-                        <div>
+                        <div class="field">
                             <label for="lname">Last name<span class="req">*</span></label>
-                            <input type="text" name="lname" id="lname" required>
+                            <input type="text" id="lname" name="lname" required>
                         </div>
-                    </div>
-
-                    <div class="segundo-form">
-                        <div>
+                        <div class="field">
                             <label for="email">Email<span class="req">*</span></label>
-                            <input type="text" name="email" id="email" required>
+                            <input type="email" id="email" name="email" required>
                         </div>
-                        <div class="segundo-form-num">
+                        <div class="field">
                             <label for="phone">Phone number<span class="req">*</span></label>
-                            <select name="phone" id="phone" required>
-                                <option value="spain">Spain</option>
-                                <option value="spain">France</option>
-                                <option value="spain">Portugal</option>
-                                <option value="spain">UK</option>
-                            </select>
-                            <input type="text" name="phone" id="phone" required>
+                            <input type="tel" id="phone" name="phone" required>
                         </div>
-                    </div>
-
-                    <div class="tercer-form">
-                        <label for="travel">Where would you like to Travel?</label>
-                        <select name="travel" id="travel">
-                            <option value="india">India</option>
-                            <option value="nepal">Nepal</option>
-                            <option value="thailand">Thailand</option>
-                            <option value="bali">Bali</option>
-                        </select>
-                    </div>
-                    <div class="cuarto-form">
-                        <div>
+                        <div class="field">
+                            <label for="country">Where would you like to Travel?</label>
+                            <select id="country" name="country">
+                                <option value="">Please Select</option>
+                                <option value="españa">España</option>
+                                <option value="portugal">Portugal</option>
+                                <option value="italia">Italia</option>
+                                <option value="francia">Francia</option>
+                            </select>
+                        </div>
+                        <div class="field">
                             <label for="month">Month</label>
-                            <select name="month" id="month">
-                                <option value="1m">Enero</option>
-                                <option value="2m">Febrero</option>
-                                <option value="3m">Marzo</option>
-                                <option value="4m">Abril</option>
-                                <option value="5m">Mayo</option>
-                                <option value="6m">Junio</option>
-                                <option value="7m">Julio</option>
-                                <option value="8m">Agosto</option>
-                                <option value="9m">Septiembre</option>
-                                <option value="10m">Octubre</option>
-                                <option value="11m">Noviembre</option>
-                                <option value="12m">Diciembre</option>
+                            <select id="month" name="month">
+                                <option disabled="" value="">Tentative Travel Month</option>
+                                <option value="January">January</option>
+                                <option value="February">February</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="July">July</option>
+                                <option value="August">August</option>
+                                <option value="September">September</option>
+                                <option value="October">October</option>
+                                <option value="November">November</option>
+                                <option value="December">December</option>
                             </select>
                         </div>
-                        <div>
-                            <label for="year">Year</label>
-                            <select name="year" id="year">
+                        <div class="field">
+                            <label for="year">Month</label>
+                            <select id="year" name="year">
+                                <option disabled="" value="">Tentative Travel Year</option>
                                 <option value="2023">2023</option>
                                 <option value="2024">2024</option>
                                 <option value="2025">2025</option>
                             </select>
                         </div>
-                    </div>
-                    <div class="quinto-form">
-                        <label for="message">Message<span class="req">*</span></label>
-                        <textarea name="message" id="message" cols="30" rows="3" required></textarea>
-                    </div>
-                    <div class="sexto-form">
-                        <p>Volunteering Solutions needs the contact information you provide to us to contact you about our products and
-                            services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as
-                            well as our privacy practices and commitment to protecting your privacy, please review our Privacy Policy.
-                        </p>
-                        <input type="submit" value="Submit your Query">
-                    </div>
-                </form>
-                <div class="form-contacto">
-                        <hr>
-                        <i class="fab fa-whatsapp"> WhatsApp</i>
-                        <button>Message</button>
-                        <hr>
-                    </div>
-                    <div class="phone-contacto">
-                        <i class="fas fa-phone"> Phone</i>
-                        <div class="usa-conatct">
-                            <img src="" alt="">
-                            <a href="">1-888-694-9411</a>
+                        <div class="field">
+                            <label for="mensaje">Message<span class="req">*</span></label>
+                            <textarea id="mensaje" name="mensaje" required></textarea>
                         </div>
-                        <div class="uk-conatct">
-                            <img src="" alt="">
+                        <p>Volunteering Solutions needs the contact information you provide to us to contact you about
+                            our products
+                            and services. You may unsubscribe from these communications at any time. For information on
+                            how to
+                            unsubscribe, as well as our privacy practices and commitment to protecting your privacy,
+                            please review
+                            our Privacy Policy.</p>
+                        <div class="field">
+                            <input class="submit" type="submit" value="Submit your Query">
+                        </div>
+                    </form>
+                </div>
+                <div class="contactos-formulario">
+                    <hr>
+                    <div class="whatsapp">
+                        <i class="fab fa-whatsapp"> WhatsApp</i>
+                        <a href=""><button>Message</button></a>
+
+                    </div>
+                    <hr>
+                    <div class="phone">
+                        <i class="fas fa-phone"> Phone</i>
+                        <div class="usa">
+                            <img src="imagenes/JPG/usa.jpg" alt="usa-flag">
+                            <a href="">1-888-694-9411</a>
+                            <img src="imagenes/JPG/uk.jpg" alt="uk-flag">
                             <a href="">(+44)020 3830 6000</a>
                         </div>
-                        <p>Available Mon - Fri 8am to 5pm London Time </p>
+                        <p>Available Mon - Fri 8am to 5pm London Time</p>
                     </div>
                 </div>
-            </div>
-
-        </section>
+            </section>
         </div>
+
         <section>
             <div class="noveno-section">
                 <div class="titulo-noveno">
