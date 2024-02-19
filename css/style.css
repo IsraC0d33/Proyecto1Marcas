@@ -139,7 +139,7 @@ select {
     width: 95%;
 }
 
-.imagesAside img {
+.images-aside img {
     border-radius: 1rem 0.500rem;
     border: 0.600rem double #90abd9;
     box-shadow: 0.063rem 0.063rem 0.588rem #000;
