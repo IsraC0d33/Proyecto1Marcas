@@ -4,7 +4,14 @@
 
 <h1 align="center">💡Proyecto Marcas💡</h1>
 
+ <details align="center">
+  <summary>Chiste del Dia</summary>
+  
+  ![Reddit](https://i.redd.it/5izq2xc8j2xa1.jpg)
+</details>
+
 <p align="center">
+  
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
   </a>
@@ -21,11 +28,7 @@
 
 <div align="center">
 
-<details>
-  <summary>Chiste del Dia</summary>
-  
-  ![Reddit](https://i.redd.it/5izq2xc8j2xa1.jpg)
-</details>
+
 
 ![Static Badge](https://img.shields.io/badge/Saludos-Bienvenidos%20a%20nuestra%20Practica-orange?style=for-the-badge&logo=bandsintown&logoColor=%23fff)
 
