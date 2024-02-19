@@ -19,7 +19,7 @@ jobs:
       with:
         base-url: "https://israc0d33.github.io/Proyecto1Marcas/"
         build-for-downstream: "true"
-        source-directory: exampleSite
+        source-directory: ./index.html
         use-lfs: false
     - name: "Validate HTML of statically generated website"
       uses: wildtechgarden/validator-html-action@main
