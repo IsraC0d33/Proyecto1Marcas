@@ -128,7 +128,7 @@ select {
     border: 0;
 }
 
-.Left {
+.left {
     display: flex;
     width: 45%;
     height: 150%;
