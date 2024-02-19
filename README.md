@@ -62,6 +62,8 @@
 <br>
 [![SonarCLoud](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/SonarCloud.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/SonarCloud.yml)
 [![Codacy Security Scan](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/codacy.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/codacy.yml)
+[![Deno](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/deno.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/deno.yml)
+[![Docker](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/IsraC0d33/Proyecto1Marcas/actions/workflows/docker-publish.yml)
 <br>
 <br>
 
