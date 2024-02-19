@@ -19,7 +19,7 @@ const aboutUs = document.querySelector('.about-us')
 const classesAction = [dashDestinations, dashIntern, dashProjects, dashGroups, dashResources, aboutUs];
 
 for (let index = 0; index < classes.length; index++) {
-    for (let index = 0; index < classesAction.length; index++) {
+    classes[index].addEventListener('mouseover', () => classesAction[index].style.display = 'flex');
     classes[index].addEventListener('mouseout', () => classesAction[index].style.display = 'none');
 }
 
