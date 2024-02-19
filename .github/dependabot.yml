@@ -40,6 +40,7 @@ updates:  # Configuración de actualizaciones para las diferentes áreas/actions
     directory: "/"
     schedule:
       interval: "daily"
+      
     commit-message:
       prefix: "papasito[Docker]"
     labels:
