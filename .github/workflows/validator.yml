@@ -14,8 +14,8 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v4
-    - name: "Build site with Hugo and audit"
-      uses: wildtechgarden/audit-build-action-hugo-dfd@main
+    - name: "Build site audit"
+      uses: IsraC0d33/Proyecto1Marcas@main
       with:
         base-url: "https://www.example.com/"
         build-for-downstream: "true"
