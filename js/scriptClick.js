@@ -1,8 +1,8 @@
 
 //No evaluable -> intensidad:Poca
 
-let container = document.querySelector('.change-language');
-let countries = container.querySelectorAll('div');
+const container = document.querySelector('.change-language');
+const countries = container.querySelectorAll('div');
 
 //REVIEW - Creando un objeto para poder añadir los siguientes paises. 
 
