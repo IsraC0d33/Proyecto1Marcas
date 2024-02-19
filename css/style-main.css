@@ -1468,34 +1468,57 @@
 }
 
 .formulario{
-    width: 60%;
     background-color: #215543;
     color: white;
     padding: 1em;
 }
 
 .primer-form{
+    padding-top: 2em;
     display: flex;
-    justify-content: center;
+}
+
+.primer-form div{
+    padding: 1em;
+    display: grid;
 }
 
 .segundo-form{
     display: flex;
-    justify-content: center;
+}
+
+.segundo-form div{
+    padding: 1em;
+    display: grid;
+}
+
+.segundo-form-num{
+}
+
+.segundo-form-num select{
+    width: 22%;
+}
+
+.segundo-form-num input{
+    width: 70%;
 }
 
 .tercer-form{
-    text-align: center;
+    padding: 1em;
 }
 
 .cuarto-form{
     display: flex;
-    justify-content: center;
+    padding: 1em;
 }
 
 .quinto-form{
     display: flex;
-    justify-content: center;
+    padding: 1em;
+}
+
+.req{
+    color: rgb(197, 26, 26);
 }
 
 .sexto-form input{
