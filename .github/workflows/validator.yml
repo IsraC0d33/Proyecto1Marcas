@@ -17,7 +17,7 @@ jobs:
     - name: "Build site audit"
       uses: IsraC0d33/Proyecto1Marcas@main
       with:
-        base-url: "https://www.example.com/"
+        base-url: "https://israc0d33.github.io/Proyecto1Marcas/"
         build-for-downstream: "true"
         source-directory: exampleSite
         use-lfs: false
