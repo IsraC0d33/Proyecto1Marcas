@@ -1,5 +1,5 @@
 // Editado por Marcos
-let cookiesAceptadas = localStorage.getItem("cookiesAceptadas");
+const cookiesAceptadas = localStorage.getItem("cookiesAceptadas");
 const botontAceptarCookies = document.querySelector('.boton');
 const avisoCookies = document.querySelector('.aviso-cookies');
 const fondoAvisoCokies = document.querySelector('.fondo-aviso-cookies');
