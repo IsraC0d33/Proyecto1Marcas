@@ -1,20 +1,20 @@
 //No evaluable -> intensidad:Poca
 
-let destiny = document.querySelector('.destiny');
-let foreign = document.querySelector('.foreign');
-let project = document.querySelector('.project');
-let groups = document.querySelector('.groups')
-let resources = document.querySelector('.resources')
-let about = document.querySelector('.about')
+const destiny = document.querySelector('.destiny');
+const foreign = document.querySelector('.foreign');
+const project = document.querySelector('.project');
+const groups = document.querySelector('.groups')
+const resources = document.querySelector('.resources')
+const about = document.querySelector('.about')
 
 const classes = [destiny, foreign, project, groups, resources, about];
 
-let dashDestinations = document.querySelector('.dash-destinations');
-let dashIntern = document.querySelector('.dash-intern-abroad');
-let dashProjects = document.querySelector('.dash-projects');
-let dashGroups = document.querySelector('.dash-groups')
-let dashResources = document.querySelector('.dash-resources')
-let aboutUs = document.querySelector('.about-us')
+const dashDestinations = document.querySelector('.dash-destinations');
+const dashIntern = document.querySelector('.dash-intern-abroad');
+const dashProjects = document.querySelector('.dash-projects');
+const dashGroups = document.querySelector('.dash-groups')
+const dashResources = document.querySelector('.dash-resources')
+const aboutUs = document.querySelector('.about-us')
 
 const classesAction = [dashDestinations, dashIntern, dashProjects, dashGroups, dashResources, aboutUs];
 
