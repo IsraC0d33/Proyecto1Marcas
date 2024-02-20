@@ -4,11 +4,6 @@
 
 <h1 align="center">💡Proyecto Marcas💡</h1>
 
- <details align="center">
-  <summary>Chiste del Dia</summary>
-  
-  ![Reddit](https://i.redd.it/5izq2xc8j2xa1.jpg)
-</details>
 
 <p align="center">
   
