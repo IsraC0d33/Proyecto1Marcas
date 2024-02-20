@@ -6,7 +6,6 @@
     - [Código de Conducta](#código-de-conducta)
 - [**¡Gracias!**](#gracias)
 
-
 1. Revisa las [issues](https://github.com/IsraC0d33/Proyecto1Marcas/issues/) abiertas o crea una nueva para discutir los cambios que te gustaría realizar.
 2. Asegúrate de seguir nuestras pautas de estilo y buenas prácticas.
 
