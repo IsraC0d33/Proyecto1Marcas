@@ -4,7 +4,9 @@
 
 <h1 align="center">💡Proyecto Marcas💡</h1>
 
+
 <p align="center">
+  
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
   </a>
@@ -21,6 +23,8 @@
 
 <div align="center">
 
+
+
 ![Static Badge](https://img.shields.io/badge/Saludos-Bienvenidos%20a%20nuestra%20Practica-orange?style=for-the-badge&logo=bandsintown&logoColor=%23fff)
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
@@ -32,6 +36,7 @@
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FIsraC0d33%2FProyecto1Marcas.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FIsraC0d33%2FProyecto1Marcas?ref=badge_small)
 
 <details>
+<summary>Licencia</summary>
   
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FIsraC0d33%2FProyecto1Marcas.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2FIsraC0d33%2FProyecto1Marcas?ref=badge_large&issueType=license)
 
@@ -55,7 +60,7 @@
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas/main)
 
 <details>
-
+<summary>Commits de los Contribuidores</summary>
 <br>
 
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas/main?authorFilter=Ballwictb)
