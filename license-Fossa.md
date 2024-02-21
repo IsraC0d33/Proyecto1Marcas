@@ -1,10 +1,7 @@
----
 
 # 3rd-Party Software for [Proyecto1Marcas](https://github.com/IsraC0d33/Proyecto1Marcas)
 
-
-The following 3rd-party software packages may be used by or distributed with **Proyecto1Marcas**.  Any information relevant to third-party vendors listed below are collected using common, reasonable means.
-
+> The following 3rd-party software packages may be used by or distributed with **Proyecto1Marcas**.  Any information relevant to third-party vendors listed below are collected using common, reasonable means.
 
 | Date generated |               Revision ID                |
 | :------------: | :--------------------------------------: |
