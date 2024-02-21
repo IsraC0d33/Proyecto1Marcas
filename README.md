@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/IsraC0d33/Proyecto1Marcas"><img src="https://github.com/IsraC0d33/Proyecto1Marcas/blob/main/assets/marca.gif" width="300"></a>
+<a href="https://github.com/IsraC0d33/Proyecto1Marcas"><img src="https://github.com/IsraC0d33/Proyecto1Marcas/blob/main/assets/marca.gif" alt="Marca del Repositorio" width="300"></a>
 </div>
 
 <h1 align="center">💡Proyecto Marcas💡</h1>
