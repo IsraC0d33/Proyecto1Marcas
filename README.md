@@ -15,7 +15,7 @@
   </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-  </a> 
+  </a>
   <a href="https://docs.docker.com/get-started/overview/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="50" height="50"/>
   </a>
@@ -151,7 +151,7 @@
 ⇢
 **_Encargarse del CSS_**
 <br>
-```Usar el esqueleto creado en HTML para darles estilo ```
+```Usar el esqueleto creado en HTML para darles estilo```
 
 ![Codigo CSS](https://github.com/IsraC0d33/Proyecto1Marcas/assets/150441668/6d4732da-7c8b-454b-b931-4a82e14dc684)
 
