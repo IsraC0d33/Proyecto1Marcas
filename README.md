@@ -124,11 +124,7 @@
 <h3>🪐 Actividad Repo 🪐</h3>
 <br>
   
-![Repo Activity](https://repobeats.axiom.co/api/embed/f7a7d5082a4d91d7cc281ed2d5aa9a2d66bea70f.svg)[ref]
-
-...
-
-[ref]: https://repobeats.axiom.co/api/embed/f7a7d5082a4d91d7cc281ed2d5aa9a2d66bea70f.svg "statsRepo"
+![Repo Activity](https://repobeats.axiom.co/api/embed/f7a7d5082a4d91d7cc281ed2d5aa9a2d66bea70f.svg)
 
 <br>
 
