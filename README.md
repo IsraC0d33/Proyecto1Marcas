@@ -91,7 +91,7 @@
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fvalidator.w3.org%2Fnu%3F%2Fdoc%3Dhttps%253A%252F%252Fgithub.com%252FIsraC0d33%252FProyecto1Marcas%252Fblob%252Fmain%252Findex.html&preset=HTML%2C%20SVG%201.1%2C%20MathML%203.0&style=plastic&logo=w3schools)
 !-->
 
-<img src="https://camo.githubusercontent.com/54b858cc41d89a782c18ec3fc07001f0d197e32cd794eca626a5c297499bbfe6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5733432d76616c6964617465642d627269676874677265656e">
+<img src="https://camo.githubusercontent.com/54b858cc41d89a782c18ec3fc07001f0d197e32cd794eca626a5c297499bbfe6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5733432d76616c6964617465642d627269676874677265656e" alt="w3shcool">
 
 <br>
 
@@ -100,11 +100,12 @@
 
 </div>
 
-<img align="center" width="100%" height="200" src="https://www.scgchemicals.com/assets/img/element/dot-banner.png" />
+<img align="center" width="100%" height="200" src="https://www.scgchemicals.com/assets/img/element/dot-banner.png" alt="olavisual" />
 
 <br>
 
-<img align="right" height="100" src="https://i.pinimg.com/originals/6b/f0/c8/6bf0c8ea5b563be2089d4f92836f719c.gif"  /><img align="center" height="100" src="https://i.pinimg.com/originals/6b/f0/c8/6bf0c8ea5b563be2089d4f92836f719c.gif"  />
+<img align="right" height="100" src="https://i.pinimg.com/originals/6b/f0/c8/6bf0c8ea5b563be2089d4f92836f719c.gif" alt="pato" />
+<img align="center" height="100" src="https://i.pinimg.com/originals/6b/f0/c8/6bf0c8ea5b563be2089d4f92836f719c.gif" alt="pato" />
 <br>
 
 ###
@@ -116,12 +117,18 @@
 
 ## 🧑‍💻 Participantes
 
-<a href="https://github.com/IsraC0d33/Proyecto1Marcas/graphs/contributors"><img src="https://contrib.rocks/image?repo=IsraC0d33/Proyecto1Marcas" /></a>
+<a href="https://github.com/IsraC0d33/Proyecto1Marcas/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=IsraC0d33/Proyecto1Marcas" alt="Contribuidores"/>
+</a>
 
 <h3>🪐 Actividad Repo 🪐</h3>
 <br>
   
-![Repo Activity](https://repobeats.axiom.co/api/embed/f7a7d5082a4d91d7cc281ed2d5aa9a2d66bea70f.svg)
+![Repo Activity](https://repobeats.axiom.co/api/embed/f7a7d5082a4d91d7cc281ed2d5aa9a2d66bea70f.svg)[ref]
+
+...
+
+[ref]: https://repobeats.axiom.co/api/embed/f7a7d5082a4d91d7cc281ed2d5aa9a2d66bea70f.svg "statsRepo"
 
 <br>
 
