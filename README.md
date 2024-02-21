@@ -5,11 +5,10 @@
 
 <h1 align="center">💡Proyecto Marcas💡</h1>
 
-
 <p align="center">
   
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
+  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
   </a>
   <a href="https://www.w3schools.com" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
@@ -23,8 +22,6 @@
 </p>
 
 <div align="center">
-
-
 
 ![Static Badge](https://img.shields.io/badge/Saludos-Bienvenidos%20a%20nuestra%20Practica-orange?style=for-the-badge&logo=bandsintown&logoColor=%23fff)
 
@@ -48,7 +45,6 @@
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=IsraC0d33_Proyecto1Marcas&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/103f6e4133a542b3ab5aa9a1a0d2d9dd)](https://app.codacy.com/gh/IsraC0d33/Proyecto1Marcas/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-
 
 ![GitHub top language](https://img.shields.io/github/languages/top/IsraC0d33/Proyecto1Marcas?logo=html5)
 [![release](https://img.shields.io/github/v/release/IsraC0d33/Proyecto1Marcas)](https://github.com/IsraC0d33/Proyecto1Marcas/releases)
@@ -77,7 +73,6 @@
 <!--
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/IsraC0d33/Proyecto1Marcas?logo=comicfury)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas) !-->
-
 
 <br>
 
@@ -119,7 +114,7 @@
 
 <div align="center">
 
-## 🧑‍💻 Participantes 
+## 🧑‍💻 Participantes
 
 <a href="https://github.com/IsraC0d33/Proyecto1Marcas/graphs/contributors"><img src="https://contrib.rocks/image?repo=IsraC0d33/Proyecto1Marcas" /></a>
 
@@ -131,6 +126,7 @@
 <br>
 
 ## Funciones 🧑‍💻
+
 🛸 **Jamal Rabah** ⇢  **_Estructurador y medio HTML y medio CSS_**
 <br>
 ```Crear la estructura de ficheros y archivos y crear parte de html y css.```
