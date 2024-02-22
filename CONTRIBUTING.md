@@ -20,4 +20,4 @@ Por favor, ten en cuenta nuestro [Código de Conducta](CODE_OF_CONDUCT.md) en to
 
 **¡Gracias!**
 
-![logo-apoyo](https://i.imgur.com/nTp1TkQ.png){width="200"}
+![logo-apoyo](https://i.imgur.com/nTp1TkQ.png)
