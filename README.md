@@ -95,8 +95,6 @@
 
 <br>
 
-<a href="http://www.w3.org/WAI/WCAG1A-Conformance" title="Explicación del Nivel A de Conformidad">
-<img height="42" width="98" src="http://www.w3.org/WAI/wcag1A-blue" alt="Icono de conformidad con el Nivel A, de las Directrices de Accesibilidad para el Contenido Web 1.0 del W3C-WAI"></a>
 
 </div>
 
