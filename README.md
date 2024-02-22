@@ -61,13 +61,16 @@
 <br>
 
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas/main?authorFilter=Ballwictb)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas/main?authorFilter=MarcosAcedoLlerena)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas/main?authorFilter=IsraC0d33)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas/main?authorFilter=MarcosAcedoLlerena)
+
 <br>
 
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas/main?authorFilter=MuiGt)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas/main?authorFilter=roberto-ortizperez)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas/main?authorFilter=MarioGalanEscudero)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas/main?authorFilter=roberto-ortizperez)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/IsraC0d33/Proyecto1Marcas/main?authorFilter=MuiGt)
+
+
 
 </details>
 <!--
