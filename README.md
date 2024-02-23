@@ -25,6 +25,21 @@
 
 ![Static Badge](https://img.shields.io/badge/Saludos-Bienvenidos%20a%20nuestra%20Practica-orange?style=for-the-badge&logo=bandsintown&logoColor=%23fff)
 
+
+<details>
+<summary>Star History</summary>
+
+<a href="https://star-history.com/#IsraC0d33/Proyecto1Marcas&Timeline">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=IsraC0d33/Proyecto1Marcas&type=Timeline&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=IsraC0d33/Proyecto1Marcas&type=Timeline&theme=light" />
+    <img alt="Star History" src="https://star-history.com/embed?secret=Z2l0aHViX3BhdF8xMUJEM1k1UkEwZnJyTVJ6TzRCNVdKX0tKSzFGTktZNEc4bHdSdnVGNmdVOWN3Z2VuWmhDTkJicDhERHFITk9UWXVBRzZGSVNLUk1sRDlad3BV#IsraC0d33/Proyecto1Marcas&Timeline"  />
+  </picture>
+</a>
+
+</details>
+
+
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=IsraC0d33_Proyecto1Marcas)
 <br>
 
