@@ -1,31 +1,21 @@
 
-//No evaluable -> intensidad:Poca
+//REVIEW -  No evaluable -> intensidad:Poca
 
 const container = document.querySelector('.change-language');
 const countries = container.querySelectorAll('div');
 
 //REVIEW - Creando un objeto para poder añadir los siguientes paises. 
 
-const _rugged = [
-    {
-        esp: () => {
-            for (let i = 1; i < countries.length; i++) {
-                if (countries[i].style.display == 'none') {
-                    countries[i].style.display = 'block'
-                } else {
-                    countries[i].style.display = 'none'
-                }
-            }
-        }
-    },
-    { uk: {} },
-    { pt: {} },
-    { it: {} },
-    { de: {} }
-];
+const _rugged = {
+    es: () => { for (let i = 1; i < countries.length; i++) { if (countries[i].style.display == 'none') { countries[i].style.display = 'block' } else { countries[i].style.display = 'none' } } },
+    uk: () => { },
+    pt: () => { },
+    it: () => { },
+    de: () => { }
+};
 
 
-//REVIEW -  Prueba superada - {Cambio a un codigo mas flexible}
+//REVIEW -  Prueba superada - {Cambio de codigo}
 
 /************************************************
  *             FUNCTION ESPAÑA() {              *
