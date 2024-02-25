@@ -82,7 +82,7 @@
 
 /* < !-- Editado por : Jamal Rabah --> */
 .nav-main {
-    background: #FFF;
+    background: #fff;
     width: 100%;
     height: 6.25rem;
     display: flex;
@@ -258,11 +258,11 @@
 
 .dash-destinations a {
     text-decoration: none;
-    color: gray;
+    color: #808080;
 }
 
 .dash-destinations a:hover {
-    color: black;
+    color: #000;
 }
 
 .dash-destinations img {
@@ -319,11 +319,11 @@
 
 .specific-featured h3 {
     margin-left: 1rem;
-    color: black;
+    color: #000;
 }
 
 .featured p {
-    color: forestgreen;
+    color: #228b22;
     margin-top: 0.063rem;
     padding-left: 1rem;
 }
@@ -408,7 +408,7 @@
 
 
 .dash-projects p {
-    background-color: rgb(20 80 58);
+    background-color: #14503a;
     font-size: 0.750rem;
     text-align: center;
     border-top-right-radius: 0.313em;
@@ -643,62 +643,62 @@
 
 .block-resources-general-information-reserva p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 4.5em;
 }
 
 .block-resources-general-information-preguntas p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 3em;
 }
 
 .block-resources-general-information-fondos p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 3em;
 }
 
 .block-resources-general-information-ofertas p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 4.5em;
 }
 
 .block-resources-general-information-conozca p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 3em;
 }
 
 .block-resources-general-information-costes p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 3em;
 }
 
 .block-resources-general-information-fechas p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 1.5em;
 }
 
 .block-resources-general-information-comprar p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 3em;
 }
 
 .block-resources-general-information-diplomado p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 1em;
     font-size: smaller;
 }
 
 .block-resources-general-information-curso p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 3em;
 }
 
@@ -712,7 +712,6 @@
 .questions {
     display: flex;
     flex-direction: column;
-
 }
 
 .questions a {
@@ -742,11 +741,11 @@
     margin-left: 22rem;
 }
 
-/* Algunos cambios por Jamal Rabah */ 
+/* Algunos cambios por Jamal Rabah */
 
-/* Editado por Mario y Marcos*/ 
+/* Editado por Mario y Marcos*/
 
-/* Parte de sobre nosotros*/ 
+/* Parte de sobre nosotros*/
 
 .about:hover {
     border-left: 0.063rem solid #000;
@@ -848,50 +847,50 @@
 
 .block-about-us-general-information-conocer p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 4.5em;
 }
 
 .block-about-us-general-information-mensaje p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 3em;
 }
 
 .block-about-us-general-information-noticias p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 4.5em;
 }
 
 .block-about-us-general-information-politicas p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 4.5em;
 }
 
 .block-about-us-general-information-volsol p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 3em;
 }
 
 .block-about-us-general-information-elegirnos p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 4.5em;
 }
 
 .block-about-us-general-information-pagar p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 4em;
     font-size: smaller;
 }
 
 .block-about-us-general-information-arbol p {
     background-color: #1c7652;
-    color: white;
+    color: #fff;
     margin-top: 5.3em;
 }
 
@@ -953,8 +952,8 @@
 
 
 .primer-section .parents {
-    margin-left: 58%;
-    width: 140%;
+    margin-left: 60%;
+    width: 180%;
     height: 30em;
 }
 
@@ -1233,7 +1232,7 @@
 
 .septimo-section {
     margin-left: 3.5rem;
-    background: #FFF;
+    background: #fff;
     height: 25rem;
     display: flex;
     align-items: center;
@@ -1357,7 +1356,7 @@
 .titulo-decimo h2 {
     padding-top: 2rem;
     text-align: center;
-    color: #FFF;
+    color: #fff;
     font-family: PoppinsBold, system-ui;
     font-size: xx-large;
 }
@@ -1389,7 +1388,7 @@
 
 .contact-info {
     margin: auto;
-    background: #FFF;
+    background: #fff;
     width: fit-content;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -1425,7 +1424,7 @@
 }
 
 .tarjeta-undecimo li {
-    color: white;
+    color: #fff;
     padding: 0.5em;
     list-style: none;
 }
@@ -1453,7 +1452,7 @@
 }
 
 .sign-up {
-    color: white;
+    color: #fff;
     background-color: #1c7652;
     width: 12em;
     height: 4em;
@@ -1476,19 +1475,20 @@
     margin-bottom: 1rem;
 }
 
-.icons i:nth-of-type(3) {
+/* #fff */
+.icons i:nth-child(3) {
     color: #24A3F1;
 }
 
-.icons i:nth-of-type(4) {
+.icons i:nth-child(4) {
     color: #FF0808;
 }
 
-.icons i:nth-of-type(5) {
+.icons i:nth-child(5) {
     color: #21B9EB;
 }
 
-.icons i:nth-of-type(6) {
+.icons i:nth-child(6) {
     color: #106BFF;
 }
 
@@ -1584,7 +1584,7 @@ footer {
     width: 70%;
 }
 
-@media (width <= 60.75em) {
+@media (width <=60.75em) {
     .alert {
         display: block;
     }
