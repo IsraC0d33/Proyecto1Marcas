@@ -1,0 +1,30 @@
+on:
+  push:
+    branches: [main]
+
+name: Test Setup R Icons
+
+jobs:
+  test-setup-r-icons:
+    runs-on: ubuntu-latest
+          
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: r-lib/actions/setup-r@v1
+        with:
+          use-public-rspm: true
+
+      - uses: tomjemmett/setup-r-icons@v1
+        with:
+          icon-sets: fontawesome,simple_icons
+
+      - name: Show icons folder
+        run: ls ~/.local/share/rpkg_icon
+
+      - name: Test it worked
+        run: icons::icon_find("envelope")
+        shell: Rscript {0}
