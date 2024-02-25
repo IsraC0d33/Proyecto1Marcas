@@ -23,4 +23,5 @@ Crawl-delay: 5
 
 # Especifica la ubicación del archivo de sitemap para que los bots de búsqueda puedan encontrarlo.
 
+
 Sitemap: https://israc0d33.github.io/Proyecto1Marcas/sitemap.xml
