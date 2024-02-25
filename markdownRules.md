@@ -14,3 +14,4 @@
     Esta herramienta se utiliza para validar el formato de Markdown en un documento o en un conjunto de documentos.
     La herramienta proporciona una serie de reglas de validación que pueden ser personalizadas para adaptarse a las necesidades 
     específicas de cada proyecto."
+---
