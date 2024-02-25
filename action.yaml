@@ -1,0 +1,51 @@
+name: 'setup-r-icons'
+description: 'Action to setup the icons package and download fonts'
+author: 'Tom Jemmett'
+inputs:
+  cache-version:
+    description: 'The version of the cache, change this from the default (1) to start over with a fresh cache'
+    required: true
+    default: 1
+  icon-sets:
+    description: 'Icon sets to download. Should be a common separated string with no whitespace. See the {icons} package for available icon sets (download_*() functions)'
+    required: true
+    default: ''
+
+runs:
+  using: "composite"
+  steps:
+    - name: Install dependencies
+      run: |
+        install.packages(c("remotes", "rappdirs", "gh"))
+        remotes::install_github("mitchelloharawild/icons")
+      shell: Rscript {0}
+
+    - name: Write icon-sets
+      run: |
+        writeLines("${{ inputs.icon-sets }}", "icon-sets.txt")
+      shell: Rscript {0}
+
+    - name: Get icons path
+      id: get-icons-path
+      run: |
+        cat("::set-output name=icons-path::", rappdirs::user_data_dir("rpkg_icon"), "\n", sep = "")
+      shell: Rscript {0}
+
+    - name: Restore downloaded icons
+      uses: actions/cache@v2
+      with:
+        path: ${{ steps.get-icons-path.outputs.icons-path }}
+        key: ${{ runner.os }}-icons-${{ inputs.cache-version }}-${{ hashFiles('icon-sets.txt') }}
+
+    - name: Download fonts
+      run: |
+        library(icons)
+
+        icons <- strsplit("${{ inputs.icon-sets }}", ",")[[1]]
+
+        for (i in icons) {
+          if (!icon_installed(get(i))) {
+            get(paste0("download_", i))()
+          }
+        }
+      shell: Rscript {0}
