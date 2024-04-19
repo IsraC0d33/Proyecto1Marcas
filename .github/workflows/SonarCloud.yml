@@ -1,34 +1,35 @@
-name: Build  # Define el nombre del flujo de trabajo como "Build"
+name: Build  #Definimos el nombre del flujo de trabajo, en este caso Build
 
-on:  # Desencadena el flujo de trabajo en push a la rama main
+on:  # En la rama main es donde se desencadenara todo lo siguiente
   push:
     branches:
       - main
   pull_request:
     types: [opened, synchronize, reopened]
 
-jobs:
+jobs: # aqui empieza todo lo que se hará en el YAML
   sonarcloud:
     name: SonarCloud
-    runs-on: ubuntu-latest  # Lo en una máquina virtual Ubuntu con la última versión disponible
+    runs-on: ubuntu-latest  # en estas tres lineas se corre una maquina ubuntu, en su ultima versión
 
     env:
-      NODE_VERSION: 20  # Especifica la versión de Node.js en este caso 20
+      NODE_VERSION: 20  # en este caso se usa Node, en su version 20
 
-    steps:  # Pasos a segir
-      - uses: actions/checkout@v4.1.1  # Clonar el repositorio
+    steps:  # Aqui se definen los pasos que se llevaran a cabo 
+      - uses: actions/checkout@v4.1.1  # en este paso se clona el repositorio
         with:
-          fetch-depth: 0  # Deshabilita las clonaciones poco profundas
+          fetch-depth: 0 
 
       - name: Setup Node.js
-        run: |  # Ejecuta un script bash
+        run: |  # en este paso la maaquina ubuntu actualiza los paquetes, instala nodejs y npm, ademas de mostrar sus versiones
           sudo apt-get update  # Actualiza los paquetes del sistema
           sudo apt-get install -y nodejs npm  # Instala Node.js y npm
           node -v  # Muestra la versión de Node.js instalada
           npm -v  # Muestra la versión de npm instalada
 
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master  # Acción de SonarCloud para hacer el escaneo
+        uses: SonarSource/sonarcloud-github-action@master  # Por ultimo se realiza el escaneo, requiriendo las variables de entorno de
+        # github y sonar
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Token de GitHub
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  # Token de SonarCloud
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }} 
