@@ -78,7 +78,7 @@ jobs:
       # https://github.com/docker/build-push-action
       - name: Build and push Docker image
         id: build-and-push  # Asigna un ID al paso para su posterior referencia
-        uses: docker/build-push-action@4a13e500e55cf31b7a5d59a38ab2040ab0f42f56 # v5.1.0
+        uses: docker/build-push-action@94f8f8c2eec4bc3f1d78c1755580779804cb87b2 # v6.0.1
         with:
           context: . # Especifica el contexto :  Como por ejemplo :  el directorio raíz del repositorio
           push: ${{ github.event_name != 'pull_request' }} # Indica si se debe realizar el push basándose en el tipo de evento
