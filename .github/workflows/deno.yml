@@ -27,7 +27,7 @@ jobs:
 
       - name: Setup Deno
         # uses: denoland/setup-deno@v1
-        uses: denoland/setup-deno@041b854f97b325bd60e53e9dc2de9cb9f9ac0cba  # v1.1.4
+        uses: denoland/setup-deno@4606d5cc6fb3f673efd4f594850e3f4b3e9d29cd  # v2.0.0
         with:
           deno-version: v1.x
 
