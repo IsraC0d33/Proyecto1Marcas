@@ -7,7 +7,7 @@
 		"160": {
 			"label": "536001"
 		}
-	}, // Agregada la coma aquí
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
