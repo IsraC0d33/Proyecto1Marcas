@@ -69,4 +69,8 @@ jobs:
         env:
           TAGS: ${{ steps.meta.outputs.tags }} # Asigna las etiquetas de la imagen a la variable TAGS
           DIGEST: ${{ steps.build-and-push.outputs.digest }} # Asigna el hash digest de la imagen a la variable DIGEST
-        run: echo "${TAGS}" | xargs -I {} cosign sign --yes {}@${DIGEST} # Firma la imagen Docker
+        run: |
+          for tag in ${TAGS}; do
+            cosign sign --yes "${tag}@${DIGEST}" # Firma la imagen Docker
+          done
+
