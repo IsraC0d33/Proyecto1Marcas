@@ -9,95 +9,64 @@ on:
   schedule:
     - cron: '41 9 * * *' # Ejecuta todos los días a las 9:41 UTC
   push:
-    branches: [ "main" ] # rama main
-    # Publish semver tags as releases. https://github.com/marketplace/actions/docker-publish-semver-tags
+    branches: [ "main" ] # Rama principal
     tags: [ 'v*.*.*' ] # Desencadena el flujo de trabajo en push de etiquetas que siguen el patrón semver
-    # Esta acción de Github toma una imagen Docker existente y etiquetada de un registro de imágenes Docker
-    # (por ejemplo, el repositorio de paquetes de Github), crea varias etiquetas nuevas de acuerdo con el 
-    # versionado semántico y las publica en un registro de destino determinado.
   pull_request:
-    branches: [ "main" ] # rama main
+    branches: [ "main" ] # Rama principal
 
 env:
-  # Use docker.io for Docker Hub if empty
-  # Utiliza docker.io para Docker Hub si está vacío
-  REGISTRY: ghcr.io
-  # github.repository as <account>/<repo>
-  IMAGE_NAME: ${{ github.repository }}
-
+  REGISTRY: ghcr.io # Registro de imágenes Docker
+  IMAGE_NAME: ${{ github.repository }} # Nombre de la imagen basado en el repositorio
 
 jobs:
   build:
-
     runs-on: ubuntu-latest # Ejecuta una máquina virtual Ubuntu con la última versión disponible
-    permissions: # permisos
+    permissions: # Permisos
       contents: read # Leer el contenido del repositorio
       packages: write # Escribir en los paquetes
-      # This is used to complete the identity challenge
-      # with sigstore/fulcio when running outside of PRs.
-      # Esto se utiliza para completar la identidad con sigstore/fulcio cuando se ejecuta fuera de Pull Request.
       id-token: write # Escribir en el token de identidad
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.1.1 # Utiliza checkout para clonar el repositorio
+        uses: actions/checkout@v4.1.1 # Clona el repositorio
 
-      # Install the cosign tool except on PR
-      # https://github.com/sigstore/cosign-installer
       - name: Install cosign
-        if: github.event_name != 'pull_request' # Instala la herramienta cosign solo si el evento no es un pull request https://github.com/sigstore/cosign
-        uses: sigstore/cosign-installer@dc72c7d5c4d10cd6bcb8cf6e3fd625a9e5e537da #v3.7.0
+        if: github.event_name != 'pull_request' # Instala cosign solo si no es un pull request
+        uses: sigstore/cosign-installer@dc72c7d5c4d10cd6bcb8cf6e3fd625a9e5e537da # v3.7.0
         with:
           cosign-release: 'v2.1.1'
 
-      # Set up BuildKit Docker container builder to be able to build
-      # multi-platform images and export cache
-      # https://github.com/docker/setup-buildx-action
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@c47758b77c9736f4b2ef4073d4d51994fabfe349 # v3.7.1
 
-      # Login against a Docker registry except on PR
-      # https://github.com/docker/login-action
       - name: Log into registry ${{ env.REGISTRY }}
-        if: github.event_name != 'pull_request' # Inicia sesión en el registro de Docker solo si el evento no es un pull request
+        if: github.event_name != 'pull_request' # Inicia sesión en el registro de Docker solo si no es un pull request
         uses: docker/login-action@0d4c9c5ea7693da7b068278f7b52bda2a190a446 # v3.2.0
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      # Extract metadata (tags, labels) for Docker
-      # https://github.com/docker/metadata-action
       - name: Extract Docker metadata
         id: meta # Asigna un ID al paso para su posterior referencia
         uses: docker/metadata-action@8e5442c4ef9f78752691e2d8f8d19755c6f78e81 # v5.5.1
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }} # Especifica las imágenes Docker
 
-      # Build and push Docker image with Buildx (don't push on PR)
-      # https://github.com/docker/build-push-action
       - name: Build and push Docker image
-        id: build-and-push  # Asigna un ID al paso para su posterior referencia
+        id: build-and-push # Asigna un ID al paso para su posterior referencia
         uses: docker/build-push-action@4f58ea79222b3b9dc2c8bbdd6debcef730109a75 # v6.9.0
         with:
-          context: . # Especifica el contexto :  Como por ejemplo :  el directorio raíz del repositorio
-          push: ${{ github.event_name != 'pull_request' }} # Indica si se debe realizar el push basándose en el tipo de evento
+          context: . # Especifica el contexto
+          push: ${{ github.event_name != 'pull_request' }} # Indica si se debe realizar el push
           tags: ${{ steps.meta.outputs.tags }} # Especifica las etiquetas de la imagen
           labels: ${{ steps.meta.outputs.labels }} # Especifica las etiquetas de la imagen
-          cache-from: type=gha # Especifica el tipo de caché desde el que se cargará https://docs.docker.com/build/cache/backends/gha/
+          cache-from: type=gha # Especifica el tipo de caché
           cache-to: type=gha,mode=max # Especifica el tipo de caché en el que se guardará
 
-      # Sign the resulting Docker image digest except on PRs.
-      # This will only write to the public Rekor transparency log when the Docker
-      # repository is public to avoid leaking data.  If you would like to publish
-      # transparency data even for private images, pass --force to cosign below.
-      # https://github.com/sigstore/cosign
       - name: Sign the published Docker image
         if: ${{ github.event_name != 'pull_request' }} # Firmar la imagen Docker solo si el evento no es un pull request
         env:
-          # https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-an-intermediate-environment-variable
           TAGS: ${{ steps.meta.outputs.tags }} # Asigna las etiquetas de la imagen a la variable TAGS
-          DIGEST: ${{ steps.build-and-push.outputs.digest }} # Asigna el hash digest de la imagen a la variable DIGEST https://github.com/docker/build-push-action
-        # This step uses the identity token to provision an ephemeral certificate
-        # against the sigstore community Fulcio instance.
-        run: echo "${TAGS}" | xargs -I {} cosign sign --yes {}@${DIGEST}  # Firma la imagen Docker
+          DIGEST: ${{ steps.build-and-push.outputs.digest }} # Asigna el hash digest de la imagen a la variable DIGEST
+        run: echo "${TAGS}" | xargs -I {} cosign sign --yes {}@${DIGEST} # Firma la imagen Docker
