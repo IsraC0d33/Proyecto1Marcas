@@ -64,13 +64,13 @@ jobs:
           cache-from: type=gha # Especifica el tipo de caché
           cache-to: type=gha,mode=max # Especifica el tipo de caché en el que se guardará
 
-      - name: Sign the published Docker image
-        if: ${{ github.event_name != 'pull_request' }} # Firmar la imagen Docker solo si el evento no es un pull request
-        env:
-          TAGS: ${{ steps.meta.outputs.tags }} # Asigna las etiquetas de la imagen a la variable TAGS
-          DIGEST: ${{ steps.build-and-push.outputs.digest }} # Asigna el hash digest de la imagen a la variable DIGEST
-        run: |
-          for tag in ${TAGS}; do
-            cosign sign --yes "${tag}@${DIGEST}" # Firma la imagen Docker
-          done
+# - name: Sign the published Docker image
+#   if: ${{ github.event_name != 'pull_request' }}
+#   env:
+#     TAGS: ${{ steps.meta.outputs.tags }}
+#     DIGEST: ${{ steps.build-and-push.outputs.digest }}
+#   run: |
+#     for tag in ${TAGS}; do
+#       cosign sign --yes "${tag}@${DIGEST}"
+#     done
 
