@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v4.1.1  # Utiliza checkout para clonar el repositorio
 
       - name: Run Codacy Analysis CLI
-        uses: codacy/codacy-analysis-cli-action@33d455949345bddfdb845fba76b57b70cc83754b
+        uses: codacy/codacy-analysis-cli-action@eb58a98ee4f6df1f874e169f0ab39c77558fcc87
         with:
           project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}  # Token del proyecto de Codacy
           verbose: true  # Salida detallada
