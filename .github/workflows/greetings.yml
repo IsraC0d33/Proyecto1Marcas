@@ -9,7 +9,7 @@ jobs:
       issues: write # Escribir en los issues
       pull-requests: write # Escribir en los pull request
     steps:
-    - uses: actions/first-interaction@v1 # Utiliza first-interaction para gestionar el saludo en la primera interacción del usuario
+    - uses: actions/first-interaction@v2 # Utiliza first-interaction para gestionar el saludo en la primera interacción del usuario
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }} # Utiliza el token de github para autenticar la acción
         issue-message: "Tu primera issue, por fin te pones a chambear 🤖" # Mensaje que se muestra en el primer issue del usuario
