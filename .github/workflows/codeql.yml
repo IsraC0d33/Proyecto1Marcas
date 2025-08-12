@@ -32,7 +32,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.1.1  # Utiliza checkout para clonar el repositorio
+        uses: actions/checkout@v5  # Utiliza checkout para clonar el repositorio
 
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3  # Utiliza la acción para inicializar las herramientas de CodeQL para el análisis
