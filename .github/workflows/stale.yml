@@ -7,7 +7,7 @@ jobs:
   stale:
     runs-on: ubuntu-latest # Ejecuta una máquina virtual Ubuntu con la última versión disponible
     steps:
-      - uses: actions/stale@v9 # Utiliza stale para cerrar temas y PRs obsoletos
+      - uses: actions/stale@v10 # Utiliza stale para cerrar temas y PRs obsoletos
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }} # Utiliza el token de github para autenticar la acción
           stale-issue-message: 'Este tema está obsoleto porque lleva abierto 1 día sin actividad. Elimina la etiqueta o el comentario o se cerrará en 2 días.' # Especifica el mensaje a mostrar en los temas obsoletos
