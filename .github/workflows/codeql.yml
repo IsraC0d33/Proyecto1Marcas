@@ -35,12 +35,12 @@ jobs:
         uses: actions/checkout@v4.1.1  # Utiliza checkout para clonar el repositorio
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3  # Utiliza la acción para inicializar las herramientas de CodeQL para el análisis
+        uses: github/codeql-action/init@v4  # Utiliza la acción para inicializar las herramientas de CodeQL para el análisis
         with:
           languages: ${{ matrix.language }}  # Especifica el lenguaje del proyecto
 
       - name: Autobuild
-        uses: github/codeql-action/autobuild@v3  # Utiliza la acción para intentar compilar el código automáticamente con autobuild
+        uses: github/codeql-action/autobuild@v4  # Utiliza la acción para intentar compilar el código automáticamente con autobuild
 
       # Si la compilación automática falla, puedes ejecutar un script personalizado para compilar el código manualmente descomentando las siguientes líneas
 
@@ -49,6 +49,6 @@ jobs:
       #     ./location_of_script_within_repo/buildscript.sh
 
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v3  # Utiliza la acción analyze para realizar el análisis de CodeQL
+        uses: github/codeql-action/analyze@v4  # Utiliza la acción analyze para realizar el análisis de CodeQL
         with:
           category: "/language:${{matrix.language}}"  # Especifica la categoría según el lenguaje del proyecto
