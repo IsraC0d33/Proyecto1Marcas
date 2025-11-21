@@ -16,7 +16,7 @@ jobs: # aqui empieza todo lo que se hará en el YAML
       NODE_VERSION: 20  # en este caso se usa Node, en su version 20
 
     steps:  # Aqui se definen los pasos que se llevaran a cabo 
-      - uses: actions/checkout@v4.1.1  # en este paso se clona el repositorio
+      - uses: actions/checkout@v6  # en este paso se clona el repositorio
         with:
           fetch-depth: 0 
 

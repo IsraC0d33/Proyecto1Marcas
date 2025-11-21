@@ -22,7 +22,7 @@ jobs:
 
     steps:  # Pasos
       - name: Checkout code
-        uses: actions/checkout@v4.1.1  # Utiliza checkout para clonar el repositorio
+        uses: actions/checkout@v6  # Utiliza checkout para clonar el repositorio
 
       - name: Run Codacy Analysis CLI
         uses: codacy/codacy-analysis-cli-action@562ee3e92b8e92df8b67e0a5ff8aa8e261919c08
