@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v6  # Utiliza checkout para clonar el repositorio
 
       - name: 'Dependency Review'
-        uses: actions/dependency-review-action@v4  # Utiliza la acción para realizar la revisión de dependencias
+        uses: actions/dependency-review-action@v5  # Utiliza la acción para realizar la revisión de dependencias
         with:
           comment-summary-in-pr: always  # Opción para incluir un resumen de comentarios en el pull request
           config-file: './.github/dependency-review-config.yml'  # Ubicación del archivo de configuración para la revisión de dependencias
